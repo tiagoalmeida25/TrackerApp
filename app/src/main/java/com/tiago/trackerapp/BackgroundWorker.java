@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
+import android.util.Log;
 import android.widget.Toast;
 
 import java.io.BufferedReader;
@@ -145,12 +146,15 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
                         "&"+ URLEncoder.encode("type","UTF-8")+"="+URLEncoder.encode(stype,"UTF-8")+
                         "&"+ URLEncoder.encode("value","UTF-8")+"="+URLEncoder.encode(value,"UTF-8");
 
+                Log.d("Post Data",post_data);
+
                 bufferedWriter.write(post_data);
                 bufferedWriter.flush();
                 bufferedWriter.close();
                 outputStream.close();
 
                 InputStream inputStream = httpURLConnection.getInputStream();
+
                 BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
 
                 String result = "";
@@ -159,6 +163,8 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
                 while((line = bufferedReader.readLine()) != null){
                     result += line;
                 }
+
+                Log.d("Result", result);
 
                 bufferedReader.close();
                 inputStream.close();
@@ -206,10 +212,14 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
             alertDialog.setTitle("Login Status");
             alertDialog.setMessage(result);
         }
-        else if(result.equals("Save Successful"))
+        else if(result.equals("Saved!"))
         {
             alertDialog.setTitle("Save Status");
             alertDialog.setMessage(result);
+        }
+        else{
+            alertDialog.setTitle("Status");
+            alertDialog.setMessage("Result: " + result);
         }
         alertDialog.show();
     }

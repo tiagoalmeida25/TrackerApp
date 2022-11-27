@@ -3,12 +3,24 @@ require "conn.php";
 
 $user = $_POST["user_name"];
 $category = $_POST["category"];
-$type = $_POST["type"];
 $value = $_POST["value"];
+$type = $_POST["type"];
 
-function get_category_id(){
+// $mysql_qry = "ALTER TABLE User AUTO_INCREMENT = 1;";
+// $result = mysqli_query($conn, $mysql_qry);
+
+// $mysql_qry = "ALTER TABLE UserCategory AUTO_INCREMENT = 1;";
+// $result = mysqli_query($conn, $mysql_qry);
+
+// $mysql_qry = "ALTER TABLE Category AUTO_INCREMENT = 1;";
+// $result = mysqli_query($conn, $mysql_qry);
+
+// $mysql_qry = "ALTER TABLE Type AUTO_INCREMENT = 1;";
+// $result = mysqli_query($conn, $mysql_qry);
+
+function get_category_id($conn, $category, $type, $value){
     if (empty($category)){
-        echo "Category can't be empty";
+        echo "Category can't be empty " .$category ."type" .$type;
         return null;
     }
 
@@ -17,22 +29,20 @@ function get_category_id(){
         return null;
     }
     
-    $mysql_qry = "select * from Category where category_name like '$category';";
+    $mysql_qry = "SELECT * FROM Category where category_name like '$category';";
     $result = mysqli_query($conn, $mysql_qry);
     
-    if (mysqli_num_rows($result)) {
+    if (mysqli_num_rows($result) > 0) {
         // read
+        
         $row = mysqli_fetch_assoc($result);
         return $row["category_id"];
     }
     else{
         // insert
-        $mysql_query_category = "insert into Category(category_name) values ($category)";
         
+        $mysql_query_category = "insert into Category(category_name) values ('$category')";
         if($conn->query($mysql_query_category) === TRUE){
-            // echo "Registration Successful";
-            
-            // QUESTAO - PRECISA DESTA PARTE
             $mysql_qry = "select * from Category where category_name like '$category';";
             $result = mysqli_query($conn, $mysql_qry);
             
@@ -50,7 +60,7 @@ function get_category_id(){
 }
 
 
-function get_user_id(){
+function get_user_id($conn, $user){
     // ja sabemos que existe
     $mysql_qry = "select * from User where user_name like '$user';";
     $result = mysqli_query($conn, $mysql_qry);
@@ -59,7 +69,7 @@ function get_user_id(){
     return $row["user_id"];
 }
 
-function get_type_id($cat_id){
+function get_type_id($conn, $type, $category_id){
     $mysql_qry = "select * from Type where type_name like '$type';";
     $result = mysqli_query($conn, $mysql_qry);
     
@@ -70,12 +80,9 @@ function get_type_id($cat_id){
     }
     else{
         // insert type_name and the respectively category_id
-        $mysql_query_type = "insert into Type(type_name, category_id) values ($type, $category_id)";
+        $mysql_query_type = "insert into Type(type_name, category_id) values ('$type', '$category_id')";
         
         if($conn->query($mysql_query_type) === TRUE){
-            // echo "Registration Successful";
-            
-            // QUESTAO - PRECISA DESTA PARTE v2
             $mysql_qry = "select * from Type where type_name like '$type';";
             $result = mysqli_query($conn, $mysql_qry);
             
@@ -93,25 +100,25 @@ function get_type_id($cat_id){
     
 }
 
-$category_id = get_category_id();
-$user_id = get_user_id();
-$type_id = get_type_id($category_id);
+$category_id = get_category_id($conn, $category, $type, $value);
+$user_id = get_user_id($conn, $user);
+$type_id = get_type_id($conn,$type, $category_id);
 
 $error = false;
-
 if(is_null($category_id) or is_null($type_id)){
     $error = true;
 }
 
 if(!$error){
-    $now = date("H:i:s d-m-Y");
-    $mysql_query = "insert into UserCategory(value, date, type_id, user_id) values ($value, $now , $type_id, $user_id)";
-    
-    if($conn->query($mysql_qry) === TRUE){
+    date_default_timezone_set("Europe/Lisbon");
+    $now = date("Y-m-d H:i:s");
+    $mysql_query = "insert into UserCategory(value, date, type_id, user_id) values ('$value', '$now' , '$type_id', '$user_id')";
+
+    if($conn->query($mysql_query) === TRUE){
         echo "Saved!";
     }
     else{
-        echo "Error in saving: " . $mysql_qry . "<br>" . $conn->error;
+        echo "Error in saving: " . $mysql_query . "<br>" . $conn->error;
     }
 }
 

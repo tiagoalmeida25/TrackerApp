@@ -14,6 +14,6 @@ if (mysqli_num_rows($result) > 0) {
     echo "Login Successfull! Welcome, " .$username;
 }
 else{
-    echo "Login not Successful" ."User: " .$username ."Password: " .$password;
+    echo "Login not Successful";
 }
 ?>
