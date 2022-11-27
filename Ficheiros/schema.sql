@@ -13,7 +13,9 @@ CREATE TABLE IF NOT EXISTS `User` (
 CREATE TABLE IF NOT EXISTS `Category` (
     `category_id` int NOT NULL AUTO_INCREMENT,
     `category_name` varchar(50) UNIQUE NOT NULL,
-    PRIMARY KEY (`category_id`)
+    `user_id` int NOT NULL,
+    PRIMARY KEY (`category_id`),
+    CONSTRAINT `fk_user_id_category_id` FOREIGN KEY (`user_id`) REFERENCES `User` (`user_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE IF NOT EXISTS `Type` (
