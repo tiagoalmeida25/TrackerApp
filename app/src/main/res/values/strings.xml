@@ -15,4 +15,5 @@
     -->
     <string name="hello_world">Hello Square World!</string>
     <string name="title_activity_data_base">DataBase</string>
+    <string name="title_activity_dropdown">Dropdown</string>
 </resources>

@@ -1,11 +1,15 @@
 package com.tiago.trackerapp;
 
 import android.app.AlertDialog;
+import android.bluetooth.BluetoothAdapter;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.util.Log;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -34,6 +38,8 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
         String login_url = "https://tiagoalmeida5.com/tracker_app/login.php";
         String register_url = "https://tiagoalmeida5.com/tracker_app/register.php";
         String save_url = "https://tiagoalmeida5.com/tracker_app/save.php";
+        String get_categories_url = "https://tiagoalmeida5.com/tracker_app/get_categories.php";
+        String get_types_url = "https://tiagoalmeida5.com/tracker_app/get_types.php";
 
         if(type.equals("login")){
             try {
@@ -146,8 +152,6 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
                         "&"+ URLEncoder.encode("type","UTF-8")+"="+URLEncoder.encode(stype,"UTF-8")+
                         "&"+ URLEncoder.encode("value","UTF-8")+"="+URLEncoder.encode(value,"UTF-8");
 
-                Log.d("Post Data",post_data);
-
                 bufferedWriter.write(post_data);
                 bufferedWriter.flush();
                 bufferedWriter.close();
@@ -178,9 +182,96 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
                 e.printStackTrace();
             }
         }
+        else if(type.equals("get categories")){
+            try {
+                username = params[1];
+
+                URL url = new URL(get_categories_url);
+
+                HttpURLConnection httpURLConnection = (HttpURLConnection)url.openConnection();
+                httpURLConnection.setRequestMethod("POST");
+                httpURLConnection.setDoOutput(true);
+                httpURLConnection.setDoInput(true);
+
+                OutputStream outputStream = httpURLConnection.getOutputStream();
+
+                BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
+
+                String post_data = URLEncoder.encode("user_name","UTF-8")+"="+URLEncoder.encode(username,"UTF-8");
+
+                bufferedWriter.write(post_data);
+                bufferedWriter.flush();
+                bufferedWriter.close();
+                outputStream.close();
+
+                InputStream inputStream = httpURLConnection.getInputStream();
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
+
+                String result = "";
+                String line = "";
+
+                while((line = bufferedReader.readLine()) != null){
+                    result += line;
+                }
+
+                bufferedReader.close();
+                inputStream.close();
+                httpURLConnection.disconnect();
+
+                return result;
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        else if(type.equals("get types")){
+            try {
+                username = params[1];
+
+                URL url = new URL(get_types_url);
+
+                HttpURLConnection httpURLConnection = (HttpURLConnection)url.openConnection();
+                httpURLConnection.setRequestMethod("POST");
+                httpURLConnection.setDoOutput(true);
+                httpURLConnection.setDoInput(true);
+
+                OutputStream outputStream = httpURLConnection.getOutputStream();
+
+                BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
+
+                String post_data = URLEncoder.encode("user_name","UTF-8")+"="+URLEncoder.encode(username,"UTF-8");
+
+                bufferedWriter.write(post_data);
+                bufferedWriter.flush();
+                bufferedWriter.close();
+                outputStream.close();
+
+                InputStream inputStream = httpURLConnection.getInputStream();
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
+
+                String result = "";
+                String line = "";
+
+                while((line = bufferedReader.readLine()) != null){
+                    result += line;
+                }
+
+                bufferedReader.close();
+                inputStream.close();
+                httpURLConnection.disconnect();
+
+                return result;
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
 
         return null;
     }
+
 
     @Override
     protected void onPreExecute() {
@@ -205,7 +296,8 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
         }
         else if(result.contains("Login Successful"))
         {
-            Intent i = new Intent(context,DataBase.class);
+            Log.d("Login","Login done");
+            Intent i = new Intent(context,Dropdown.class);
             i.putExtra("username", username);
             context.startActivity(i);
 
@@ -217,10 +309,24 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
             alertDialog.setTitle("Save Status");
             alertDialog.setMessage(result);
         }
+        else if(result.contains(":")){
+            Intent intent = new Intent();
+            intent.setAction("com.tiago.broadcast.GET_CATEGORIES");
+            intent.putExtra("categories", result);
+
+            context.sendBroadcast(intent);
+        }
+        else if(result.contains("--")){
+            Intent intent = new Intent();
+            intent.setAction("com.tiago.broadcast.GET_TYPES");
+            intent.putExtra("types", result);
+            context.sendBroadcast(intent);
+        }
         else{
             alertDialog.setTitle("Status");
             alertDialog.setMessage("Result: " + result);
         }
+        Log.d("Result",result);
         alertDialog.show();
     }
 
@@ -229,3 +335,5 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
         super.onProgressUpdate(values);
     }
 }
+
+

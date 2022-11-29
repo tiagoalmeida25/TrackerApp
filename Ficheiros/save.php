@@ -6,19 +6,20 @@ $category = $_POST["category"];
 $value = $_POST["value"];
 $type = $_POST["type"];
 
-// $mysql_qry = "ALTER TABLE User AUTO_INCREMENT = 1;";
-// $result = mysqli_query($conn, $mysql_qry);
+$user = rtrim($user);
+$category = rtrim($category);
+$value = rtrim($value);
 
-// $mysql_qry = "ALTER TABLE UserCategory AUTO_INCREMENT = 1;";
-// $result = mysqli_query($conn, $mysql_qry);
+function get_user_id($conn, $user){
+    // ja sabemos que existe
+    $mysql_qry = "select * from User where user_name like '$user';";
+    $result = mysqli_query($conn, $mysql_qry);
+    
+    $row = mysqli_fetch_assoc($result);
+    return $row["user_id"];
+}
 
-// $mysql_qry = "ALTER TABLE Category AUTO_INCREMENT = 1;";
-// $result = mysqli_query($conn, $mysql_qry);
-
-// $mysql_qry = "ALTER TABLE Type AUTO_INCREMENT = 1;";
-// $result = mysqli_query($conn, $mysql_qry);
-
-function get_category_id($conn, $category, $type, $value){
+function get_category_id($conn, $category, $type, $value, $user_id){
     if (empty($category)){
         echo "Category can't be empty " .$category ."type" .$type;
         return null;
@@ -41,7 +42,7 @@ function get_category_id($conn, $category, $type, $value){
     else{
         // insert
         
-        $mysql_query_category = "insert into Category(category_name) values ('$category')";
+        $mysql_query_category = "insert into Category(category_name, user_id) values ('$category', '$user_id')";
         if($conn->query($mysql_query_category) === TRUE){
             $mysql_qry = "select * from Category where category_name like '$category';";
             $result = mysqli_query($conn, $mysql_qry);
@@ -59,18 +60,8 @@ function get_category_id($conn, $category, $type, $value){
     return null;
 }
 
-
-function get_user_id($conn, $user){
-    // ja sabemos que existe
-    $mysql_qry = "select * from User where user_name like '$user';";
-    $result = mysqli_query($conn, $mysql_qry);
-    
-    $row = mysqli_fetch_assoc($result);
-    return $row["user_id"];
-}
-
 function get_type_id($conn, $type, $category_id){
-    $mysql_qry = "select * from Type where type_name like '$type';";
+    $mysql_qry = "select * from Type where type_name like '$type' and category_id like '$category_id';";
     $result = mysqli_query($conn, $mysql_qry);
     
     if (mysqli_num_rows($result)) {
@@ -100,8 +91,8 @@ function get_type_id($conn, $type, $category_id){
     
 }
 
-$category_id = get_category_id($conn, $category, $type, $value);
 $user_id = get_user_id($conn, $user);
+$category_id = get_category_id($conn, $category, $type, $value, $user_id);
 $type_id = get_type_id($conn,$type, $category_id);
 
 $error = false;

@@ -4,6 +4,9 @@ require "conn.php";
 $name = $_POST["user_name"];
 $password = $_POST["password"];
 
+$name = rtrim($name);
+$password = rtrim($password);
+
 $error = false;
 
 if (empty($name)){

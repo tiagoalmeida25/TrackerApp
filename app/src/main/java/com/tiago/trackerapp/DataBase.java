@@ -28,9 +28,13 @@ public class DataBase extends AppCompatActivity {
         String str_category = category.getText().toString();
         String str_type = type.getText().toString();
         String str_value = value.getText().toString();
-        String type = "save";
+        String mode = "save";
+
+        category.setText("");
+        type.setText("");
+        value.setText("");
 
         BackgroundWorker backgroundWorker = new BackgroundWorker(this);
-        backgroundWorker.execute(type, str_category, str_type, str_value, username);
+        backgroundWorker.execute(mode, str_category, str_type, str_value, username);
     }
 }

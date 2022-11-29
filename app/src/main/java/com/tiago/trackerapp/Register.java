@@ -23,5 +23,6 @@ public class Register extends AppCompatActivity {
 
         BackgroundWorker backgroundWorker = new BackgroundWorker(this);
         backgroundWorker.execute(type, str_name, str_password);
+//        finish();
     }
 }
