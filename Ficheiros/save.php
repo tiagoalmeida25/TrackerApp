@@ -3,11 +3,13 @@ require "conn.php";
 
 $user = $_POST["user_name"];
 $category = $_POST["category"];
-$value = $_POST["value"];
 $type = $_POST["type"];
+$value = $_POST["value"];
+
 
 $user = rtrim($user);
 $category = rtrim($category);
+$type = rtrim($type);
 $value = rtrim($value);
 
 function get_user_id($conn, $user){
@@ -30,7 +32,7 @@ function get_category_id($conn, $category, $type, $value, $user_id){
         return null;
     }
     
-    $mysql_qry = "SELECT * FROM Category where category_name like '$category';";
+    $mysql_qry = "SELECT * FROM Category where category_name like '$category' and user_id like '$user_id';";
     $result = mysqli_query($conn, $mysql_qry);
     
     if (mysqli_num_rows($result) > 0) {
@@ -64,7 +66,7 @@ function get_type_id($conn, $type, $category_id){
     $mysql_qry = "select * from Type where type_name like '$type' and category_id like '$category_id';";
     $result = mysqli_query($conn, $mysql_qry);
     
-    if (mysqli_num_rows($result)) {
+    if (mysqli_num_rows($result) > 0) {
         // read
         $row = mysqli_fetch_assoc($result);
         return $row["type_id"];

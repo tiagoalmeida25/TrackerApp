@@ -2,7 +2,7 @@
 require "conn.php";
 $category = $_POST["category"];
 
-$mysql_qry = "select * from Category where category_name like '$category';";
+$mysql_qry = "select category_id from Category where category_name like '$category';";
 $result = mysqli_query($conn, $mysql_qry);
     
 $row = mysqli_fetch_assoc($result);
@@ -15,20 +15,20 @@ if (mysqli_num_rows($result) > 0) {
     // read
     
     $rows = mysqli_fetch_all($result, MYSQLI_ASSOC);
-    $categories = array();
+    $types = array();
     $i = 0;
     foreach ($rows as $row) {
-        // printf("%s", $row["category_name"]);
-        $categories[$i] = rtrim($row["category_name"])  ."++";
+        $types[$i] = rtrim($row["type_name"])  ."--";
         $i ++;
     }
     
     for ($j = 0; $j < $i; $j++) {
-        echo $categories[$j];
+        echo $types[$j];
     }
 }
 else{
-    echo "";
+    echo "This Type doesn't exist";
 }
+
 $conn->close();
 ?>

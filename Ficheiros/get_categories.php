@@ -1,7 +1,6 @@
 <?php
 require "conn.php";
-// $user = $_POST["user_name"];
-$user = "Tiago";
+$user = $_POST["user_name"];
 
 $mysql_qry = "select user_id from User where user_name like '$user';";
 $result = mysqli_query($conn, $mysql_qry);
@@ -19,7 +18,6 @@ if (mysqli_num_rows($result) > 0) {
     $categories = array();
     $i = 0;
     foreach ($rows as $row) {
-        // printf("%s", $row["category_name"]);
         $categories[$i] = rtrim($row["category_name"])  .":";
         $i ++;
     }
@@ -29,7 +27,7 @@ if (mysqli_num_rows($result) > 0) {
     }
 }
 else{
-    echo "";
+    echo "This Category doesn't exist";
 }
 
 $conn->close();
