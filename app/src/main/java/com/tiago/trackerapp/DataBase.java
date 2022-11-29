@@ -1,8 +1,10 @@
 package com.tiago.trackerapp;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,6 +24,17 @@ public class DataBase extends AppCompatActivity {
         category = (EditText)findViewById(R.id.etCategory);
         type = (EditText)findViewById(R.id.etType);
         value = (EditText)findViewById(R.id.etValue);
+
+        Button btSeeDatabase = (Button)findViewById(R.id.btSeeDatabase);
+
+        btSeeDatabase.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(DataBase.this, ShowData.class);
+                i.putExtra("username", username);
+                startActivity(i);
+            }
+        });
     }
 
     public void OnSave(View view) {

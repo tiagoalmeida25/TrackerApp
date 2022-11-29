@@ -1,15 +1,11 @@
 package com.tiago.trackerapp;
 
 import android.app.AlertDialog;
-import android.bluetooth.BluetoothAdapter;
-import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.util.Log;
 import android.widget.Toast;
-
-import androidx.annotation.NonNull;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -40,6 +36,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
         String save_url = "https://tiagoalmeida5.com/tracker_app/save.php";
         String get_categories_url = "https://tiagoalmeida5.com/tracker_app/get_categories.php";
         String get_types_url = "https://tiagoalmeida5.com/tracker_app/get_types.php";
+        String get_values_url = "https://tiagoalmeida5.com/tracker_app/get_values.php";
 
         if(type.equals("login")){
             try {
@@ -65,7 +62,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
                 outputStream.close();
 
                 InputStream inputStream = httpURLConnection.getInputStream();
-                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));
 
                 String result = "";
                 String line = "";
@@ -109,7 +106,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
                 outputStream.close();
 
                 InputStream inputStream = httpURLConnection.getInputStream();
-                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));
 
                 String result = "";
                 String line = "";
@@ -159,7 +156,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
 
                 InputStream inputStream = httpURLConnection.getInputStream();
 
-                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));
 
                 String result = "";
                 String line = "";
@@ -205,7 +202,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
                 outputStream.close();
 
                 InputStream inputStream = httpURLConnection.getInputStream();
-                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));
 
                 String result = "";
                 String line = "";
@@ -227,7 +224,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
         }
         else if(type.equals("get types")){
             try {
-                username = params[1];
+                String category = params[1];
 
                 URL url = new URL(get_types_url);
 
@@ -240,7 +237,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
 
                 BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
 
-                String post_data = URLEncoder.encode("user_name","UTF-8")+"="+URLEncoder.encode(username,"UTF-8");
+                String post_data = URLEncoder.encode("category","UTF-8")+"="+URLEncoder.encode(category,"UTF-8");
 
                 bufferedWriter.write(post_data);
                 bufferedWriter.flush();
@@ -248,7 +245,50 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
                 outputStream.close();
 
                 InputStream inputStream = httpURLConnection.getInputStream();
-                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));
+
+                String result = "";
+                String line = "";
+
+                while((line = bufferedReader.readLine()) != null){
+                    result += line;
+                }
+
+                bufferedReader.close();
+                inputStream.close();
+                httpURLConnection.disconnect();
+
+                return result;
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        else if(type.equals("get values")){
+            try {
+                String s_type = params[1];
+
+                URL url = new URL(get_values_url);
+
+                HttpURLConnection httpURLConnection = (HttpURLConnection)url.openConnection();
+                httpURLConnection.setRequestMethod("POST");
+                httpURLConnection.setDoOutput(true);
+                httpURLConnection.setDoInput(true);
+
+                OutputStream outputStream = httpURLConnection.getOutputStream();
+
+                BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
+
+                String post_data = URLEncoder.encode("type","UTF-8")+"="+URLEncoder.encode(s_type,"UTF-8");
+
+                bufferedWriter.write(post_data);
+                bufferedWriter.flush();
+                bufferedWriter.close();
+                outputStream.close();
+
+                InputStream inputStream = httpURLConnection.getInputStream();
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));
 
                 String result = "";
                 String line = "";
@@ -288,7 +328,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
         else if(result.equals("Registration Successful"))
         {
             Toast.makeText(context, result, Toast.LENGTH_LONG).show();
-            Intent i = new Intent(context,MainActivity.class);
+            Intent i = new Intent(context, Login.class);
             context.startActivity(i);
 
             alertDialog.setTitle("Registration Status");
@@ -310,17 +350,32 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
             alertDialog.setMessage(result);
         }
         else if(result.contains(":")){
-            Intent intent = new Intent();
-            intent.setAction("com.tiago.broadcast.GET_CATEGORIES");
-            intent.putExtra("categories", result);
-
-            context.sendBroadcast(intent);
+            result = result.replace(":","\n");
+            alertDialog.setTitle("Categories");
+            alertDialog.setMessage(result);
+//            Intent intent = new Intent();
+//            intent.setAction("com.tiago.broadcast.GET_CATEGORIES");
+//            intent.putExtra("categories", result);
+//
+//            context.sendBroadcast(intent);
         }
         else if(result.contains("--")){
-            Intent intent = new Intent();
-            intent.setAction("com.tiago.broadcast.GET_TYPES");
-            intent.putExtra("types", result);
-            context.sendBroadcast(intent);
+            result = result.replace("--","\n");
+            alertDialog.setTitle("Types");
+            alertDialog.setMessage(result);
+//            Intent intent = new Intent();
+//            intent.setAction("com.tiago.broadcast.GET_TYPES");
+//            intent.putExtra("types", result);
+//            context.sendBroadcast(intent);
+        }
+        else if(result.contains("..")){
+            result = result.replace("..","\n");
+            alertDialog.setTitle("Values");
+            alertDialog.setMessage(result);
+//            Intent intent = new Intent();
+//            intent.setAction("com.tiago.broadcast.GET_TYPES");
+//            intent.putExtra("types", result);
+//            context.sendBroadcast(intent);
         }
         else{
             alertDialog.setTitle("Status");
