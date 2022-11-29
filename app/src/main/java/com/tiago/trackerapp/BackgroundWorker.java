@@ -297,7 +297,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
         else if(result.contains("Login Successful"))
         {
             Log.d("Login","Login done");
-            Intent i = new Intent(context,Dropdown.class);
+            Intent i = new Intent(context,DataBase.class);
             i.putExtra("username", username);
             context.startActivity(i);
 
