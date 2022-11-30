@@ -3,11 +3,12 @@ package com.tiago.trackerapp;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import androidx.activity.result.contract.*;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.activity.result.ActivityResult;
 import androidx.activity.result.ActivityResultCallback;
 import androidx.activity.result.ActivityResultLauncher;
@@ -33,6 +34,8 @@ public class DataBase extends AppCompatActivity {
                     username = data.getStringExtra("username");
                     String login_output = data.getStringExtra("result");
 
+                    Log.d("User after Login",username);
+
                     AlertDialog alertDialog = new AlertDialog.Builder(getApplicationContext()).create();
                     alertDialog.setTitle("Login Successful");
                     alertDialog.setMessage(login_output);
@@ -40,12 +43,7 @@ public class DataBase extends AppCompatActivity {
             }
         });
 
-
-
-
-
-        Bundle extras = getIntent().getExtras();
-        username = extras.getString("username");
+        activityResultLauncher.launch(new Intent(this, Login.class));
 
         category = (EditText)findViewById(R.id.etCategory);
         type = (EditText)findViewById(R.id.etType);
@@ -56,6 +54,8 @@ public class DataBase extends AppCompatActivity {
         btSeeDatabase.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Log.d("User in Database",username);
+
                 Intent i = new Intent(DataBase.this, ShowData.class);
                 i.putExtra("username", username);
                 startActivity(i);

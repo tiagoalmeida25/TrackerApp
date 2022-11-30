@@ -9,11 +9,13 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 
 public class Login extends AppCompatActivity {
     EditText UsernameEt, PasswordEt;
+    String username = "";
     BroadcastReceiverLoginService broadcastReceiver = new BroadcastReceiverLoginService();
 
     @Override
@@ -38,9 +40,11 @@ public class Login extends AppCompatActivity {
                     String result = intent.getStringExtra("result");
 
                     if(result.contains("Welcome")){
+//                        String username = UsernameEt.getText().toString();
+                        Log.d("User in login",username);
                         Intent i = new Intent();
                         i.putExtra("result",result);
-                        i.putExtra("username",UsernameEt.getText().toString());
+                        i.putExtra("username",username);
                         Login.this.setResult(RESULT_OK,i);
 
                         finish();
@@ -66,7 +70,7 @@ public class Login extends AppCompatActivity {
         unregisterReceiver(broadcastReceiver);
     }
     public void OnLogin (View View) {
-        String username = UsernameEt.getText().toString();
+        username = UsernameEt.getText().toString();
         String password = PasswordEt.getText().toString();
         String type = "login";
 

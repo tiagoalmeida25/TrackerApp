@@ -60,7 +60,9 @@
         android:layout_height="wrap_content"
         android:text="Category"
         app:layout_constraintBottom_toTopOf="@+id/spCategory"
-        app:layout_constraintStart_toStartOf="@+id/spCategory" />
+        app:layout_constraintStart_toStartOf="@+id/spCategory"
+        android:textSize="17dp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView9"
@@ -68,7 +70,9 @@
         android:layout_height="wrap_content"
         android:text="Type"
         app:layout_constraintBottom_toTopOf="@+id/spType"
-        app:layout_constraintStart_toStartOf="@+id/spType" />
+        app:layout_constraintStart_toStartOf="@+id/spType"
+        android:textSize="17dp"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/textView11"
@@ -76,5 +80,7 @@
         android:layout_height="wrap_content"
         android:text="Value"
         app:layout_constraintBottom_toTopOf="@+id/etValueV2"
-        app:layout_constraintStart_toStartOf="@+id/etValueV2" />
+        app:layout_constraintStart_toStartOf="@+id/etValueV2"
+        android:textSize="17dp"
+        android:textStyle="bold"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

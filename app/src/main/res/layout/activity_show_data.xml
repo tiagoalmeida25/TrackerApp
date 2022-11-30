@@ -82,7 +82,9 @@
         android:layout_height="wrap_content"
         android:text="Choose a Category"
         app:layout_constraintBottom_toTopOf="@+id/etChooseCategory"
-        app:layout_constraintStart_toStartOf="@+id/etChooseCategory" />
+        app:layout_constraintStart_toStartOf="@+id/etChooseCategory"
+        android:textSize="17dp"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/textView12"
@@ -90,5 +92,7 @@
         android:layout_height="wrap_content"
         android:text="Choose a Type"
         app:layout_constraintBottom_toTopOf="@+id/etChooseType"
-        app:layout_constraintStart_toStartOf="@+id/etChooseType" />
+        app:layout_constraintStart_toStartOf="@+id/etChooseType"
+        android:textSize="17dp"
+        android:textStyle="bold"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

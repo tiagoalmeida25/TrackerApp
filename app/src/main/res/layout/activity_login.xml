@@ -59,7 +59,9 @@
         android:layout_height="wrap_content"
         android:text="Name"
         app:layout_constraintBottom_toTopOf="@+id/etUsername"
-        app:layout_constraintStart_toStartOf="@+id/etUsername" />
+        app:layout_constraintStart_toStartOf="@+id/etUsername"
+        android:textSize="17dp"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/textView2"
@@ -67,6 +69,8 @@
         android:layout_height="wrap_content"
         android:text="Password"
         app:layout_constraintBottom_toTopOf="@+id/etPassword"
-        app:layout_constraintStart_toStartOf="@+id/etPassword" />
+        app:layout_constraintStart_toStartOf="@+id/etPassword"
+        android:textSize="17dp"
+        android:textStyle="bold"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

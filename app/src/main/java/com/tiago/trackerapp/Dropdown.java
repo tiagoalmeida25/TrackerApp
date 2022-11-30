@@ -7,64 +7,102 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import androidx.activity.result.ActivityResult;
+import androidx.activity.result.ActivityResultCallback;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 public class Dropdown extends AppCompatActivity {
-
     String categories = "";
     String types = "";
     EditText value;
     Spinner category, type;
     String username = "";
-    private BroadcastReceiverMainService broadcastReceiver;
+    BroadcastReceiverMainService broadcastReceiver = new BroadcastReceiverMainService();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dropdown);
 
-        Bundle extras = getIntent().getExtras();
-        username = extras.getString("username");
+        onRegister();
+
+        ActivityResultLauncher<Intent> activityResultLauncher = registerForActivityResult(
+                new ActivityResultContracts.StartActivityForResult(),
+                new ActivityResultCallback<ActivityResult>() {
+                    @Override
+                    public void onActivityResult(ActivityResult result) {
+                        if (result.getResultCode() == RESULT_OK) {
+                            Intent data = result.getData();
+                            username = data.getStringExtra("username");
+                            String login_output = data.getStringExtra("result");
+
+                            AlertDialog alertDialog = new AlertDialog.Builder(getApplicationContext()).create();
+                            alertDialog.setTitle("Login Successful");
+                            alertDialog.setMessage(login_output);
+                        }
+                    }
+                });
+
+        activityResultLauncher.launch(new Intent(this, Login.class));
 
         category = findViewById(R.id.spCategory);
         type = findViewById(R.id.spType);
         value = (EditText)findViewById(R.id.etValueV2);
 
-        onRegister("com.tiago.broadcast.GET_CATEGORIES");
-
         BackgroundWorker backgroundWorkerCategories = new BackgroundWorker(this);
         backgroundWorkerCategories.execute("get categories", username);
 
         Log.d("Categories",categories);
-        Log.d("Here","here");
 
         String[] items_categories = categories.split(":");
         ArrayAdapter<String> adapter_categories = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, items_categories);
         category.setAdapter(adapter_categories);
 
-        // Estas opcoes so aparecem depois de escolher a categoria
+        category.setOnItemSelectedListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                String str_category = items_categories[i];
 
-//        onRegister("com.tiago.broadcast.GET_TYPES");
-//        BackgroundWorker backgroundWorkerTypes = new BackgroundWorker(this);
-//        backgroundWorkerTypes.execute("get types",category_selected);
+                BackgroundWorker backgroundWorkerTypes = new BackgroundWorker(getApplicationContext());
+                backgroundWorkerTypes.execute("get types",str_category);
 
-//        String[] items_types = types.split("++");
-//        ArrayAdapter<String> adapter_types = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, items_types);
-//        category.setAdapter(adapter_types);
+                String[] items_types = types.split("--");
+                ArrayAdapter<String> adapter_types = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_spinner_dropdown_item, items_types);
+                type.setAdapter(adapter_types);
+
+                type.setOnItemSelectedListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String str_type = items_types[i];
+
+                        BackgroundWorker backgroundWorkerTypes = new BackgroundWorker(getApplicationContext());
+                        backgroundWorkerTypes.execute("save",str_category,str_type, username);
+                    }
+                });
+            }
+        });
+
+
     }
 
-    private void onRegister(String flag) {
+    private void onRegister() {
         IntentFilter intentFilter = new IntentFilter();
 
-        intentFilter.addAction(flag);
-//        intentFilter.addAction("com.tiago.broadcast.GET_TYPES");
+        intentFilter.addAction("com.tiago.broadcast.GET_CATEGORIES");
+        intentFilter.addAction("com.tiago.broadcast.GET_TYPES");
+        intentFilter.addAction("com.tiago.broadcast.SAVE");
 
         registerReceiver(broadcastReceiver, intentFilter);
     }
@@ -78,15 +116,17 @@ public class Dropdown extends AppCompatActivity {
         @Override
         public void onReceive(Context context, Intent intent) {
             final String action = intent.getAction();
-            if (action.equals("com.tiago.broadcast.GET_CATEGORIES")) {
-                categories = intent.getStringExtra("categories");
-                Log.d("categories",categories);
-            }
-            else if (action.equals("com.tiago.broadcast.GET_TYPES")) {
-                types = intent.getStringExtra("types");
-            }
-            else{
-                Log.d("idk","idk");
+            if(action!=null) {
+                switch (action){
+                case "com.tiago.broadcast.GET_CATEGORIES":
+
+                    categories = intent.getStringExtra("categories");
+                    Log.d("categories", categories);
+                    break;
+                case "com.tiago.broadcast.GET_TYPES":
+                    types = intent.getStringExtra("types");
+                    break;
+                }
             }
 
         }

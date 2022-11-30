@@ -50,7 +50,9 @@
         android:layout_height="wrap_content"
         android:text="Category"
         app:layout_constraintBottom_toTopOf="@+id/etCategory"
-        app:layout_constraintStart_toStartOf="@+id/etCategory" />
+        app:layout_constraintStart_toStartOf="@+id/etCategory"
+        android:textSize="17dp"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/textView6"
@@ -58,7 +60,9 @@
         android:layout_height="wrap_content"
         android:text="Type"
         app:layout_constraintBottom_toTopOf="@+id/etType"
-        app:layout_constraintStart_toStartOf="@+id/etType" />
+        app:layout_constraintStart_toStartOf="@+id/etType"
+        android:textSize="17dp"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/textView7"
@@ -66,7 +70,9 @@
         android:layout_height="wrap_content"
         android:text="Value"
         app:layout_constraintBottom_toTopOf="@+id/etValue"
-        app:layout_constraintStart_toStartOf="@+id/etValue" />
+        app:layout_constraintStart_toStartOf="@+id/etValue"
+        android:textSize="17dp"
+        android:textStyle="bold"/>
 
     <Button
         android:id="@+id/btSave"

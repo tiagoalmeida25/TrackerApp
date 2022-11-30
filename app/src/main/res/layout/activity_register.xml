@@ -37,7 +37,9 @@
         android:layout_height="wrap_content"
         android:text="Name"
         app:layout_constraintBottom_toTopOf="@+id/etRegisterName"
-        app:layout_constraintStart_toStartOf="@+id/etRegisterName" />
+        app:layout_constraintStart_toStartOf="@+id/etRegisterName"
+        android:textSize="17dp"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/textView4"
@@ -45,7 +47,9 @@
         android:layout_height="wrap_content"
         android:text="Password"
         app:layout_constraintBottom_toTopOf="@+id/etRegisterPassword"
-        app:layout_constraintStart_toStartOf="@+id/etRegisterPassword" />
+        app:layout_constraintStart_toStartOf="@+id/etRegisterPassword"
+        android:textSize="17dp"
+        android:textStyle="bold"/>
 
     <EditText
         android:id="@+id/etRegisterPassword"
