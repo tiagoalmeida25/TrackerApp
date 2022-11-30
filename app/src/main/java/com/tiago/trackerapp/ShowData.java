@@ -38,8 +38,7 @@ public class ShowData extends AppCompatActivity {
     }
 
     public void OnGetCategories(View view){
-        String type = "get categories";
-        Log.d("here","here");
+        String type = "display categories";
         Log.d("user",username);
 
         BackgroundWorker backgroundWorker = new BackgroundWorker(this);
@@ -47,12 +46,13 @@ public class ShowData extends AppCompatActivity {
     }
     public void OnGetTypes(View view){
         String str_category = getCategory.getText().toString();
-        String type = "get types";
+        String type = "display types";
 
         if (str_category.isEmpty()){
             AlertDialog alertDialog = new AlertDialog.Builder(ShowData.this).create();
             alertDialog.setTitle("Category");
             alertDialog.setMessage("No Category Selected");
+            alertDialog.show();
         }
 
         BackgroundWorker backgroundWorker = new BackgroundWorker(this);
@@ -60,7 +60,7 @@ public class ShowData extends AppCompatActivity {
     }
     public void OnGetValues(View view){
         String str_type = getType.getText().toString();
-        String type = "get values";
+        String type = "display values";
 
         if (str_type.isEmpty()){
             AlertDialog alertDialog = new AlertDialog.Builder(ShowData.this).create();

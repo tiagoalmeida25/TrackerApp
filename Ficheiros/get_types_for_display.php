@@ -1,33 +1,33 @@
 <?php
 require "conn.php";
-$user = $_POST["user_name"];
+$category = $_POST["category"];
 
-$mysql_qry = "select user_id from User where user_name like '$user';";
+$mysql_qry = "select category_id from Category where category_name like '$category';";
 $result = mysqli_query($conn, $mysql_qry);
     
 $row = mysqli_fetch_assoc($result);
-$user_id =  $row["user_id"];
+$category_id =  $row["category_id"];
 
-$mysql_qry = "SELECT DISTINCT category_name FROM Category where user_id like '$user_id';";
+$mysql_qry = "SELECT DISTINCT type_name FROM Type where category_id like '$category_id';";
 $result = mysqli_query($conn, $mysql_qry);
 
 if (mysqli_num_rows($result) > 0) {
     // read
     
     $rows = mysqli_fetch_all($result, MYSQLI_ASSOC);
-    $categories = array();
+    $types = array();
     $i = 0;
     foreach ($rows as $row) {
-        $categories[$i] = rtrim($row["category_name"])  .":";
+        $types[$i] = rtrim($row["type_name"])  ."~~";
         $i ++;
     }
     
     for ($j = 0; $j < $i; $j++) {
-        echo $categories[$j];
+        echo $types[$j];
     }
 }
 else{
-    echo "No categories added";
+    echo "This Type doesn't exist";
 }
 
 $conn->close();

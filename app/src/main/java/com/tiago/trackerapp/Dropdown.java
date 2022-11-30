@@ -51,7 +51,6 @@ public class Dropdown extends AppCompatActivity {
 
                     BackgroundWorker backgroundWorkerCategories = new BackgroundWorker(getApplicationContext());
                     backgroundWorkerCategories.execute("get categories", username);
-                    Log.d("After get categories","after get categories");
                 }
             });
     @Override

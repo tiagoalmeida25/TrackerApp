@@ -52,6 +52,7 @@ public class Login extends AppCompatActivity {
                         AlertDialog alertDialog = new AlertDialog.Builder(context).create();
                         alertDialog.setTitle("Login Error");
                         alertDialog.setMessage(result);
+                        alertDialog.show();
                     }
                 }
             }

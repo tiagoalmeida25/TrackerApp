@@ -36,6 +36,8 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
         String save_url = "https://tiagoalmeida5.com/tracker_app/save.php";
         String get_categories_url = "https://tiagoalmeida5.com/tracker_app/get_categories.php";
         String get_types_url = "https://tiagoalmeida5.com/tracker_app/get_types.php";
+        String get_categories_for_display_url = "https://tiagoalmeida5.com/tracker_app/get_categories_for_display.php";
+        String get_types_for_display_url = "https://tiagoalmeida5.com/tracker_app/get_types_for_display.php";
         String get_values_url = "https://tiagoalmeida5.com/tracker_app/get_values.php";
 
         if(type.equals("login")){
@@ -179,6 +181,135 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
                 e.printStackTrace();
             }
         }
+        else if(type.equals("display categories")){
+            try {
+                username = params[1];
+
+                URL url = new URL(get_categories_for_display_url);
+
+                HttpURLConnection httpURLConnection = (HttpURLConnection)url.openConnection();
+                httpURLConnection.setRequestMethod("POST");
+                httpURLConnection.setDoOutput(true);
+                httpURLConnection.setDoInput(true);
+
+                OutputStream outputStream = httpURLConnection.getOutputStream();
+
+                BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
+
+                String post_data = URLEncoder.encode("user_name","UTF-8")+"="+URLEncoder.encode(username,"UTF-8");
+
+                bufferedWriter.write(post_data);
+                bufferedWriter.flush();
+                bufferedWriter.close();
+                outputStream.close();
+
+                InputStream inputStream = httpURLConnection.getInputStream();
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));
+
+                String result = "";
+                String line = "";
+
+                while((line = bufferedReader.readLine()) != null){
+                    result += line;
+                }
+
+                bufferedReader.close();
+                inputStream.close();
+                httpURLConnection.disconnect();
+
+                return result;
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        else if(type.equals("display types")){
+            try {
+                String category = params[1];
+
+                URL url = new URL(get_types_for_display_url);
+
+                HttpURLConnection httpURLConnection = (HttpURLConnection)url.openConnection();
+                httpURLConnection.setRequestMethod("POST");
+                httpURLConnection.setDoOutput(true);
+                httpURLConnection.setDoInput(true);
+
+                OutputStream outputStream = httpURLConnection.getOutputStream();
+
+                BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
+
+                String post_data = URLEncoder.encode("category","UTF-8")+"="+URLEncoder.encode(category,"UTF-8");
+
+                bufferedWriter.write(post_data);
+                bufferedWriter.flush();
+                bufferedWriter.close();
+                outputStream.close();
+
+                InputStream inputStream = httpURLConnection.getInputStream();
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));
+
+                String result = "";
+                String line = "";
+
+                while((line = bufferedReader.readLine()) != null){
+                    result += line;
+                }
+
+                bufferedReader.close();
+                inputStream.close();
+                httpURLConnection.disconnect();
+
+                return result;
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        else if(type.equals("display values")){
+            try {
+                String s_type = params[1];
+
+                URL url = new URL(get_values_url);
+
+                HttpURLConnection httpURLConnection = (HttpURLConnection)url.openConnection();
+                httpURLConnection.setRequestMethod("POST");
+                httpURLConnection.setDoOutput(true);
+                httpURLConnection.setDoInput(true);
+
+                OutputStream outputStream = httpURLConnection.getOutputStream();
+
+                BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
+
+                String post_data = URLEncoder.encode("type","UTF-8")+"="+URLEncoder.encode(s_type,"UTF-8");
+
+                bufferedWriter.write(post_data);
+                bufferedWriter.flush();
+                bufferedWriter.close();
+                outputStream.close();
+
+                InputStream inputStream = httpURLConnection.getInputStream();
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));
+
+                String result = "";
+                String line = "";
+
+                while((line = bufferedReader.readLine()) != null){
+                    result += line;
+                }
+
+                bufferedReader.close();
+                inputStream.close();
+                httpURLConnection.disconnect();
+
+                return result;
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
         else if(type.equals("get categories")){
             try {
                 username = params[1];
@@ -265,49 +396,6 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
                 e.printStackTrace();
             }
         }
-        else if(type.equals("get values")){
-            try {
-                String s_type = params[1];
-
-                URL url = new URL(get_values_url);
-
-                HttpURLConnection httpURLConnection = (HttpURLConnection)url.openConnection();
-                httpURLConnection.setRequestMethod("POST");
-                httpURLConnection.setDoOutput(true);
-                httpURLConnection.setDoInput(true);
-
-                OutputStream outputStream = httpURLConnection.getOutputStream();
-
-                BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
-
-                String post_data = URLEncoder.encode("type","UTF-8")+"="+URLEncoder.encode(s_type,"UTF-8");
-
-                bufferedWriter.write(post_data);
-                bufferedWriter.flush();
-                bufferedWriter.close();
-                outputStream.close();
-
-                InputStream inputStream = httpURLConnection.getInputStream();
-                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));
-
-                String result = "";
-                String line = "";
-
-                while((line = bufferedReader.readLine()) != null){
-                    result += line;
-                }
-
-                bufferedReader.close();
-                inputStream.close();
-                httpURLConnection.disconnect();
-
-                return result;
-            } catch (MalformedURLException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
 
         return null;
     }
@@ -355,10 +443,19 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
             alertDialog.setMessage(result);
             alertDialog.show();
         }
+        else if(result.contains("»»")){
+            result = result.replace("»»","\n");
+            alertDialog.setTitle("Categories");
+            alertDialog.setMessage(result);
+            alertDialog.show();
+        }
+        else if(result.contains("~~")){
+            result = result.replace("~~","\n");
+            alertDialog.setTitle("Types");
+            alertDialog.setMessage(result);
+            alertDialog.show();
+        }
         else if(result.contains(":")){
-//            result = result.replace(":","\n");
-//            alertDialog.setTitle("Categories");
-//            alertDialog.setMessage(result);
             Intent intent = new Intent("com.tiago.broadcast.GET_CATEGORIES");
             intent.putExtra("categories", result);
             Log.d("Result Categories",result);

@@ -18,7 +18,7 @@ if (mysqli_num_rows($result) > 0) {
     $categories = array();
     $i = 0;
     foreach ($rows as $row) {
-        $categories[$i] = rtrim($row["category_name"])  .":";
+        $categories[$i] = rtrim($row["category_name"])  ."»»";
         $i ++;
     }
     
