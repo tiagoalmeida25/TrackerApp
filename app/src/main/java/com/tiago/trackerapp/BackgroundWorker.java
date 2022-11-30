@@ -323,7 +323,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
     protected void onPostExecute(String result) {
         if (result == null){
             alertDialog.setTitle("Error");
-            alertDialog.setMessage("Error ocurred");
+            alertDialog.setMessage("Error occurred");
         }
         else if(result.equals("Registration Successful"))
         {
@@ -334,12 +334,14 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
             alertDialog.setTitle("Registration Status");
             alertDialog.setMessage(result);
         }
-        else if(result.contains("Login Successful"))
+        else if(result.contains("Login"))
         {
-            Log.d("Login","Login done");
-            Intent i = new Intent(context,DataBase.class);
-            i.putExtra("username", username);
-            context.startActivity(i);
+            Intent i = new Intent("com.tiago.broadcast.LOGIN");
+            i.putExtra("result",result);
+            context.sendBroadcast(i);
+//            Intent i = new Intent(context,DataBase.class);
+//            i.putExtra("username", username);
+//            context.startActivity(i);
 
             alertDialog.setTitle("Login Status");
             alertDialog.setMessage(result);

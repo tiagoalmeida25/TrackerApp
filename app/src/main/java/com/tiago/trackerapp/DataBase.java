@@ -7,6 +7,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import androidx.activity.result.contract.*;
+import androidx.activity.result.ActivityResult;
+import androidx.activity.result.ActivityResultCallback;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class DataBase extends AppCompatActivity {
@@ -17,6 +22,27 @@ public class DataBase extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_data_base);
+
+        ActivityResultLauncher<Intent> activityResultLauncher = registerForActivityResult(
+            new ActivityResultContracts.StartActivityForResult(),
+            new ActivityResultCallback<ActivityResult>() {
+            @Override
+            public void onActivityResult(ActivityResult result) {
+                if (result.getResultCode() == RESULT_OK) {
+                    Intent data = result.getData();
+                    username = data.getStringExtra("username");
+                    String login_output = data.getStringExtra("result");
+
+                    AlertDialog alertDialog = new AlertDialog.Builder(getApplicationContext()).create();
+                    alertDialog.setTitle("Login Successful");
+                    alertDialog.setMessage(login_output);
+                }
+            }
+        });
+
+
+
+
 
         Bundle extras = getIntent().getExtras();
         username = extras.getString("username");

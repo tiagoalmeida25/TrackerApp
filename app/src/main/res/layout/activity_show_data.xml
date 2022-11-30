@@ -63,7 +63,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etChooseType"
-        android:onClick="OnGetValues"/>
+        android:onClick="OnGetValues"
+        />
 
     <Button
         android:id="@+id/btBackShowdata"
