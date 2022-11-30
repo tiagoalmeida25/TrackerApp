@@ -2,6 +2,8 @@
 require "conn.php";
 $category = $_POST["category"];
 
+$category = rtrim($category);
+
 $mysql_qry = "select category_id from Category where category_name like '$category';";
 $result = mysqli_query($conn, $mysql_qry);
     

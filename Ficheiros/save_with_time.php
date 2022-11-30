@@ -5,6 +5,9 @@ $user = $_POST["user_name"];
 $category = $_POST["category"];
 $type = $_POST["type"];
 $value = $_POST["value"];
+$date = $_POST["date"];
+
+$date = strtotime($date);
 
 
 $user = rtrim($user);
@@ -103,8 +106,10 @@ if(is_null($category_id) or is_null($type_id)){
 }
 
 if(!$error){
-    date_default_timezone_set("Europe/Lisbon");
-    $now = date("Y-m-d H:i");
+    // date_default_timezone_set("Europe/Lisbon");
+
+    $now = date("Y-m-d H:i",$date);
+    
     $mysql_query = "insert into UserCategory(value, date, type_id, user_id) values ('$value', '$now' , '$type_id', '$user_id')";
 
     if($conn->query($mysql_query) === TRUE){

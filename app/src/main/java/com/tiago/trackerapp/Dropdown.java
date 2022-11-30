@@ -143,7 +143,7 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
 
                     Log.d("Categories", categories);
 
-                    items_categories = categories.split(":");
+                    items_categories = categories.split("##");
                     ArrayAdapter<String> adapter_categories = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_spinner_dropdown_item, items_categories);
                     category.setAdapter(adapter_categories);
 

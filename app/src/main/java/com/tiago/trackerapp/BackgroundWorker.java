@@ -511,7 +511,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
             alertDialog.setMessage(result);
             alertDialog.show();
         }
-        else if(result.contains(":")){
+        else if(result.contains("##")){
             Intent intent = new Intent("com.tiago.broadcast.GET_CATEGORIES");
             intent.putExtra("categories", result);
             Log.d("Result Categories",result);
