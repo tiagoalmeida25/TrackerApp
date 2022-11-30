@@ -70,7 +70,7 @@ public class Login extends AppCompatActivity {
         unregisterReceiver(broadcastReceiver);
     }
     public void OnLogin (View View) {
-        username = UsernameEt.getText().toString();
+        username = rtrim(UsernameEt.getText().toString());
         String password = PasswordEt.getText().toString();
         String type = "login";
 
@@ -85,5 +85,12 @@ public class Login extends AppCompatActivity {
     public void OpenReg(View view){
 
         startActivity(new Intent(this, Register.class));
+    }
+
+    private String rtrim(String str) {
+        if (str != null && str.length() > 0 && str.charAt(str.length() - 1) == ' ') {
+            str = str.substring(0, str.length() - 1);
+        }
+        return str;
     }
 }

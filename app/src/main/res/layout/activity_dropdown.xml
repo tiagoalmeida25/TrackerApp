@@ -41,17 +41,19 @@
 
     <Button
         android:id="@+id/btSaveV2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
         android:onClick="OnSaveDropDown"
         android:text="Save"
-
-        app:layout_constraintBottom_toTopOf="@+id/btSeeDatabaseDrop"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/orange"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etValueV2"
-        app:layout_constraintVertical_bias="0.65" />
+        app:layout_constraintTop_toBottomOf="@+id/btSeeDatabaseDrop" />
 
     <EditText
         android:id="@+id/etValueV2"
@@ -110,11 +112,12 @@
         android:id="@+id/btSeeDatabaseDrop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="75dp"
+        android:onClick="OnSeeDataBase"
         android:text="See DataBase"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btSaveV2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btSetTime" />
 
     <TextView
         android:id="@+id/textView13"
@@ -135,4 +138,26 @@
         app:layout_constraintBottom_toTopOf="@+id/etAddType"
         app:layout_constraintEnd_toEndOf="@+id/etAddType"
         app:layout_constraintStart_toStartOf="@+id/etAddType" />
+
+    <Button
+        android:id="@+id/btSetTime"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textSize="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:onClick="setDate"
+        android:text="Set Time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etValueV2" />
+
+    <TextView
+        android:id="@+id/dateView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/btSetTime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

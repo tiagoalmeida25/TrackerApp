@@ -1,11 +1,15 @@
 package com.tiago.trackerapp;
 
+import android.app.DatePickerDialog;
+import android.app.Dialog;
+import android.app.TimePickerDialog;
 import android.bluetooth.BluetoothAdapter;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
+import android.text.format.DateFormat;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
@@ -14,6 +18,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.DatePicker;
+import android.widget.TimePicker;
+import android.widget.Toast;
 
 import androidx.activity.result.ActivityResult;
 import androidx.activity.result.ActivityResultCallback;
@@ -24,7 +31,9 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-public class Dropdown extends AppCompatActivity {
+import java.util.Calendar;
+
+public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDateSetListener, TimePickerDialog.OnTimeSetListener {
     String username = "";
     String categories = "";
     String types = "";
@@ -34,6 +43,13 @@ public class Dropdown extends AppCompatActivity {
     Spinner category, type;
     String[] items_categories;
     String[] items_types;
+
+    private TextView dateView;
+    private Button setTime;
+    private int year, month, day,hour,minute,second;
+    private int myYear, myMonth, myDay,myHour,myMinute,mySecond;
+
+
     BroadcastReceiverMainService broadcastReceiver = new BroadcastReceiverMainService();
     ActivityResultLauncher<Intent> activityResultLauncher = registerForActivityResult(
             new ActivityResultContracts.StartActivityForResult(),
@@ -63,18 +79,35 @@ public class Dropdown extends AppCompatActivity {
 
         activityResultLauncher.launch(new Intent(this, Login.class));
 
-        Button btSeeDatabase = (Button)findViewById(R.id.btSeeDatabaseDrop);
-
-        btSeeDatabase.setOnClickListener(new View.OnClickListener() {
+        dateView = findViewById(R.id.dateView);
+        setTime = findViewById(R.id.btSetTime);
+        setTime.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("User in Database",username);
+                Calendar calendar = Calendar.getInstance();
+                year = calendar.get(Calendar.YEAR);
+                month = calendar.get(Calendar.MONTH);
+                day = calendar.get(Calendar.DAY_OF_MONTH);
+                DatePickerDialog datePickerDialog = new DatePickerDialog(Dropdown.this, Dropdown.this,year, month, day);
 
-                Intent i = new Intent(Dropdown.this, ShowData.class);
-                i.putExtra("username", username);
-                startActivity(i);
+                datePickerDialog.show();
             }
         });
+
+
+
+//        Button btSeeDatabase = (Button)findViewById(R.id.btSeeDatabaseDrop);
+//
+//        btSeeDatabase.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Log.d("User in Database",username);
+//
+//                Intent i = new Intent(Dropdown.this, ShowData.class);
+//                i.putExtra("username", username);
+//                startActivity(i);
+//            }
+//        });
     }
 
     private void onRegister() {
@@ -168,6 +201,8 @@ public class Dropdown extends AppCompatActivity {
         String category_final = "";
         String type_final = "";
 
+        String date = dateView.getText().toString();
+
         value.setText("");
         addCategory.setText("");
         addType.setText("");
@@ -191,7 +226,67 @@ public class Dropdown extends AppCompatActivity {
 
         }
 
+        if(date.isEmpty()) {
+            BackgroundWorker backgroundWorker = new BackgroundWorker(this);
+            backgroundWorker.execute(mode, category_final, type_final, str_value, username);
+        }
+        else{
+            BackgroundWorker backgroundWorker = new BackgroundWorker(this);
+            backgroundWorker.execute("save with time", category_final, type_final, str_value, date, username);
+        }
+    }
+    public void OnSeeDataBase(View view) {
+        String str_add_category = addCategory.getText().toString();
+        String str_add_type = addType.getText().toString();
+        String mode = "display values";
+        String category_final = "";
+        String type_final = "";
+
+        value.setText("");
+        addCategory.setText("");
+        addType.setText("");
+
+        if(str_add_category.isEmpty()){
+            // old category
+            category_final = str_category;
+            if(str_add_type.isEmpty()){
+                // old type
+                type_final = str_type;
+            }
+            else {
+                AlertDialog alertDialog = new AlertDialog.Builder(getApplicationContext()).create();
+                alertDialog.setTitle("Database");
+                alertDialog.setMessage("New Type");
+            }
+        }
+        else{
+            AlertDialog alertDialog = new AlertDialog.Builder(getApplicationContext()).create();
+            alertDialog.setTitle("Database");
+            alertDialog.setMessage("New Category");
+
+        }
+
         BackgroundWorker backgroundWorker = new BackgroundWorker(this);
-        backgroundWorker.execute(mode, category_final, type_final, str_value, username);
+        backgroundWorker.execute(mode, type_final);
+    }
+
+
+    @Override
+    public void onDateSet(DatePicker view, int year, int month, int day) {
+        myYear = year;
+        myDay = day;
+        myMonth = month + 1;
+        Calendar c = Calendar.getInstance();
+        hour = c.get(Calendar.HOUR);
+        minute = c.get(Calendar.MINUTE);
+        TimePickerDialog timePickerDialog = new TimePickerDialog(Dropdown.this, Dropdown.this, hour, minute, DateFormat.is24HourFormat(this));
+        timePickerDialog.show();
+    }
+    @Override
+    public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
+        myHour = hourOfDay;
+        myMinute = minute;
+        String time = myYear + "/" + myMonth + "/" + myDay + " " + myHour + ":" + myMinute;
+        dateView.setText(time);
     }
 }
