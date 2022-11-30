@@ -40,7 +40,6 @@ public class Login extends AppCompatActivity {
                     String result = intent.getStringExtra("result");
 
                     if(result.contains("Welcome")){
-//                        String username = UsernameEt.getText().toString();
                         Log.d("User in login",username);
                         Intent i = new Intent();
                         i.putExtra("result",result);
@@ -83,6 +82,7 @@ public class Login extends AppCompatActivity {
     }
 
     public void OpenReg(View view){
+
         startActivity(new Intent(this, Register.class));
     }
 }

@@ -324,6 +324,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
         if (result == null){
             alertDialog.setTitle("Error");
             alertDialog.setMessage("Error occurred");
+            alertDialog.show();
         }
         else if(result.equals("Registration Successful"))
         {
@@ -333,6 +334,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
 
             alertDialog.setTitle("Registration Status");
             alertDialog.setMessage(result);
+            alertDialog.show();
         }
         else if(result.contains("Login"))
         {
@@ -343,37 +345,38 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
 //            i.putExtra("username", username);
 //            context.startActivity(i);
 
-            alertDialog.setTitle("Login Status");
-            alertDialog.setMessage(result);
+//            alertDialog.setTitle("Login Status");
+//            alertDialog.setMessage(result);
+//            alertDialog.show();
         }
         else if(result.equals("Saved!"))
         {
             alertDialog.setTitle("Save Status");
             alertDialog.setMessage(result);
+            alertDialog.show();
         }
         else if(result.contains(":")){
-            result = result.replace(":","\n");
-            alertDialog.setTitle("Categories");
-            alertDialog.setMessage(result);
-//            Intent intent = new Intent();
-//            intent.setAction("com.tiago.broadcast.GET_CATEGORIES");
-//            intent.putExtra("categories", result);
-//
-//            context.sendBroadcast(intent);
+//            result = result.replace(":","\n");
+//            alertDialog.setTitle("Categories");
+//            alertDialog.setMessage(result);
+            Intent intent = new Intent("com.tiago.broadcast.GET_CATEGORIES");
+            intent.putExtra("categories", result);
+            Log.d("Result Categories",result);
+            context.sendBroadcast(intent);
         }
         else if(result.contains("--")){
-            result = result.replace("--","\n");
-            alertDialog.setTitle("Types");
-            alertDialog.setMessage(result);
-//            Intent intent = new Intent();
-//            intent.setAction("com.tiago.broadcast.GET_TYPES");
-//            intent.putExtra("types", result);
-//            context.sendBroadcast(intent);
+//            result = result.replace("--","\n");
+//            alertDialog.setTitle("Types");
+//            alertDialog.setMessage(result);
+            Intent intent = new Intent("com.tiago.broadcast.GET_TYPES");
+            intent.putExtra("types", result);
+            context.sendBroadcast(intent);
         }
         else if(result.contains("..")){
             result = result.replace("..","\n");
             alertDialog.setTitle("Values");
             alertDialog.setMessage(result);
+            alertDialog.show();
 //            Intent intent = new Intent();
 //            intent.setAction("com.tiago.broadcast.GET_TYPES");
 //            intent.putExtra("types", result);
@@ -382,9 +385,10 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
         else{
             alertDialog.setTitle("Status");
             alertDialog.setMessage("Result: " + result);
+            alertDialog.show();
         }
         Log.d("Result",result);
-        alertDialog.show();
+
     }
 
     @Override
