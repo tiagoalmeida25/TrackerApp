@@ -1,6 +1,7 @@
 package com.tiago.trackerapp;
 
 import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -17,6 +18,19 @@ public class Login extends AppCompatActivity {
     EditText UsernameEt, PasswordEt;
     String username = "";
     BroadcastReceiverLoginService broadcastReceiver = new BroadcastReceiverLoginService();
+
+    ActivityResultLauncher<Intent> activityResultLauncher = registerForActivityResult(
+            new ActivityResultContracts.StartActivityForResult(),
+            result -> {
+                if (result.getResultCode() == RESULT_OK) {
+                    Intent data = result.getData();
+                    String result_reg = data.getStringExtra("result");
+
+                    AlertDialog alertDialog = new AlertDialog.Builder(getApplicationContext()).create();
+                    alertDialog.setTitle("Registration Successful");
+                    alertDialog.setMessage(result_reg);
+                }
+            });
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,8 +97,8 @@ public class Login extends AppCompatActivity {
     }
 
     public void OpenReg(View view){
-
-        startActivity(new Intent(this, Register.class));
+//        startActivity(new Intent(this, Register.class));
+        activityResultLauncher.launch(new Intent(this, Register.class));
     }
 
     private String rtrim(String str) {

@@ -115,6 +115,8 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
 
         intentFilter.addAction("com.tiago.broadcast.GET_CATEGORIES");
         intentFilter.addAction("com.tiago.broadcast.GET_TYPES");
+        intentFilter.addAction("com.tiago.broadcast.NO_CATEGORIES");
+        intentFilter.addAction("com.tiago.broadcast.NO_TYPES");
         intentFilter.addAction("com.tiago.broadcast.SAVE");
 
         registerReceiver(broadcastReceiver, intentFilter);
@@ -188,6 +190,24 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
 
                     });
                     break;
+                case "com.tiago.broadcast.NO_CATEGORIES":
+                    String result = intent.getStringExtra("categories");
+                    Log.d("Broadcast categories", result);
+
+                    value = (EditText) findViewById(R.id.etValueV2);
+                    addCategory = (EditText) findViewById(R.id.etAddCategory);
+                    addType = (EditText) findViewById(R.id.etAddType);
+
+                    break;
+                case "com.tiago.broadcast.NO_TYPES":
+                    String result_type = intent.getStringExtra("types");
+                    Log.d("Broadcast types", result_type);
+
+                    value = (EditText) findViewById(R.id.etValueV2);
+                    addCategory = (EditText) findViewById(R.id.etAddCategory);
+                    addType = (EditText) findViewById(R.id.etAddType);
+
+                    break;
                 }
             }
         }
@@ -234,6 +254,11 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
             BackgroundWorker backgroundWorker = new BackgroundWorker(this);
             backgroundWorker.execute("save with time", category_final, type_final, str_value, date, username);
         }
+
+        Log.d("After Save","saved");
+
+        BackgroundWorker backgroundWorkerCategories = new BackgroundWorker(getApplicationContext());
+        backgroundWorkerCategories.execute("get categories", username);
     }
     public void OnSeeDataBase(View view) {
         String str_add_category = addCategory.getText().toString();

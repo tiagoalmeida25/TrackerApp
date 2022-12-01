@@ -472,13 +472,12 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
         }
         else if(result.equals("Registration Successful"))
         {
-            Toast.makeText(context, result, Toast.LENGTH_LONG).show();
-            Intent i = new Intent(context, Login.class);
-            context.startActivity(i);
-
-            alertDialog.setTitle("Registration Status");
-            alertDialog.setMessage(result);
-            alertDialog.show();
+            Intent i = new Intent("com.tiago.broadcast.REGISTER");
+            i.putExtra("result",result);
+            context.sendBroadcast(i);
+//            Toast.makeText(context, result, Toast.LENGTH_LONG).show();
+//            Intent i = new Intent(context, Login.class);
+//            context.startActivity(i);
         }
         else if(result.contains("Login"))
         {
@@ -517,12 +516,30 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
             Log.d("Result Categories",result);
             context.sendBroadcast(intent);
         }
+        else if(result.contains("No categories")){
+            Intent intent = new Intent("com.tiago.broadcast.NO_CATEGORIES");
+            intent.putExtra("categories", result);
+            Log.d("Result No Categories",result);
+            context.sendBroadcast(intent);
+        }
+        else if(result.contains("No Types")){
+            Intent intent = new Intent("com.tiago.broadcast.NO_TYPES");
+            intent.putExtra("types", result);
+            Log.d("Result No Types",result);
+            context.sendBroadcast(intent);
+        }
         else if(result.contains("--")){
 //            result = result.replace("--","\n");
 //            alertDialog.setTitle("Types");
 //            alertDialog.setMessage(result);
             Intent intent = new Intent("com.tiago.broadcast.GET_TYPES");
             intent.putExtra("types", result);
+            context.sendBroadcast(intent);
+        }
+        else if(result.contains("##")){
+            Intent intent = new Intent("com.tiago.broadcast.NO_TYPES");
+            intent.putExtra("types", result);
+            Log.d("Result Categories",result);
             context.sendBroadcast(intent);
         }
         else if(result.contains("..")){
@@ -541,7 +558,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
             Log.d("Result",result);
             alertDialog.show();
         }
-        Log.d("Result",result);
+        Log.d("After Result",result);
 
     }
 
