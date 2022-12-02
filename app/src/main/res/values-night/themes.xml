@@ -1,33 +1,77 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Base application theme. -->
     <style name="Theme.TrackerApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/dark_3</item>
-        <item name="colorPrimaryVariant">@color/dark_4</item>
+        <item name="colorPrimary">@color/dark_2</item>
+        <item name="colorPrimaryVariant">@color/dark_1</item>
         <item name="colorOnPrimary">@color/dark_2</item>
         <item name="android:background">@color/dark_1</item>
-        <item name="textFillColor">@color/dark_4</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/dark_3</item>
-        <item name="colorSecondaryVariant">@color/dark_4</item>
-        <item name="colorOnSecondary">@color/dark_1</item>
+        <item name="textFillColor">@color/dark_1</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">@color/dark_3</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/dark_2</item>
         <!-- Customize your theme here. -->
     </style>
     <style name="Button.1" parent="Theme.AppCompat">
-        <item name="android:backgroundTint">@color/dark_3</item>
+        <item name="android:backgroundTint">@color/red_2</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textStyle">bold</item>
     </style>
     <style name="Button.2" parent="Theme.AppCompat">
-        <item name="android:backgroundTint">@color/dark_4</item>
+        <item name="android:backgroundTint">@color/red_1</item>
         <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Button.RED" parent="Theme.AppCompat">
+        <item name="android:backgroundTint">@color/red</item>
+        <item name="android:textColor">@color/light_1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Button.GREEN" parent="Theme.AppCompat">
+        <item name="android:backgroundTint">@color/green</item>
+        <item name="android:textColor">@color/light_1</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="Spinner.1" parent="Widget.AppCompat.DropDownItem.Spinner">
         <item name="android:textColor">@color/white</item>
         <item name="android:dropDownSpinnerStyle">@color/dark_2</item>
+    </style>
+
+<!--    red -->
+    <style name="Toggle.Theme1" parent="android:Widget">
+        <item name="android:backgroundTint">@color/red_1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textOff">""</item>
+        <item name="android:textOn">""</item>
+    </style>
+
+<!--    orange-->
+    <style name="Toggle.Theme2" parent="android:Widget">
+        <item name="android:backgroundTint">@color/orange_1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textOff">""</item>
+        <item name="android:textOn">""</item>
+    </style>
+
+<!--    blue-->
+    <style name="Toggle.Theme3" parent="android:Widget">
+        <item name="android:backgroundTint">@color/blue_1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textOff">""</item>
+        <item name="android:textOn">""</item>
+    </style>
+
+<!--    green-->
+    <style name="Toggle.Theme4" parent="android:Widget">
+        <item name="android:backgroundTint">@color/green_1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textOff">""</item>
+        <item name="android:textOn">""</item>
     </style>
 </resources>

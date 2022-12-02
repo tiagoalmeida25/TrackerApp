@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="dark_blue">#0E6ABC</color>
-    <color name="blue">#2D8FE6</color>
     <color name="gray">#BBBCBD</color>
     <color name="dark_gray">#515151</color>
+    <color name="green">#90be6d</color>
+    <color name="red">#C41616</color>
     <color name="orange">#FF5722</color>
+
     <color name="dark_1">#171717</color>
     <color name="dark_2">#252525</color>
-    <color name="dark_3">#2dc653</color>
-    <color name="dark_4">#2a7221</color>
+
     <color name="light_1">#EFF5F5</color>
     <color name="light_2">#D6E4E5</color>
-    <color name="light_3">#2dc653</color>
-    <color name="light_4">#2a7221</color>
+
+    <color name="blue_1">#00b4d8</color>
+    <color name="blue_2">#0077b6</color>
+
+    <color name="green_1">#2dc653</color>
+    <color name="green_2">#2a7221</color>
+
+    <color name="orange_1">#ffba08</color>
+    <color name="orange_2">#e85d04</color>
+
+    <color name="red_1">#d00000</color>
+    <color name="red_2">#9d0208</color>
+
+    <color name="gray_1">#adb5bd</color>
+    <color name="gray_2">#495057</color>
 </resources>
