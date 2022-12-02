@@ -28,8 +28,6 @@
 
     <style name="Spinner.1" parent="Widget.AppCompat.DropDownItem.Spinner">
         <item name="android:textColor">@color/white</item>
-        <item name="android:spinnerDropDownItemStyle">@color/light_2</item>
-        <item name="android:spinnerItemStyle">@color/light_2</item>
         <item name="android:dropDownSpinnerStyle">@color/dark_2</item>
     </style>
 </resources>
