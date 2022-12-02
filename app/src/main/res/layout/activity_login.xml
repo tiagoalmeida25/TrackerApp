@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login">
+    tools:context=".Login"
+    android:layout_margin="20dp">
 
     <EditText
         android:id="@+id/etUsername"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
         android:layout_marginTop="164dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -20,9 +21,9 @@
 
     <EditText
         android:id="@+id/etPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="70dp"
         android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,9 +33,12 @@
 
     <Button
         android:id="@+id/btnLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="125dp"
+        android:layout_height="65dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
         android:text="Login"
+        style="@style/Button.1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,9 +47,12 @@
 
     <Button
         android:id="@+id/btn_reg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="125dp"
+        android:layout_height="65dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
         android:text="Register"
+        style="@style/Button.2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -57,10 +64,11 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
         android:text="Name"
         app:layout_constraintBottom_toTopOf="@+id/etUsername"
         app:layout_constraintStart_toStartOf="@+id/etUsername"
-        android:textSize="17dp"
+        android:textSize="30dp"
         android:textStyle="bold"/>
 
     <TextView
@@ -70,7 +78,7 @@
         android:text="Password"
         app:layout_constraintBottom_toTopOf="@+id/etPassword"
         app:layout_constraintStart_toStartOf="@+id/etPassword"
-        android:textSize="17dp"
+        android:textSize="30dp"
         android:textStyle="bold"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

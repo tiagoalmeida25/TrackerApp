@@ -12,4 +12,12 @@
     <color name="gray">#BBBCBD</color>
     <color name="dark_gray">#515151</color>
     <color name="orange">#FF5722</color>
+    <color name="dark_1">#171717</color>
+    <color name="dark_2">#252525</color>
+    <color name="dark_3">#2dc653</color>
+    <color name="dark_4">#2a7221</color>
+    <color name="light_1">#EFF5F5</color>
+    <color name="light_2">#D6E4E5</color>
+    <color name="light_3">#2dc653</color>
+    <color name="light_4">#2a7221</color>
 </resources>
