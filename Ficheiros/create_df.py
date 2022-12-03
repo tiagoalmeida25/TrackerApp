@@ -39,15 +39,15 @@ def create_df(username):
 
         categories_with_type.append(types)
         
-    categories_with_type_with_values = []
-    types_with_values = []
-    values = list()
-    values_id = list()
+    categories_with_type_with_items = []
+    types_with_items = []
+    items = list()
+    items_id = list()
     i=0
     category_idx = 0
     for category_idx in range(len(categories_with_type)):
 
-        values = []
+        items = []
         type_idx = 0
         for type_idx in range(len(categories_with_type[category_idx])):
             category = categories_with_type[category_idx][type_idx].get('Category')
@@ -57,41 +57,41 @@ def create_df(username):
 
             df_user = df_usercategory.loc[df_usercategory['type_id'] == type_id]
 
-            for value, date in zip(df_user['value'],df_user['date']):
-                value_final = {
+            for item, date in zip(df_user['value'],df_user['date']):
+                item_final = {
                     "Category":category,
                     "Type":type_name,
-                    "Value":value,
+                    "Item":item,
                     "Date":date
                     }
-                values.append(value_final)
+                items.append(item_final)
 
-            categories_with_type_with_values.append(values)
+            categories_with_type_with_items.append(items)
 
-    max_categories = len(categories_with_type_with_values)
-    max_values = [len(x) for x in categories_with_type_with_values]
+    max_categories = len(categories_with_type_with_items)
+    max_items = [len(x) for x in categories_with_type_with_items]
 
     categories = []
     types = []
-    values = []
+    items = []
     dates = []
 
-    for category_idx in range(len(categories_with_type_with_values)):
-        for type_idx in range(len(categories_with_type_with_values[category_idx])):
-            category = categories_with_type_with_values[category_idx][type_idx].get("Category")
-            type = categories_with_type_with_values[category_idx][type_idx].get("Type")
-            value = categories_with_type_with_values[category_idx][type_idx].get("Value")
-            date = categories_with_type_with_values[category_idx][type_idx].get("Date")
+    for category_idx in range(len(categories_with_type_with_items)):
+        for type_idx in range(len(categories_with_type_with_items[category_idx])):
+            category = categories_with_type_with_items[category_idx][type_idx].get("Category")
+            type = categories_with_type_with_items[category_idx][type_idx].get("Type")
+            item = categories_with_type_with_items[category_idx][type_idx].get("Item")
+            date = categories_with_type_with_items[category_idx][type_idx].get("Date")
 
             categories.append(category)
             types.append(type)
-            values.append(value)
+            items.append(item)
             dates.append(date)
 
     user = {
         "Category": categories,
         "Type": types,
-        "Value": values,
+        "Item": items,
         "Date": dates
     }
 
