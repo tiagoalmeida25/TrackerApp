@@ -76,11 +76,6 @@
         <item name="android:backgroundTint">@color/green_1</item>
         <item name="android:textOff">""</item>
         <item name="android:textOn">""</item>
-        <corners
-            android:bottomLeftRadius="30dp"
-            android:bottomRightRadius="30dp"
-            android:topLeftRadius="30dp"
-            android:topRightRadius="30dp" />
     </style>
 
 </resources>

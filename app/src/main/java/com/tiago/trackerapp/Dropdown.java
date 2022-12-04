@@ -31,7 +31,11 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Calendar;
+import java.util.List;
+import java.util.stream.Stream;
 
 public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDateSetListener, TimePickerDialog.OnTimeSetListener {
     String username = "";
@@ -41,8 +45,8 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
     String str_type = "";
     EditText value, addCategory,addType;
     Spinner category, type;
-    String[] items_categories;
-    String[] items_types;
+    List<String> items_categories = new ArrayList<String>();
+    List<String> items_types = new ArrayList<String>();
 
     private TextView dateView;
     private Button setTime;
@@ -93,21 +97,6 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
                 datePickerDialog.show();
             }
         });
-
-
-
-//        Button btSeeDatabase = (Button)findViewById(R.id.btSeeDatabaseDrop);
-//
-//        btSeeDatabase.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Log.d("User in Database",username);
-//
-//                Intent i = new Intent(Dropdown.this, ShowData.class);
-//                i.putExtra("username", username);
-//                startActivity(i);
-//            }
-//        });
     }
 
     private void onRegister() {
@@ -145,20 +134,26 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
 
                     Log.d("Categories", categories);
 
-                    items_categories = categories.split("##");
+                    String initial = "Select Category";
+
+                    String[] categories_string = categories.split("##");
+
+                    items_categories.clear();
+                    items_categories.add(initial);
+                    items_categories.addAll(Arrays.asList(categories_string));
+
                     ArrayAdapter<String> adapter_categories = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_spinner_dropdown_item, items_categories);
                     category.setAdapter(adapter_categories);
 
                     category.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
                         @Override
                         public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                            str_category = items_categories[position];
-                            Log.d("Category", str_category);
-                            Log.d("Item Category", items_categories[position]);
+                            if(position != 0) {
+                                str_category = items_categories.get(position);
 
-                            BackgroundWorker backgroundWorkerTypes = new BackgroundWorker(getApplicationContext());
-                            backgroundWorkerTypes.execute("get types", str_category);
-
+                                BackgroundWorker backgroundWorkerTypes = new BackgroundWorker(getApplicationContext());
+                                backgroundWorkerTypes.execute("get types", str_category);
+                            }
                         }
 
                         @Override
@@ -170,8 +165,13 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
                 case "com.tiago.broadcast.GET_TYPES":
                     types = intent.getStringExtra("types");
 
+                    String initial_type = "Select Type";
+                    String[] types_string = types.split("--");
 
-                    items_types = types.split("--");
+                    items_types.clear();
+                    items_types.add(initial_type);
+                    items_types.addAll(Arrays.asList(types_string));
+
                     ArrayAdapter<String> adapter_types = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_spinner_dropdown_item, items_types);
                     type.setAdapter(adapter_types);
 
@@ -179,7 +179,9 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
                         @Override
                         public void onItemSelected(AdapterView<?> parent, View view,
                                                    int position, long id) {
-                                str_type = items_types[position];
+                            if(position != 0) {
+                                str_type = items_types.get(position);
+                            }
                         }
 
                         @Override
@@ -226,6 +228,8 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
         value.setText("");
         addCategory.setText("");
         addType.setText("");
+        dateView.setText("");
+        type.setAdapter(null);
 
         if(str_add_category.isEmpty()){
             // old category

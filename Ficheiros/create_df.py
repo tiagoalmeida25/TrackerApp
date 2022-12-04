@@ -3,8 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib import dates as mdates
 
-username = 'Tiago'
-
 def create_df(username):
 
     db = 'tiagoal1_tracker_app'
@@ -13,6 +11,7 @@ def create_df(username):
     df_user = pd.read_csv(db +ext+'/'+db+'_table_User'+ext)
     df_type = pd.read_csv(db +ext+'/'+db+'_table_Type'+ext)
     df_usercategory = pd.read_csv(db +ext+'/'+db+'_table_UserCategory'+ext)
+
     user_idx = df_user['user_name'].loc[df_user['user_name'] == username].index[0]
     user_id = df_user['user_id'][user_idx]
 
@@ -99,5 +98,5 @@ def create_df(username):
     df.columns = ['Category','Type','Item','Date']
     df = df.drop_duplicates(subset=['Date'], keep='first')
     df['Date'] = pd.to_datetime(df['Date'])
-    # drop repeteat in Item
+
     return df
