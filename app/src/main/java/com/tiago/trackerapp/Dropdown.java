@@ -41,8 +41,8 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
     String username = "";
     String categories = "";
     String types = "";
-    String str_category = "";
-    String str_type = "";
+    String str_category = "Select Category";
+    String str_type = "Select Type";
     EditText value, addCategory,addType;
     Spinner category, type;
     List<String> items_categories = new ArrayList<String>();
@@ -148,11 +148,15 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
                     category.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
                         @Override
                         public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                            str_category = "Select Category";
                             if(position != 0) {
                                 str_category = items_categories.get(position);
 
                                 BackgroundWorker backgroundWorkerTypes = new BackgroundWorker(getApplicationContext());
                                 backgroundWorkerTypes.execute("get types", str_category);
+                            }
+                            else{
+                                type.setAdapter(null);
                             }
                         }
 
@@ -177,8 +181,8 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
 
                     type.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
                         @Override
-                        public void onItemSelected(AdapterView<?> parent, View view,
-                                                   int position, long id) {
+                        public void onItemSelected(AdapterView<?> parent, View view,int position, long id) {
+                            str_type = "Select Type";
                             if(position != 0) {
                                 str_type = items_types.get(position);
                             }
@@ -219,47 +223,110 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
         String str_value = value.getText().toString();
         String str_add_category = addCategory.getText().toString();
         String str_add_type = addType.getText().toString();
+        String date = dateView.getText().toString();
         String mode = "save";
         String category_final = "";
         String type_final = "";
-
-        String date = dateView.getText().toString();
-
-        value.setText("");
-        addCategory.setText("");
-        addType.setText("");
-        dateView.setText("");
-        type.setAdapter(null);
+        boolean save = true;
 
         if(str_add_category.isEmpty()){
-            // old category
-            category_final = str_category;
-            if(str_add_type.isEmpty()){
-                // old type
-                type_final = str_type;
+            if(str_category.equals("Select Category") | str_category.isEmpty()){
+                android.app.AlertDialog alertDialog = new android.app.AlertDialog.Builder(this).create();
+                alertDialog.setTitle("Save Error");
+                alertDialog.setMessage("Select Category");
+                alertDialog.show();
+                save = false;
             }
-            else {
-                // new type for old category
-                type_final = str_add_type;
+            else{
+                // old category
+                category_final = str_category;
+                if(str_add_type.isEmpty()){
+                    // old type
+                    if(str_type.equals("Select Type") | str_type.isEmpty()){
+                        android.app.AlertDialog alertDialog = new android.app.AlertDialog.Builder(this).create();
+                        alertDialog.setTitle("Save Error");
+                        alertDialog.setMessage("Select Type");
+                        alertDialog.show();
+                        save = false;
+                    }
+                    else{
+                        type_final = str_type;
+                        if(str_value.isEmpty()){
+                            android.app.AlertDialog alertDialog = new android.app.AlertDialog.Builder(this).create();
+                            alertDialog.setTitle("Save Error");
+                            alertDialog.setMessage("Choose a Value");
+                            alertDialog.show();
+                            save = false;
+                        }
+                    }
+                }
+                else {
+                    // new type for old category
+                    type_final = str_add_type;
+                    if(str_value.isEmpty()){
+                        android.app.AlertDialog alertDialog = new android.app.AlertDialog.Builder(this).create();
+                        alertDialog.setTitle("Save Error");
+                        alertDialog.setMessage("Choose a Value");
+                        alertDialog.show();
+                        save = false;
+                    }
+                }
             }
         }
         else{
         // new category with the new type
             category_final = str_add_category;
-            type_final = str_add_type;
-
+            if(str_add_type.isEmpty()){
+                // old type
+                if(str_type.equals("Select Type")  | str_type.isEmpty()){
+                    android.app.AlertDialog alertDialog = new android.app.AlertDialog.Builder(this).create();
+                    alertDialog.setTitle("Save Error");
+                    alertDialog.setMessage("Select Type");
+                    alertDialog.show();
+                    save = false;
+                }
+                else{
+                    type_final = str_type;
+                    if(str_value.isEmpty()){
+                        android.app.AlertDialog alertDialog = new android.app.AlertDialog.Builder(this).create();
+                        alertDialog.setTitle("Save Error");
+                        alertDialog.setMessage("Choose a Value");
+                        alertDialog.show();
+                        save = false;
+                    }
+                }
+            }
+            else {
+                // new type for old category
+                type_final = str_add_type;
+                if(str_value.isEmpty()){
+                    android.app.AlertDialog alertDialog = new android.app.AlertDialog.Builder(this).create();
+                    alertDialog.setTitle("Save Error");
+                    alertDialog.setMessage("Choose a Value");
+                    alertDialog.show();
+                    save = false;
+                }
+            }
         }
 
-        if(date.isEmpty()) {
+        if(save){
             BackgroundWorker backgroundWorker = new BackgroundWorker(this);
-            backgroundWorker.execute(mode, category_final, type_final, str_value, username);
-        }
-        else{
-            BackgroundWorker backgroundWorker = new BackgroundWorker(this);
-            backgroundWorker.execute("save with time", category_final, type_final, str_value, date, username);
+            if(date.isEmpty()) {
+                backgroundWorker.execute(mode, category_final, type_final, str_value, username);
+                Log.d("Save No date","saved");
+            }
+            else {
+                Log.d("save with date","");
+                backgroundWorker.execute("save with time", category_final, type_final, str_value, date, username);
+            }
         }
 
         Log.d("After Save","saved");
+
+        value.setText("");
+        addCategory.setText("");
+        addType.setText("");
+        dateView.setText("");
 
         BackgroundWorker backgroundWorkerCategories = new BackgroundWorker(getApplicationContext());
         backgroundWorkerCategories.execute("get categories", username);
@@ -268,35 +335,53 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
         String str_add_category = addCategory.getText().toString();
         String str_add_type = addType.getText().toString();
         String mode = "display values";
-        String category_final = "";
-        String type_final = "";
+        Boolean show = true;
 
-        value.setText("");
-        addCategory.setText("");
-        addType.setText("");
-
-        if(str_add_category.isEmpty()){
-            // old category
-            category_final = str_category;
-            if(str_add_type.isEmpty()){
-                // old type
-                type_final = str_type;
+        if (str_category.equals("Select Category") | str_category.isEmpty()) {
+            android.app.AlertDialog alertDialog = new android.app.AlertDialog.Builder(this).create();
+            alertDialog.setTitle("Database");
+            alertDialog.setMessage("Select Category");
+            alertDialog.show();
+            show = false;
+        }
+        else {
+            if (str_type.isEmpty() | str_type.equals("Select Type")) {
+                android.app.AlertDialog alertDialog = new android.app.AlertDialog.Builder(this).create();
+                alertDialog.setTitle("Database");
+                alertDialog.setMessage("Select Type");
+                alertDialog.show();
+                show = false;
             }
             else {
-                AlertDialog alertDialog = new AlertDialog.Builder(getApplicationContext()).create();
-                alertDialog.setTitle("Database");
-                alertDialog.setMessage("New Type");
+                if (str_add_category.isEmpty()) {
+                    // old category
+                    if (!str_add_type.isEmpty()) {
+                        android.app.AlertDialog alertDialog = new android.app.AlertDialog.Builder(this).create();
+                        alertDialog.setTitle("Database");
+                        alertDialog.setMessage("New Type");
+                        alertDialog.show();
+                        show = false;
+                    }
+                }
+//                else {
+//                    android.app.AlertDialog alertDialog = new android.app.AlertDialog.Builder(this).create();
+//                    alertDialog.setTitle("Database");
+//                    alertDialog.setMessage("New Category");
+//                    alertDialog.show();
+//                    show = false;
+//                }
+
+                if (show) {
+                    BackgroundWorker backgroundWorker = new BackgroundWorker(this);
+                    backgroundWorker.execute(mode, str_category, str_type);
+
+                    value.setText("");
+                    addCategory.setText("");
+                    addType.setText("");
+                    dateView.setText("");
+                }
             }
         }
-        else{
-            AlertDialog alertDialog = new AlertDialog.Builder(getApplicationContext()).create();
-            alertDialog.setTitle("Database");
-            alertDialog.setMessage("New Category");
-
-        }
-
-        BackgroundWorker backgroundWorker = new BackgroundWorker(this);
-        backgroundWorker.execute(mode, type_final);
     }
 
 

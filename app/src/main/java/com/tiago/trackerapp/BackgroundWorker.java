@@ -204,8 +204,8 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
                 String post_data = URLEncoder.encode("user_name","UTF-8")+"="+URLEncoder.encode(username,"UTF-8")+
                         "&"+ URLEncoder.encode("category","UTF-8")+"="+URLEncoder.encode(category,"UTF-8")+
                         "&"+ URLEncoder.encode("type","UTF-8")+"="+URLEncoder.encode(stype,"UTF-8")+
-                        "&"+ URLEncoder.encode("date","UTF-8")+"="+URLEncoder.encode(date,"UTF-8")+
-                        "&"+ URLEncoder.encode("value","UTF-8")+"="+URLEncoder.encode(value,"UTF-8");
+                        "&"+ URLEncoder.encode("value","UTF-8")+"="+URLEncoder.encode(value,"UTF-8")+
+                        "&"+ URLEncoder.encode("date","UTF-8")+"="+URLEncoder.encode(date,"UTF-8");
 
                 bufferedWriter.write(post_data);
                 bufferedWriter.flush();
@@ -325,7 +325,8 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
         }
         else if(type.equals("display values")){
             try {
-                String s_type = params[1];
+                String s_category = params[1];
+                String s_type = params[2];
 
                 URL url = new URL(get_values_url);
 
@@ -338,7 +339,8 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
 
                 BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
 
-                String post_data = URLEncoder.encode("type","UTF-8")+"="+URLEncoder.encode(s_type,"UTF-8");
+                String post_data = URLEncoder.encode("category","UTF-8")+"="+URLEncoder.encode(s_category,"UTF-8")+
+                "&"+ URLEncoder.encode("type","UTF-8")+"="+URLEncoder.encode(s_type,"UTF-8");
 
                 bufferedWriter.write(post_data);
                 bufferedWriter.flush();
@@ -466,6 +468,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
     @Override
     protected void onPostExecute(String result) {
         if (result == null){
+            Log.d("Result Null","");
             alertDialog.setTitle("Error");
             alertDialog.setMessage("Error occurred");
             alertDialog.show();
@@ -474,43 +477,40 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
         {
             Intent i = new Intent("com.tiago.broadcast.REGISTER");
             i.putExtra("result",result);
+            Log.d("Result Register",result);
             context.sendBroadcast(i);
-//            Toast.makeText(context, result, Toast.LENGTH_LONG).show();
-//            Intent i = new Intent(context, Login.class);
-//            context.startActivity(i);
         }
         else if(result.contains("Login"))
         {
             Intent i = new Intent("com.tiago.broadcast.LOGIN");
             i.putExtra("result",result);
+            Log.d("Result Login",result);
             context.sendBroadcast(i);
-//            Intent i = new Intent(context,DataBase.class);
-//            i.putExtra("username", username);
-//            context.startActivity(i);
-
-//            alertDialog.setTitle("Login Status");
-//            alertDialog.setMessage(result);
-//            alertDialog.show();
         }
         else if(result.equals("Saved!"))
         {
             alertDialog.setTitle("Save Status");
+            Log.d("Result Saved",result);
             alertDialog.setMessage(result);
             alertDialog.show();
+//            send flag
         }
         else if(result.contains("»»")){
+            // Get categories display
             result = result.replace("»»","\n");
             alertDialog.setTitle("Categories");
             alertDialog.setMessage(result);
             alertDialog.show();
         }
         else if(result.contains("~~")){
+            // Get types display
             result = result.replace("~~","\n");
             alertDialog.setTitle("Types");
             alertDialog.setMessage(result);
             alertDialog.show();
         }
         else if(result.contains("##")){
+            // Get categories
             Intent intent = new Intent("com.tiago.broadcast.GET_CATEGORIES");
             intent.putExtra("categories", result);
             Log.d("Result Categories",result);
@@ -529,28 +529,19 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
             context.sendBroadcast(intent);
         }
         else if(result.contains("--")){
-//            result = result.replace("--","\n");
-//            alertDialog.setTitle("Types");
-//            alertDialog.setMessage(result);
+            // Get types
             Intent intent = new Intent("com.tiago.broadcast.GET_TYPES");
             intent.putExtra("types", result);
-            context.sendBroadcast(intent);
-        }
-        else if(result.contains("##")){
-            Intent intent = new Intent("com.tiago.broadcast.NO_TYPES");
-            intent.putExtra("types", result);
-            Log.d("Result Categories",result);
+            Log.d("Result types",result);
             context.sendBroadcast(intent);
         }
         else if(result.contains("..")){
+            // Get values
             result = result.replace("..","\n");
+            Log.d("Result Values",result);
             alertDialog.setTitle("Values");
             alertDialog.setMessage(result);
             alertDialog.show();
-//            Intent intent = new Intent();
-//            intent.setAction("com.tiago.broadcast.GET_TYPES");
-//            intent.putExtra("types", result);
-//            context.sendBroadcast(intent);
         }
         else{
             alertDialog.setTitle("Status");
@@ -558,7 +549,6 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
             Log.d("Result",result);
             alertDialog.show();
         }
-        Log.d("After Result",result);
 
     }
 

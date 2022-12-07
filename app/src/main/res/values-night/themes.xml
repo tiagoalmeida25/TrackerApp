@@ -2,22 +2,35 @@
     <!-- Base application theme. -->
     <style name="Theme.TrackerApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/dark_2</item>
+        <item name="colorPrimary">@color/blue_2</item>
         <item name="colorPrimaryVariant">@color/dark_1</item>
         <item name="colorOnPrimary">@color/dark_2</item>
         <item name="android:background">@color/dark_1</item>
         <item name="textFillColor">@color/dark_1</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">@color/dark_2</item>
-        <!-- Customize your theme here. -->
+        <item name="android:statusBarColor">@color/dark_2</item>
+        <item name="actionBarStyle">@style/AppTheme.ActionBar</item>
+    </style>
+
+    <style name="AppTheme.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:titleTextStyle">@style/AppTheme.ActionBar.TitleText</item>
+        <item name="titleTextStyle">@style/AppTheme.ActionBar.TitleText</item>
+        <item name="background">@color/blue_2</item>
+        <item name="android:height">150dp</item>
+        <item name="height">60dp</item>
+    </style>
+
+    <style name="AppTheme.ActionBar.TitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
     </style>
     <style name="Button.1" parent="Theme.AppCompat">
-        <item name="android:backgroundTint">@color/red_2</item>
+        <item name="android:backgroundTint">@color/blue_2</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textStyle">bold</item>
     </style>
     <style name="Button.2" parent="Theme.AppCompat">
-        <item name="android:backgroundTint">@color/red_1</item>
+        <item name="android:backgroundTint">@color/yellow</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textStyle">bold</item>
     </style>

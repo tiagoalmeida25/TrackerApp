@@ -2,32 +2,40 @@
     <!-- Base application theme. -->
     <style name="Theme.TrackerApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/light_2</item>
-        <item name="colorPrimaryVariant">@color/light_1</item>
-        <item name="colorOnPrimary">@color/light_2</item>
+        <item name="colorPrimary">@color/blue_2</item>
         <item name="android:background">@color/light_1</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">@color/light_2</item>
-        <!-- Customize your theme here. -->
+        <item name="android:statusBarColor">@color/light_2</item>
+        <item name="android:actionBarStyle">@style/AppTheme.ActionBar</item>
+<!--         Customize your theme here. -->
+<!--        <item name="actionBarStyle">@style/AppTheme.ActionBar</item>-->
     </style>
 
-    <style name="Theme.TrackerApp.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
+    <style name="AppTheme.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:titleTextStyle">@style/AppTheme.ActionBar.TitleText</item>
+        <item name="titleTextStyle">@style/AppTheme.ActionBar.TitleText</item>
+        <item name="background">@color/blue_2</item>
+        <item name="android:height">150dp</item>
+        <item name="height">50dp</item>
     </style>
 
-    <style name="Theme.TrackerApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar" />
+    <style name="AppTheme.ActionBar.TitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
 
-    <style name="Theme.TrackerApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+<!--    <style name="Theme.TrackerApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar" />-->
+
+<!--    <style name="Theme.TrackerApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
 
     <style name="Button.1" parent="Theme.AppCompat">
-        <item name="android:backgroundTint">@color/red_1</item>
+        <item name="android:backgroundTint">@color/blue_2</item>
         <item name="android:textColor">@color/light_1</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="Button.2" parent="Theme.AppCompat">
-        <item name="android:backgroundTint">@color/red_2</item>
+        <item name="android:backgroundTint">@color/yellow</item>
         <item name="android:textColor">@color/light_1</item>
         <item name="android:textStyle">bold</item>
     </style>
