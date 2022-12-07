@@ -33,7 +33,7 @@
 
     <Button
         android:id="@+id/btnLogin"
-        android:layout_width="125dp"
+        android:layout_width="200dp"
         android:layout_height="65dp"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -45,20 +45,20 @@
         app:layout_constraintTop_toBottomOf="@+id/etPassword"
         android:onClick="OnLogin"/>
 
-    <Button
-        android:id="@+id/btn_reg"
-        android:layout_width="125dp"
-        android:layout_height="65dp"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:text="Register"
-        style="@style/Button.2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnLogin"
-        app:layout_constraintVertical_bias="0.133"
-        android:onClick="OpenReg"/>
+<!--    <Button-->
+<!--        android:id="@+id/btn_reg"-->
+<!--        android:layout_width="125dp"-->
+<!--        android:layout_height="65dp"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:text="Register"-->
+<!--        style="@style/Button.2"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/btnLogin"-->
+<!--        app:layout_constraintVertical_bias="0.133"-->
+<!--        android:onClick="OpenReg"/>-->
 
     <TextView
         android:id="@+id/textView"
@@ -80,5 +80,17 @@
         app:layout_constraintStart_toStartOf="@+id/etPassword"
         android:textSize="30dp"
         android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No account? Create one!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin"
+        android:clickable="true"
+        android:onClick="OpenReg"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

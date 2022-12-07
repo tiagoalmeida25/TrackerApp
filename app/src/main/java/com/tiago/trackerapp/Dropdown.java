@@ -35,6 +35,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Stream;
 
 public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDateSetListener, TimePickerDialog.OnTimeSetListener {
@@ -79,9 +80,17 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
         setContentView(R.layout.activity_dropdown);
 
         onRegister();
-        Log.d("On create","on create");
 
-        activityResultLauncher.launch(new Intent(this, Login.class));
+        if(PreferenceUtils.getUsername(this) == null | PreferenceUtils.getUsername(this).equals("")){
+            activityResultLauncher.launch(new Intent(this, Login.class));
+        }
+        else{
+            username = PreferenceUtils.getUsername(this);
+            Log.d("Inicio",username);
+            BackgroundWorker backgroundWorkerCategories = new BackgroundWorker(getApplicationContext());
+            backgroundWorkerCategories.execute("get categories", username);
+            Toast.makeText(this, "Welcome back," + username + "!", Toast.LENGTH_LONG).show();
+        }
 
         dateView = findViewById(R.id.dateView);
         setTime = findViewById(R.id.btSetTime);
@@ -402,5 +411,10 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
         myMinute = minute;
         String time = myYear + "/" + myMonth + "/" + myDay + " " + myHour + ":" + myMinute;
         dateView.setText(time);
+    }
+
+    public void OnLogout (View View) {
+        PreferenceUtils.savePassword("",this);
+        PreferenceUtils.saveUsername("",this);
     }
 }

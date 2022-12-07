@@ -17,6 +17,7 @@ import android.widget.EditText;
 public class Login extends AppCompatActivity {
     EditText UsernameEt, PasswordEt;
     String username = "";
+    String password = "";
     BroadcastReceiverLoginService broadcastReceiver = new BroadcastReceiverLoginService();
 
     ActivityResultLauncher<Intent> activityResultLauncher = registerForActivityResult(
@@ -54,6 +55,9 @@ public class Login extends AppCompatActivity {
                     String result = intent.getStringExtra("result");
 
                     if(result.contains("Welcome")){
+                        PreferenceUtils.saveUsername(username,Login.this);
+                        PreferenceUtils.savePassword(password, Login.this);
+
                         Log.d("User in login",username);
                         Intent i = new Intent();
                         i.putExtra("result",result);
@@ -85,7 +89,7 @@ public class Login extends AppCompatActivity {
     }
     public void OnLogin (View View) {
         username = rtrim(UsernameEt.getText().toString());
-        String password = PasswordEt.getText().toString();
+        password = PasswordEt.getText().toString();
         String type = "login";
 
         UsernameEt.setText("");
