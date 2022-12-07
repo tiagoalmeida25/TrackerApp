@@ -81,10 +81,13 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
 
         onRegister();
 
-        if(PreferenceUtils.getUsername(this) == null | PreferenceUtils.getUsername(this).equals("")){
+        if(PreferenceUtils.getUsername(this) == null){
             activityResultLauncher.launch(new Intent(this, Login.class));
         }
         else{
+            if(PreferenceUtils.getUsername(this).equals("")){
+                activityResultLauncher.launch(new Intent(this, Login.class));
+            }
             username = PreferenceUtils.getUsername(this);
             Log.d("Inicio",username);
             BackgroundWorker backgroundWorkerCategories = new BackgroundWorker(getApplicationContext());
