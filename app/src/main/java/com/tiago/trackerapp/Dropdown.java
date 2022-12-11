@@ -419,5 +419,7 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
     public void OnLogout (View View) {
         PreferenceUtils.savePassword("",this);
         PreferenceUtils.saveUsername("",this);
+
+        activityResultLauncher.launch(new Intent(Dropdown.this, Login.class));
     }
 }
