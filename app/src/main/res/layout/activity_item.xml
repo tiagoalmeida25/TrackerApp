@@ -34,6 +34,7 @@
         android:layout_below="@+id/item_div"
         android:textSize="20sp"
         android:text="date"
+        android:textStyle="bold"
         android:layout_marginTop="25dp"/>
     <TextView
         android:layout_width="wrap_content"
@@ -43,17 +44,19 @@
         android:textSize="20sp"
         android:layout_below="@+id/textItemDate"
         android:text="type"
+        android:textStyle="bold"
         android:layout_marginTop="50dp"/>
 
     <TextView
         android:id="@+id/textItemCategory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="category"
         android:layout_below="@+id/textItemType"
-        android:textSize="20sp"
-        android:layout_marginTop="50dp"/>
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:text="category"
+        android:textStyle="bold"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/textView20"

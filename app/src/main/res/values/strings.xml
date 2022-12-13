@@ -18,4 +18,8 @@
     <string name="title_activity_data_base">DataBase</string>
     <string name="title_activity_show_data">ShowData</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_display_data">Display Data</string>
+    <string name="title_activity_preference_utils">PreferenceUtils</string>
+    <string name="title_activity_constants">Constants</string>
+    <string name="title_activity_item">Item</string>
 </resources>
