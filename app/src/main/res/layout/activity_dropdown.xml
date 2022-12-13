@@ -118,7 +118,7 @@
         android:id="@+id/btSeeDatabaseDrop"
         android:layout_width="150dp"
         android:layout_height="60dp"
-        android:onClick="OnSeeDataBase"
+        android:onClick="OnSeeData"
         android:text="See DataBase"
         android:textStyle="bold"
         android:textSize="18sp"

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Item">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textItem"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:text="Value"
+        android:layout_marginTop="75dp"/>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:id="@+id/item_div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textItem"
+        android:layout_margin="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textItemDate"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/item_div"
+        android:textSize="20sp"
+        android:text="date"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textItemType"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_below="@+id/textItemDate"
+        android:text="type"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/textItemCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="category"
+        android:layout_below="@+id/textItemType"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date: "
+        android:textSize="20dp"
+        android:layout_toLeftOf="@id/textItemDate"
+        android:layout_alignBaseline="@id/textItemDate"/>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type: "
+        android:textSize="20dp"
+        android:layout_toLeftOf="@id/textItemType"
+        android:layout_alignBaseline="@id/textItemType"/>
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category: "
+        android:textSize="20dp"
+        android:layout_toLeftOf="@id/textItemCategory"
+        android:layout_alignBaseline="@id/textItemCategory"/>
+
+<Button
+    android:layout_width="125dp"
+    android:layout_height="50dp"
+    android:id="@+id/itemDelete"
+    style="@style/Button.RED"
+    android:text="Delete"
+    android:textSize="20sp"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="75dp"
+    android:clickable="true"
+    android:onClick="OnDelete"/>
+
+</RelativeLayout>

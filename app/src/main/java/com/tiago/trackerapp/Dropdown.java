@@ -90,8 +90,10 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
             }
             username = PreferenceUtils.getUsername(this);
             Log.d("Inicio",username);
+
             BackgroundWorker backgroundWorkerCategories = new BackgroundWorker(getApplicationContext());
             backgroundWorkerCategories.execute("get categories", username);
+
             Toast.makeText(this, "Welcome back," + username + "!", Toast.LENGTH_LONG).show();
         }
 
@@ -343,6 +345,13 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
         BackgroundWorker backgroundWorkerCategories = new BackgroundWorker(getApplicationContext());
         backgroundWorkerCategories.execute("get categories", username);
     }
+
+    public void OnSeeData(View view){
+        Intent i = new Intent(this, DisplayData.class);
+        i.putExtra("username",username);
+        startActivity(i);
+    }
+
     public void OnSeeDataBase(View view) {
         String str_add_category = addCategory.getText().toString();
         String str_add_type = addType.getText().toString();

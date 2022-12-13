@@ -497,17 +497,19 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
         }
         else if(result.contains("»»")){
             // Get categories display
-            result = result.replace("»»","\n");
-            alertDialog.setTitle("Categories");
-            alertDialog.setMessage(result);
-            alertDialog.show();
+//            result = result.replace("»»","\n");
+            Intent intent = new Intent("com.tiago.broadcast.DISPLAY_CATEGORIES");
+            intent.putExtra("categories", result);
+            Log.d("Display categories",result);
+            context.sendBroadcast(intent);
         }
         else if(result.contains("~~")){
             // Get types display
-            result = result.replace("~~","\n");
-            alertDialog.setTitle("Types");
-            alertDialog.setMessage(result);
-            alertDialog.show();
+//            result = result.replace("~~","\n");
+            Intent intent = new Intent("com.tiago.broadcast.DISPLAY_TYPES");
+            intent.putExtra("types", result);
+            Log.d("Display types",result);
+            context.sendBroadcast(intent);
         }
         else if(result.contains("##")){
             // Get categories
@@ -535,13 +537,13 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
             Log.d("Result types",result);
             context.sendBroadcast(intent);
         }
-        else if(result.contains("..")){
+        else if(result.contains("ºº")){
             // Get values
-            result = result.replace("..","\n");
-            Log.d("Result Values",result);
-            alertDialog.setTitle("Values");
-            alertDialog.setMessage(result);
-            alertDialog.show();
+//            result = result.replace("..","\n");
+            Intent intent = new Intent("com.tiago.broadcast.DISPLAY_VALUES");
+            intent.putExtra("values", result);
+            Log.d("Display Values",result);
+            context.sendBroadcast(intent);
         }
         else{
             alertDialog.setTitle("Status");
