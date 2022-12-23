@@ -58,6 +58,7 @@ public class DisplayData extends AppCompatActivity {
         intentFilter.addAction("com.tiago.broadcast.DISPLAY_CATEGORIES");
         intentFilter.addAction("com.tiago.broadcast.DISPLAY_TYPES");
         intentFilter.addAction("com.tiago.broadcast.DISPLAY_VALUES");
+        intentFilter.addAction("com.tiago.broadcast.DELETE_VALUES");
 
         registerReceiver(broadcastReceiver, intentFilter);
     }
@@ -93,7 +94,6 @@ public class DisplayData extends AppCompatActivity {
 
                             }
                         });
-
 
                         break;
 
@@ -156,6 +156,12 @@ public class DisplayData extends AppCompatActivity {
                         });
 
                         break;
+                    case "com.tiago.broadcast.DELETE_VALUE":
+                        BackgroundWorker backgroundWorker = new BackgroundWorker(DisplayData.this);
+                        backgroundWorker.execute("display categories", username);
+
+                        break;
+
                 }
             }
         }

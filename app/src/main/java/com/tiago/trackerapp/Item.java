@@ -2,6 +2,7 @@ package com.tiago.trackerapp;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -51,17 +52,20 @@ public class Item extends AppCompatActivity {
 
     public void OnDelete(View view){
         new AlertDialog.Builder(this)
-            .setTitle("Really Delele Value?")
+            .setTitle("Delele Value?")
             .setMessage("Are you sure you want to delete?")
             .setNegativeButton(android.R.string.no, null)
             .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
 
                 public void onClick(DialogInterface arg0, int arg1) {
-                    Toast.makeText(Item.this, "Delete" + value, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Item.this, "Delete " + value, Toast.LENGTH_SHORT).show();
+
+                    BackgroundWorker backgroundWorkerCategories = new BackgroundWorker(getApplicationContext());
+                    backgroundWorkerCategories.execute("delete value", value, date, type, category);
+//
+//                    Intent i = new Intent(Item.this, DisplayData.class);
+//                    finish();
                 }
             }).create().show();
-
-//        BackgroundWorker backgroundWorkerCategories = new BackgroundWorker(getApplicationContext());
-//        backgroundWorkerCategories.execute("delete value", username, category, type, value);
     }
 }

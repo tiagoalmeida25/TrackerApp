@@ -1,0 +1,1502 @@
+[25-Nov-2022 18:03:23 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'tiagoal1_WPVHZ'@'box5318.bluehost.com' to database 'tiagoal1_tracker_app' in /home4/tiagoal1/public_html/tracker_app/conn.php:6
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/conn.php(6): mysqli_connect('162.241.226.49', 'tiagoal1_WPVHZ', 'database.Almeid...', 'tiagoal1_tracke...')
+#1 /home4/tiagoal1/public_html/tracker_app/login.php(2): require('/home4/tiagoal1...')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/conn.php on line 6
+[25-Nov-2022 18:03:42 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'tiagoal1_WPVHZ'@'box5318.bluehost.com' to database 'tiagoal1_tracker_app' in /home4/tiagoal1/public_html/tracker_app/conn.php:6
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/conn.php(6): mysqli_connect('162.241.226.49', 'tiagoal1_WPVHZ', 'database.Almeid...', 'tiagoal1_tracke...')
+#1 /home4/tiagoal1/public_html/tracker_app/login.php(2): require('/home4/tiagoal1...')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/conn.php on line 6
+[25-Nov-2022 18:03:44 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'tiagoal1_WPVHZ'@'box5318.bluehost.com' to database 'tiagoal1_tracker_app' in /home4/tiagoal1/public_html/tracker_app/conn.php:6
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/conn.php(6): mysqli_connect('162.241.226.49', 'tiagoal1_WPVHZ', 'database.Almeid...', 'tiagoal1_tracke...')
+#1 /home4/tiagoal1/public_html/tracker_app/login.php(2): require('/home4/tiagoal1...')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/conn.php on line 6
+[25-Nov-2022 18:03:50 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'tiagoal1_WPVHZ'@'box5318.bluehost.com' to database 'tiagoal1_tracker_app' in /home4/tiagoal1/public_html/tracker_app/conn.php:6
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/conn.php(6): mysqli_connect('162.241.226.49', 'tiagoal1_WPVHZ', 'database.Almeid...', 'tiagoal1_tracke...')
+#1 /home4/tiagoal1/public_html/tracker_app/login.php(2): require('/home4/tiagoal1...')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/conn.php on line 6
+[25-Nov-2022 18:03:55 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'tiagoal1_WPVHZ'@'box5318.bluehost.com' to database 'tiagoal1_tracker_app' in /home4/tiagoal1/public_html/tracker_app/conn.php:6
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/conn.php(6): mysqli_connect('162.241.226.49', 'tiagoal1_WPVHZ', 'database.Almeid...', 'tiagoal1_tracke...')
+#1 /home4/tiagoal1/public_html/tracker_app/register.php(2): require('/home4/tiagoal1...')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/conn.php on line 6
+[25-Nov-2022 18:04:24 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'tiagoal1_WPVHZ'@'box5318.bluehost.com' to database 'tiagoal1_tracker_app' in /home4/tiagoal1/public_html/tracker_app/conn.php:6
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/conn.php(6): mysqli_connect('162.241.226.49', 'tiagoal1_WPVHZ', 'database.Almeid...', 'tiagoal1_tracke...')
+#1 /home4/tiagoal1/public_html/tracker_app/register.php(2): require('/home4/tiagoal1...')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/conn.php on line 6
+[25-Nov-2022 18:04:43 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'tiagoal1_WPVHZ'@'box5318.bluehost.com' to database 'tiagoal1_tracker_app' in /home4/tiagoal1/public_html/tracker_app/conn.php:6
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/conn.php(6): mysqli_connect('162.241.226.49', 'tiagoal1_WPVHZ', 'database.Almeid...', 'tiagoal1_tracke...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/conn.php on line 6
+[25-Nov-2022 18:04:51 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'tiagoal1_WPVHZ'@'box5318.bluehost.com' to database 'tiagoal1_tracker_app' in /home4/tiagoal1/public_html/tracker_app/conn.php:6
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/conn.php(6): mysqli_connect('162.241.226.49', 'tiagoal1_WPVHZ', 'database.Almeid...', 'tiagoal1_tracke...')
+#1 /home4/tiagoal1/public_html/tracker_app/login.php(2): require('/home4/tiagoal1...')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/conn.php on line 6
+[25-Nov-2022 18:05:13 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'tiagoal1_WPVHZ'@'box5318.bluehost.com' to database 'tiagoal1_tracker_app' in /home4/tiagoal1/public_html/tracker_app/conn.php:6
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/conn.php(6): mysqli_connect('162.241.226.49', 'tiagoal1_WPVHZ', 'database.Almeid...', 'tiagoal1_tracke...')
+#1 /home4/tiagoal1/public_html/tracker_app/login.php(2): require('/home4/tiagoal1...')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/conn.php on line 6
+[25-Nov-2022 18:18:05 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'tiagoal1_WPVHZ'@'box5318.bluehost.com' to database 'tiagoal1_tracker_app' in /home4/tiagoal1/public_html/tracker_app/conn.php:6
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/conn.php(6): mysqli_connect('162.241.226.49', 'tiagoal1_WPVHZ', 'database.Almeid...', 'tiagoal1_tracke...')
+#1 /home4/tiagoal1/public_html/tracker_app/login.php(2): require('/home4/tiagoal1...')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/conn.php on line 6
+[25-Nov-2022 18:19:07 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'tiagoal1_WPVHZ'@'box5318.bluehost.com' to database 'tiagoal1_tracker_app' in /home4/tiagoal1/public_html/tracker_app/conn.php:6
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/conn.php(6): mysqli_connect('162.241.226.49', 'tiagoal1_WPVHZ', 'database.Almeid...', 'tiagoal1_tracke...')
+#1 /home4/tiagoal1/public_html/tracker_app/login.php(2): require('/home4/tiagoal1...')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/conn.php on line 6
+[25-Nov-2022 18:19:20 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'tiagoal1_WPVHZ'@'box5318.bluehost.com' to database 'tiagoal1_tracker_app' in /home4/tiagoal1/public_html/tracker_app/conn.php:6
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/conn.php(6): mysqli_connect('162.241.226.49', 'tiagoal1_WPVHZ', 'database.Almeid...', 'tiagoal1_tracke...')
+#1 /home4/tiagoal1/public_html/tracker_app/login.php(2): require('/home4/tiagoal1...')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/conn.php on line 6
+[25-Nov-2022 18:20:50 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/login.php on line 4
+[25-Nov-2022 18:20:50 America/Boise] PHP Warning:  Undefined array key "password" in /home4/tiagoal1/public_html/tracker_app/login.php on line 5
+[25-Nov-2022 18:20:50 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[25-Nov-2022 18:20:50 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[25-Nov-2022 18:21:13 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/login.php on line 4
+[25-Nov-2022 18:21:13 America/Boise] PHP Warning:  Undefined array key "password" in /home4/tiagoal1/public_html/tracker_app/login.php on line 5
+[25-Nov-2022 18:21:13 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[25-Nov-2022 18:21:13 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[25-Nov-2022 18:22:28 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/login.php on line 4
+[25-Nov-2022 18:22:28 America/Boise] PHP Warning:  Undefined array key "password" in /home4/tiagoal1/public_html/tracker_app/login.php on line 5
+[25-Nov-2022 18:22:28 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[25-Nov-2022 18:22:28 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[25-Nov-2022 18:29:19 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[25-Nov-2022 18:29:19 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[25-Nov-2022 18:42:04 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/register.php on line 7
+[25-Nov-2022 18:50:31 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/register.php on line 7
+[25-Nov-2022 18:50:31 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'user_name' in /home4/tiagoal1/public_html/tracker_app/register.php:9
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/register.php(9): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/register.php on line 9
+[25-Nov-2022 18:50:34 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/register.php on line 7
+[25-Nov-2022 18:50:34 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'user_name' in /home4/tiagoal1/public_html/tracker_app/register.php:9
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/register.php(9): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/register.php on line 9
+[25-Nov-2022 18:50:47 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/register.php on line 7
+[25-Nov-2022 18:50:47 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'user_name' in /home4/tiagoal1/public_html/tracker_app/register.php:9
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/register.php(9): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/register.php on line 9
+[25-Nov-2022 18:51:06 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/register.php on line 7
+[25-Nov-2022 18:51:06 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'user_name' in /home4/tiagoal1/public_html/tracker_app/register.php:9
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/register.php(9): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/register.php on line 9
+[25-Nov-2022 18:51:25 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/register.php on line 7
+[25-Nov-2022 18:51:25 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'user_name' in /home4/tiagoal1/public_html/tracker_app/register.php:9
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/register.php(9): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/register.php on line 9
+[25-Nov-2022 18:51:40 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/login.php on line 4
+[25-Nov-2022 18:51:40 America/Boise] PHP Warning:  Undefined array key "password" in /home4/tiagoal1/public_html/tracker_app/login.php on line 5
+[25-Nov-2022 18:51:40 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[25-Nov-2022 18:51:40 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[25-Nov-2022 18:51:46 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/register.php on line 4
+[25-Nov-2022 18:51:46 America/Boise] PHP Warning:  Undefined array key "password" in /home4/tiagoal1/public_html/tracker_app/register.php on line 5
+[25-Nov-2022 18:51:46 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/register.php on line 7
+[25-Nov-2022 18:51:46 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'user_name' in /home4/tiagoal1/public_html/tracker_app/register.php:9
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/register.php(9): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/register.php on line 9
+[25-Nov-2022 18:52:46 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/register.php on line 4
+[25-Nov-2022 18:52:46 America/Boise] PHP Warning:  Undefined array key "password" in /home4/tiagoal1/public_html/tracker_app/register.php on line 5
+[25-Nov-2022 18:52:46 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'user_name' in /home4/tiagoal1/public_html/tracker_app/register.php:9
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/register.php(9): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/register.php on line 9
+[25-Nov-2022 18:52:48 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/register.php on line 4
+[25-Nov-2022 18:52:48 America/Boise] PHP Warning:  Undefined array key "password" in /home4/tiagoal1/public_html/tracker_app/register.php on line 5
+[25-Nov-2022 18:52:48 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'user_name' in /home4/tiagoal1/public_html/tracker_app/register.php:9
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/register.php(9): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/register.php on line 9
+[25-Nov-2022 18:52:50 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/register.php on line 4
+[25-Nov-2022 18:52:50 America/Boise] PHP Warning:  Undefined array key "password" in /home4/tiagoal1/public_html/tracker_app/register.php on line 5
+[25-Nov-2022 18:52:50 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'user_name' in /home4/tiagoal1/public_html/tracker_app/register.php:9
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/register.php(9): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/register.php on line 9
+[25-Nov-2022 18:52:55 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/register.php on line 4
+[25-Nov-2022 18:52:55 America/Boise] PHP Warning:  Undefined array key "password" in /home4/tiagoal1/public_html/tracker_app/register.php on line 5
+[25-Nov-2022 18:52:55 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'user_name' in /home4/tiagoal1/public_html/tracker_app/register.php:9
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/register.php(9): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/register.php on line 9
+[25-Nov-2022 18:53:57 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/register.php on line 4
+[25-Nov-2022 18:53:57 America/Boise] PHP Warning:  Undefined array key "password" in /home4/tiagoal1/public_html/tracker_app/register.php on line 5
+[25-Nov-2022 18:53:57 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'user_name' in /home4/tiagoal1/public_html/tracker_app/register.php:9
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/register.php(9): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/register.php on line 9
+[25-Nov-2022 18:54:41 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/register.php on line 4
+[25-Nov-2022 18:54:41 America/Boise] PHP Warning:  Undefined array key "password" in /home4/tiagoal1/public_html/tracker_app/register.php on line 5
+[25-Nov-2022 18:54:41 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'user_name' in /home4/tiagoal1/public_html/tracker_app/register.php:9
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/register.php(9): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/register.php on line 9
+[25-Nov-2022 18:54:54 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/register.php on line 4
+[25-Nov-2022 18:54:54 America/Boise] PHP Warning:  Undefined array key "password" in /home4/tiagoal1/public_html/tracker_app/register.php on line 5
+[25-Nov-2022 18:54:54 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'user_name' in /home4/tiagoal1/public_html/tracker_app/register.php:9
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/register.php(9): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/register.php on line 9
+[25-Nov-2022 18:56:57 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/register.php on line 4
+[25-Nov-2022 18:56:57 America/Boise] PHP Warning:  Undefined array key "password" in /home4/tiagoal1/public_html/tracker_app/register.php on line 5
+[25-Nov-2022 19:08:46 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/login.php on line 4
+[25-Nov-2022 19:08:46 America/Boise] PHP Warning:  Undefined array key "password" in /home4/tiagoal1/public_html/tracker_app/login.php on line 5
+[25-Nov-2022 19:08:46 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[25-Nov-2022 19:08:46 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[25-Nov-2022 19:08:57 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/register.php on line 4
+[25-Nov-2022 19:08:57 America/Boise] PHP Warning:  Undefined array key "password" in /home4/tiagoal1/public_html/tracker_app/register.php on line 5
+[25-Nov-2022 19:12:43 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/register.php on line 4
+[25-Nov-2022 19:12:43 America/Boise] PHP Warning:  Undefined array key "password" in /home4/tiagoal1/public_html/tracker_app/register.php on line 5
+[25-Nov-2022 19:16:22 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/register.php on line 4
+[25-Nov-2022 19:16:22 America/Boise] PHP Warning:  Undefined array key "password" in /home4/tiagoal1/public_html/tracker_app/register.php on line 5
+[25-Nov-2022 19:16:36 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'test' for key 'user_name' in /home4/tiagoal1/public_html/tracker_app/register.php:16
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/register.php(16): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/register.php on line 16
+[25-Nov-2022 19:27:12 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/register.php on line 4
+[25-Nov-2022 19:27:12 America/Boise] PHP Warning:  Undefined array key "password" in /home4/tiagoal1/public_html/tracker_app/register.php on line 5
+[25-Nov-2022 19:28:56 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'Tiago' for key 'user_name' in /home4/tiagoal1/public_html/tracker_app/register.php:16
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/register.php(16): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/register.php on line 16
+[25-Nov-2022 19:29:43 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'Tiago5' for key 'user_name' in /home4/tiagoal1/public_html/tracker_app/register.php:16
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/register.php(16): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/register.php on line 16
+[25-Nov-2022 19:29:47 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'Tiago5' for key 'user_name' in /home4/tiagoal1/public_html/tracker_app/register.php:16
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/register.php(16): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/register.php on line 16
+[25-Nov-2022 19:33:20 America/Boise] PHP Warning:  Undefined array key "name" in /home4/tiagoal1/public_html/tracker_app/register.php on line 20
+[25-Nov-2022 19:33:20 America/Boise] PHP Warning:  Undefined array key "name" in /home4/tiagoal1/public_html/tracker_app/register.php on line 20
+[25-Nov-2022 19:33:43 America/Boise] PHP Warning:  Undefined array key "name" in /home4/tiagoal1/public_html/tracker_app/register.php on line 20
+[26-Nov-2022 09:11:36 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/login.php on line 4
+[26-Nov-2022 09:11:36 America/Boise] PHP Warning:  Undefined array key "password" in /home4/tiagoal1/public_html/tracker_app/login.php on line 5
+[26-Nov-2022 09:11:36 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:11:36 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:13:09 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/login.php on line 4
+[26-Nov-2022 09:13:09 America/Boise] PHP Warning:  Undefined array key "password" in /home4/tiagoal1/public_html/tracker_app/login.php on line 5
+[26-Nov-2022 09:13:09 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:13:09 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:19:26 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:19:26 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:19:26 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:19:26 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:19:26 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:19:26 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:19:27 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:19:27 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:28:54 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:28:54 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:34:30 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:34:30 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:37:20 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:37:20 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:37:29 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:37:29 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:37:34 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:37:34 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:37:37 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:37:37 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:37:40 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:37:40 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:37:42 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:37:42 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:38:05 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:38:05 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:38:30 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:38:30 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:38:35 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:38:35 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:38:37 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:38:37 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:38:53 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:38:53 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:46:50 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:46:50 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:46:50 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:46:50 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:46:56 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:46:56 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:47:03 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 09:47:03 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 10:18:22 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 10:18:22 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 10:18:29 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 10:18:30 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 15:11:37 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 15:11:37 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 15:18:44 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 15:18:44 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 15:18:44 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 15:18:44 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 15:19:06 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 15:19:06 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 15:19:08 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 15:19:08 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 15:19:11 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 15:19:11 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 15:19:41 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 15:19:41 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 15:19:47 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 15:19:47 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 15:19:57 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 15:19:57 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 15:20:03 America/Boise] PHP Warning:  Undefined variable $user_name in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 15:20:03 America/Boise] PHP Warning:  Undefined variable $user_pass in /home4/tiagoal1/public_html/tracker_app/login.php on line 6
+[26-Nov-2022 16:10:12 America/Boise] PHP Warning:  Undefined array key "password" in /home4/tiagoal1/public_html/tracker_app/register.php on line 5
+[26-Nov-2022 16:10:18 America/Boise] PHP Warning:  Undefined array key "password" in /home4/tiagoal1/public_html/tracker_app/register.php on line 5
+[26-Nov-2022 16:15:35 America/Boise] PHP Warning:  Undefined variable $username in /home4/tiagoal1/public_html/tracker_app/login.php on line 17
+[26-Nov-2022 16:26:01 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[26-Nov-2022 16:26:01 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:26:01 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:27:32 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[26-Nov-2022 16:27:32 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:27:32 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:28:10 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[26-Nov-2022 16:28:10 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:28:10 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:28:17 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[26-Nov-2022 16:28:17 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:28:17 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:28:22 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[26-Nov-2022 16:28:22 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:28:22 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:28:30 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[26-Nov-2022 16:28:30 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:28:30 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:29:18 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/save.php on line 4
+[26-Nov-2022 16:29:18 America/Boise] PHP Warning:  Undefined array key "category" in /home4/tiagoal1/public_html/tracker_app/save.php on line 5
+[26-Nov-2022 16:29:18 America/Boise] PHP Warning:  Undefined array key "type" in /home4/tiagoal1/public_html/tracker_app/save.php on line 6
+[26-Nov-2022 16:29:18 America/Boise] PHP Warning:  Undefined array key "value" in /home4/tiagoal1/public_html/tracker_app/save.php on line 7
+[26-Nov-2022 16:29:18 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[26-Nov-2022 16:29:18 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:29:18 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:29:47 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/save.php on line 4
+[26-Nov-2022 16:29:47 America/Boise] PHP Warning:  Undefined array key "category" in /home4/tiagoal1/public_html/tracker_app/save.php on line 5
+[26-Nov-2022 16:29:47 America/Boise] PHP Warning:  Undefined array key "type" in /home4/tiagoal1/public_html/tracker_app/save.php on line 6
+[26-Nov-2022 16:29:47 America/Boise] PHP Warning:  Undefined array key "value" in /home4/tiagoal1/public_html/tracker_app/save.php on line 7
+[26-Nov-2022 16:29:47 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[26-Nov-2022 16:29:47 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:29:47 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:30:06 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/save.php on line 4
+[26-Nov-2022 16:30:06 America/Boise] PHP Warning:  Undefined array key "category" in /home4/tiagoal1/public_html/tracker_app/save.php on line 5
+[26-Nov-2022 16:30:06 America/Boise] PHP Warning:  Undefined array key "type" in /home4/tiagoal1/public_html/tracker_app/save.php on line 6
+[26-Nov-2022 16:30:06 America/Boise] PHP Warning:  Undefined array key "value" in /home4/tiagoal1/public_html/tracker_app/save.php on line 7
+[26-Nov-2022 16:30:06 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[26-Nov-2022 16:30:06 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:30:06 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:32:42 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[26-Nov-2022 16:32:42 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:32:42 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:33:22 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[26-Nov-2022 16:33:22 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:33:22 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:33:25 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[26-Nov-2022 16:33:25 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:33:25 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:33:27 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[26-Nov-2022 16:33:27 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:33:27 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:33:48 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[26-Nov-2022 16:33:48 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:33:48 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:35:22 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[26-Nov-2022 16:35:22 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:35:22 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:35:28 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[26-Nov-2022 16:35:28 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:35:28 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:36:18 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/save.php on line 4
+[26-Nov-2022 16:36:18 America/Boise] PHP Warning:  Undefined array key "category" in /home4/tiagoal1/public_html/tracker_app/save.php on line 5
+[26-Nov-2022 16:36:18 America/Boise] PHP Warning:  Undefined array key "type" in /home4/tiagoal1/public_html/tracker_app/save.php on line 6
+[26-Nov-2022 16:36:18 America/Boise] PHP Warning:  Undefined array key "value" in /home4/tiagoal1/public_html/tracker_app/save.php on line 7
+[26-Nov-2022 16:36:18 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[26-Nov-2022 16:36:18 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:36:18 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:38:14 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[26-Nov-2022 16:38:14 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:38:14 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:41:52 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[26-Nov-2022 16:41:52 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:41:52 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:44:30 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[26-Nov-2022 16:44:30 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:44:30 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:44:40 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[26-Nov-2022 16:44:40 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[26-Nov-2022 16:44:40 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:12:44 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[27-Nov-2022 07:12:44 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:12:44 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:12:53 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[27-Nov-2022 07:12:53 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:12:53 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:19:13 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[27-Nov-2022 07:19:13 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:19:13 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:23:32 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[27-Nov-2022 07:23:32 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:23:32 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:26:25 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[27-Nov-2022 07:26:25 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:26:25 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:26:26 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[27-Nov-2022 07:26:26 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:26:26 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:26:26 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[27-Nov-2022 07:26:26 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:26:26 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:27:40 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[27-Nov-2022 07:27:40 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:27:40 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:38:44 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[27-Nov-2022 07:38:44 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:38:44 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:49:01 America/Boise] PHP Warning:  Undefined variable $category in /home4/tiagoal1/public_html/tracker_app/save.php on line 11
+[27-Nov-2022 07:49:01 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[27-Nov-2022 07:49:01 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:49:01 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:49:08 America/Boise] PHP Warning:  Undefined variable $category in /home4/tiagoal1/public_html/tracker_app/save.php on line 11
+[27-Nov-2022 07:49:08 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[27-Nov-2022 07:49:08 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:49:08 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:49:46 America/Boise] PHP Warning:  Undefined variable $category in /home4/tiagoal1/public_html/tracker_app/save.php on line 11
+[27-Nov-2022 07:49:46 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[27-Nov-2022 07:49:46 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:49:46 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:49:54 America/Boise] PHP Warning:  Undefined variable $category in /home4/tiagoal1/public_html/tracker_app/save.php on line 11
+[27-Nov-2022 07:49:54 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[27-Nov-2022 07:49:54 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:49:54 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:54:21 America/Boise] PHP Warning:  Undefined variable $category in /home4/tiagoal1/public_html/tracker_app/save.php on line 11
+[27-Nov-2022 07:54:21 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 11
+[27-Nov-2022 07:54:21 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[27-Nov-2022 07:54:21 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:54:21 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:54:28 America/Boise] PHP Warning:  Undefined variable $category in /home4/tiagoal1/public_html/tracker_app/save.php on line 11
+[27-Nov-2022 07:54:28 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 11
+[27-Nov-2022 07:54:28 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 55
+[27-Nov-2022 07:54:28 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:54:28 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:56
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(56): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:55:52 America/Boise] PHP Warning:  Undefined variable $category in /home4/tiagoal1/public_html/tracker_app/save.php on line 12
+[27-Nov-2022 07:55:52 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 12
+[27-Nov-2022 07:55:52 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 07:55:52 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 57
+[27-Nov-2022 07:55:52 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:57
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(57): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(98): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 57
+[27-Nov-2022 08:01:21 America/Boise] PHP Warning:  Undefined variable $category in /home4/tiagoal1/public_html/tracker_app/save.php on line 12
+[27-Nov-2022 08:01:21 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 12
+[27-Nov-2022 08:01:21 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 08:01:21 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 57
+[27-Nov-2022 08:01:21 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:57
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(57): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(98): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 57
+[27-Nov-2022 08:02:05 America/Boise] PHP Warning:  Undefined variable $category in /home4/tiagoal1/public_html/tracker_app/save.php on line 12
+[27-Nov-2022 08:02:05 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 12
+[27-Nov-2022 08:02:05 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 08:02:05 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 57
+[27-Nov-2022 08:02:05 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:57
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(57): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(98): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 57
+[27-Nov-2022 08:03:03 America/Boise] PHP Warning:  Undefined variable $category in /home4/tiagoal1/public_html/tracker_app/save.php on line 12
+[27-Nov-2022 08:03:03 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 12
+[27-Nov-2022 08:03:03 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 08:03:03 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 57
+[27-Nov-2022 08:03:03 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:57
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(57): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(98): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 57
+[27-Nov-2022 08:04:08 America/Boise] PHP Warning:  Undefined variable $category in /home4/tiagoal1/public_html/tracker_app/save.php on line 12
+[27-Nov-2022 08:04:08 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 12
+[27-Nov-2022 08:04:08 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 08:04:08 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 57
+[27-Nov-2022 08:04:08 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:57
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(57): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(98): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 57
+[27-Nov-2022 08:04:25 America/Boise] PHP Warning:  Undefined variable $category in /home4/tiagoal1/public_html/tracker_app/save.php on line 12
+[27-Nov-2022 08:04:25 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 12
+[27-Nov-2022 08:04:25 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 08:04:25 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 57
+[27-Nov-2022 08:04:25 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:57
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(57): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(98): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 57
+[27-Nov-2022 08:05:25 America/Boise] PHP Warning:  Undefined variable $category in /home4/tiagoal1/public_html/tracker_app/save.php on line 12
+[27-Nov-2022 08:05:25 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 12
+[27-Nov-2022 08:05:25 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 08:05:25 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 57
+[27-Nov-2022 08:05:25 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:57
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(57): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(98): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 57
+[27-Nov-2022 08:08:45 America/Boise] PHP Warning:  Undefined variable $category in /home4/tiagoal1/public_html/tracker_app/save.php on line 12
+[27-Nov-2022 08:08:45 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 12
+[27-Nov-2022 08:08:45 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 56
+[27-Nov-2022 08:08:45 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 57
+[27-Nov-2022 08:08:45 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:57
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(57): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(98): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 57
+[27-Nov-2022 08:12:57 America/Boise] PHP Warning:  Undefined variable $category in /home4/tiagoal1/public_html/tracker_app/save.php on line 13
+[27-Nov-2022 08:12:57 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 13
+[27-Nov-2022 08:12:57 America/Boise] PHP Warning:  Undefined variable $user in /home4/tiagoal1/public_html/tracker_app/save.php on line 57
+[27-Nov-2022 08:12:57 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 58
+[27-Nov-2022 08:12:57 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:58
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(58): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(99): get_user_id()
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 58
+[27-Nov-2022 08:13:59 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 58
+[27-Nov-2022 08:13:59 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:58
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(58): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(99): get_user_id('Test')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 58
+[27-Nov-2022 08:14:31 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:14:31 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:23
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(23): mysqli_query(NULL, 'select * from C...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(98): get_category_id('a', 'b', 'c')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:14:38 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:14:38 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:23
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(23): mysqli_query(NULL, 'select * from C...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(98): get_category_id('a', 'b', 'c')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:15:11 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:15:11 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:23
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(23): mysqli_query(NULL, 'select * from C...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(98): get_category_id('a', 'b', 'c')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:16:12 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:16:12 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:23
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(23): mysqli_query(NULL, 'select * from C...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(98): get_category_id('a', 'b', 'c')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:18:09 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:18:09 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:23
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(23): mysqli_query(NULL, 'select * from C...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(99): get_category_id('a', 'b', 'c')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:18:13 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:18:13 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:23
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(23): mysqli_query(NULL, 'select * from C...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(99): get_category_id('a', 'b', 'c')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:18:29 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:18:29 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:23
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(23): mysqli_query(NULL, 'select * from C...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(100): get_category_id('a', 'b', 'c')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:18:57 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:18:57 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:23
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(23): mysqli_query(NULL, 'select * from C...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(100): get_category_id('a', 'b', 'c')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:19:07 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:19:07 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:23
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(23): mysqli_query(NULL, 'select * from C...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(100): get_category_id('a', 'b', 'c')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:19:14 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:19:14 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:23
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(23): mysqli_query(NULL, 'select * from C...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(100): get_category_id('a', 'b', 'c')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:20:33 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:20:33 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:23
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(23): mysqli_query(NULL, 'select * from C...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(100): get_category_id('a', 'h', 'c')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:22:19 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:22:19 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:23
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(23): mysqli_query(NULL, 'select * from C...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(100): get_category_id('a', 'h', 'c')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:22:21 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:22:21 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:23
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(23): mysqli_query(NULL, 'select * from C...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(100): get_category_id('a', 'h', 'c')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:25:12 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:25:12 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:23
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(23): mysqli_query(NULL, 'select * from C...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(100): get_category_id('a', 'h', 'c')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 23
+[27-Nov-2022 08:28:45 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/save.php on line 4
+[27-Nov-2022 08:28:45 America/Boise] PHP Warning:  Undefined array key "category" in /home4/tiagoal1/public_html/tracker_app/save.php on line 5
+[27-Nov-2022 08:28:45 America/Boise] PHP Warning:  Undefined array key "type" in /home4/tiagoal1/public_html/tracker_app/save.php on line 6
+[27-Nov-2022 08:28:45 America/Boise] PHP Warning:  Undefined array key "value" in /home4/tiagoal1/public_html/tracker_app/save.php on line 7
+[27-Nov-2022 08:28:45 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 60
+[27-Nov-2022 08:28:45 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:60
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(60): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(104): get_user_id(NULL)
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 60
+[27-Nov-2022 08:29:19 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/save.php on line 4
+[27-Nov-2022 08:29:19 America/Boise] PHP Warning:  Undefined array key "value" in /home4/tiagoal1/public_html/tracker_app/save.php on line 9
+[27-Nov-2022 08:29:19 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 57
+[27-Nov-2022 08:29:19 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:57
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(57): mysqli_query(NULL, 'select * from U...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(101): get_user_id(NULL)
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 57
+[27-Nov-2022 08:29:59 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/save.php on line 4
+[27-Nov-2022 08:29:59 America/Boise] PHP Warning:  Undefined array key "type" in /home4/tiagoal1/public_html/tracker_app/save.php on line 6
+[27-Nov-2022 08:29:59 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 25
+[27-Nov-2022 08:29:59 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:25
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(25): mysqli_query(NULL, 'select * from C...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_category_id('a', NULL, 'b')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 25
+[27-Nov-2022 08:30:34 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/save.php on line 4
+[27-Nov-2022 08:30:34 America/Boise] PHP Warning:  Undefined array key "type" in /home4/tiagoal1/public_html/tracker_app/save.php on line 6
+[27-Nov-2022 08:30:34 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 27
+[27-Nov-2022 08:30:34 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:27
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(27): mysqli_query(NULL, 'select * from C...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(99): get_category_id('a', NULL, 'b')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 27
+[27-Nov-2022 08:34:24 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/save.php on line 4
+[27-Nov-2022 08:34:24 America/Boise] PHP Warning:  Undefined array key "type" in /home4/tiagoal1/public_html/tracker_app/save.php on line 7
+[27-Nov-2022 08:34:24 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 27
+[27-Nov-2022 08:34:24 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:27
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(27): mysqli_query(NULL, 'SELECT * FROM `...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(101): get_category_id('a', NULL, 'b')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 27
+[27-Nov-2022 08:36:53 America/Boise] PHP Parse error:  syntax error, unexpected token "<" in /home4/tiagoal1/public_html/tracker_app/save.php on line 14
+[27-Nov-2022 08:37:17 America/Boise] PHP Parse error:  syntax error, unexpected token "<" in /home4/tiagoal1/public_html/tracker_app/save.php on line 14
+[27-Nov-2022 08:37:28 America/Boise] PHP Parse error:  syntax error, unexpected token "<" in /home4/tiagoal1/public_html/tracker_app/save.php on line 14
+[27-Nov-2022 08:37:29 America/Boise] PHP Parse error:  syntax error, unexpected token "<" in /home4/tiagoal1/public_html/tracker_app/save.php on line 14
+[27-Nov-2022 08:38:57 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 31
+[27-Nov-2022 08:38:57 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:31
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(31): mysqli_query(NULL, 'SELECT * FROM `...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(105): get_category_id('a', 'b', 'c')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 31
+[27-Nov-2022 08:40:46 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 31
+[27-Nov-2022 08:40:46 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:31
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(31): mysqli_query(NULL, 'SELECT * FROM '...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(105): get_category_id('a', 'b', 'c')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 31
+[27-Nov-2022 08:41:03 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 31
+[27-Nov-2022 08:41:03 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:31
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(31): mysqli_query(NULL, 'SELECT * FROM '...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(105): get_category_id('a', 'b', 'c')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 31
+[27-Nov-2022 08:41:05 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 31
+[27-Nov-2022 08:41:05 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:31
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(31): mysqli_query(NULL, 'SELECT * FROM '...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(105): get_category_id('a', 'b', 'c')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 31
+[27-Nov-2022 08:41:06 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 31
+[27-Nov-2022 08:41:06 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:31
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(31): mysqli_query(NULL, 'SELECT * FROM '...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(105): get_category_id('a', 'b', 'c')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 31
+[27-Nov-2022 08:41:07 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 31
+[27-Nov-2022 08:41:07 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:31
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(31): mysqli_query(NULL, 'SELECT * FROM '...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(105): get_category_id('a', 'b', 'c')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 31
+[27-Nov-2022 08:49:58 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/register.php on line 4
+[27-Nov-2022 08:49:58 America/Boise] PHP Warning:  Undefined array key "password" in /home4/tiagoal1/public_html/tracker_app/register.php on line 5
+[27-Nov-2022 08:50:23 America/Boise] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /home4/tiagoal1/public_html/tracker_app/register.php:23
+Stack trace:
+#0 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/register.php on line 23
+[27-Nov-2022 08:50:26 America/Boise] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /home4/tiagoal1/public_html/tracker_app/register.php:23
+Stack trace:
+#0 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/register.php on line 23
+[27-Nov-2022 08:58:00 America/Boise] PHP Warning:  Undefined variable $conn in /home4/tiagoal1/public_html/tracker_app/save.php on line 31
+[27-Nov-2022 08:58:00 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/tiagoal1/public_html/tracker_app/save.php:31
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(31): mysqli_query(NULL, 'SELECT * FROM C...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(105): get_category_id('a', 'b', 'c')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 31
+[27-Nov-2022 09:00:14 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'a' in 'field list' in /home4/tiagoal1/public_html/tracker_app/save.php:44
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(44): mysqli->query('insert into Cat...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(105): get_category_id(Object(mysqli), 'a', 'b', 'c')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 44
+[27-Nov-2022 09:05:15 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'a' in 'field list' in /home4/tiagoal1/public_html/tracker_app/save.php:41
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(41): mysqli->query('insert into Cat...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(102): get_category_id(Object(mysqli), 'a', 'b', 'c')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 41
+[27-Nov-2022 09:07:30 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 69
+[27-Nov-2022 09:07:30 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 79
+[27-Nov-2022 09:07:30 America/Boise] PHP Warning:  Undefined variable $category_id in /home4/tiagoal1/public_html/tracker_app/save.php on line 79
+[27-Nov-2022 09:07:30 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tiagoal1_tracker_app`.`Type`, CONSTRAINT `fk_category_id_type_id` FOREIGN KEY (`category_id`) REFERENCES `Category` (`category_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home4/tiagoal1/public_html/tracker_app/save.php:81
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(81): mysqli->query('insert into Typ...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(110): get_type_id(Object(mysqli), '1')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 81
+[27-Nov-2022 09:07:36 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 69
+[27-Nov-2022 09:07:36 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 79
+[27-Nov-2022 09:07:36 America/Boise] PHP Warning:  Undefined variable $category_id in /home4/tiagoal1/public_html/tracker_app/save.php on line 79
+[27-Nov-2022 09:07:36 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tiagoal1_tracker_app`.`Type`, CONSTRAINT `fk_category_id_type_id` FOREIGN KEY (`category_id`) REFERENCES `Category` (`category_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home4/tiagoal1/public_html/tracker_app/save.php:81
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(81): mysqli->query('insert into Typ...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(110): get_type_id(Object(mysqli), '1')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 81
+[27-Nov-2022 09:12:10 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 69
+[27-Nov-2022 09:12:10 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 79
+[27-Nov-2022 09:12:10 America/Boise] PHP Warning:  Undefined variable $category_id in /home4/tiagoal1/public_html/tracker_app/save.php on line 79
+[27-Nov-2022 09:12:10 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tiagoal1_tracker_app`.`Type`, CONSTRAINT `fk_category_id_type_id` FOREIGN KEY (`category_id`) REFERENCES `Category` (`category_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home4/tiagoal1/public_html/tracker_app/save.php:81
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(81): mysqli->query('insert into Typ...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(110): get_type_id(Object(mysqli), '1')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 81
+[27-Nov-2022 09:12:15 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 69
+[27-Nov-2022 09:12:15 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 79
+[27-Nov-2022 09:12:15 America/Boise] PHP Warning:  Undefined variable $category_id in /home4/tiagoal1/public_html/tracker_app/save.php on line 79
+[27-Nov-2022 09:12:15 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tiagoal1_tracker_app`.`Type`, CONSTRAINT `fk_category_id_type_id` FOREIGN KEY (`category_id`) REFERENCES `Category` (`category_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home4/tiagoal1/public_html/tracker_app/save.php:81
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(81): mysqli->query('insert into Typ...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(110): get_type_id(Object(mysqli), '1')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 81
+[27-Nov-2022 09:14:36 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 69
+[27-Nov-2022 09:14:36 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 79
+[27-Nov-2022 09:14:36 America/Boise] PHP Warning:  Undefined variable $category_id in /home4/tiagoal1/public_html/tracker_app/save.php on line 79
+[27-Nov-2022 09:14:36 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tiagoal1_tracker_app`.`Type`, CONSTRAINT `fk_category_id_type_id` FOREIGN KEY (`category_id`) REFERENCES `Category` (`category_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home4/tiagoal1/public_html/tracker_app/save.php:81
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(81): mysqli->query('insert into Typ...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(110): get_type_id(Object(mysqli), '1')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 81
+[27-Nov-2022 09:15:24 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 69
+[27-Nov-2022 09:15:24 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 79
+[27-Nov-2022 09:15:24 America/Boise] PHP Warning:  Undefined variable $category_id in /home4/tiagoal1/public_html/tracker_app/save.php on line 79
+[27-Nov-2022 09:15:24 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tiagoal1_tracker_app`.`Type`, CONSTRAINT `fk_category_id_type_id` FOREIGN KEY (`category_id`) REFERENCES `Category` (`category_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home4/tiagoal1/public_html/tracker_app/save.php:81
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(81): mysqli->query('insert into Typ...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(110): get_type_id(Object(mysqli), '1')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 81
+[27-Nov-2022 09:15:26 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 69
+[27-Nov-2022 09:15:26 America/Boise] PHP Warning:  Undefined variable $type in /home4/tiagoal1/public_html/tracker_app/save.php on line 79
+[27-Nov-2022 09:15:26 America/Boise] PHP Warning:  Undefined variable $category_id in /home4/tiagoal1/public_html/tracker_app/save.php on line 79
+[27-Nov-2022 09:15:26 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tiagoal1_tracker_app`.`Type`, CONSTRAINT `fk_category_id_type_id` FOREIGN KEY (`category_id`) REFERENCES `Category` (`category_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home4/tiagoal1/public_html/tracker_app/save.php:81
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(81): mysqli->query('insert into Typ...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(110): get_type_id(Object(mysqli), '1')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 81
+[27-Nov-2022 09:17:24 America/Boise] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_type_id(), 2 passed in /home4/tiagoal1/public_html/tracker_app/save.php on line 108 and exactly 3 expected in /home4/tiagoal1/public_html/tracker_app/save.php:68
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(108): get_type_id(Object(mysqli), '1')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 68
+[27-Nov-2022 09:17:42 America/Boise] PHP Warning:  Undefined variable $mysql_qry in /home4/tiagoal1/public_html/tracker_app/save.php on line 123
+[27-Nov-2022 09:17:42 America/Boise] PHP Fatal error:  Uncaught ValueError: mysqli::query(): Argument #1 ($query) cannot be empty in /home4/tiagoal1/public_html/tracker_app/save.php:123
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(123): mysqli->query('')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 123
+[27-Nov-2022 09:18:04 America/Boise] PHP Warning:  Undefined variable $mysql_qry in /home4/tiagoal1/public_html/tracker_app/save.php on line 123
+[27-Nov-2022 09:18:04 America/Boise] PHP Fatal error:  Uncaught ValueError: mysqli::query(): Argument #1 ($query) cannot be empty in /home4/tiagoal1/public_html/tracker_app/save.php:123
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(123): mysqli->query('')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 123
+[27-Nov-2022 09:18:33 America/Boise] PHP Warning:  Undefined variable $mysql_qry in /home4/tiagoal1/public_html/tracker_app/save.php on line 124
+[27-Nov-2022 09:18:33 America/Boise] PHP Fatal error:  Uncaught ValueError: mysqli::query(): Argument #1 ($query) cannot be empty in /home4/tiagoal1/public_html/tracker_app/save.php:124
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(124): mysqli->query('')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 124
+[27-Nov-2022 09:19:02 America/Boise] PHP Warning:  Undefined variable $mysql_qry in /home4/tiagoal1/public_html/tracker_app/save.php on line 122
+[27-Nov-2022 09:19:02 America/Boise] PHP Fatal error:  Uncaught ValueError: mysqli::query(): Argument #1 ($query) cannot be empty in /home4/tiagoal1/public_html/tracker_app/save.php:122
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(122): mysqli->query('')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 122
+[27-Nov-2022 09:34:47 America/Boise] PHP Warning:  Undefined variable $username in /home4/tiagoal1/public_html/tracker_app/login.php on line 17
+[27-Nov-2022 09:36:38 America/Boise] PHP Warning:  Undefined variable $username in /home4/tiagoal1/public_html/tracker_app/login.php on line 17
+[27-Nov-2022 09:46:40 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/save.php on line 4
+[27-Nov-2022 09:46:40 America/Boise] PHP Warning:  Undefined array key "category" in /home4/tiagoal1/public_html/tracker_app/save.php on line 5
+[27-Nov-2022 09:46:40 America/Boise] PHP Warning:  Undefined array key "value" in /home4/tiagoal1/public_html/tracker_app/save.php on line 6
+[27-Nov-2022 09:46:40 America/Boise] PHP Warning:  Undefined array key "type" in /home4/tiagoal1/public_html/tracker_app/save.php on line 7
+[27-Nov-2022 09:46:40 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/save.php on line 77
+[27-Nov-2022 09:46:40 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tiagoal1_tracker_app`.`Type`, CONSTRAINT `fk_category_id_type_id` FOREIGN KEY (`category_id`) REFERENCES `Category` (`category_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home4/tiagoal1/public_html/tracker_app/save.php:93
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(93): mysqli->query('insert into Typ...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(113): get_type_id(Object(mysqli), NULL, NULL)
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 93
+[27-Nov-2022 09:57:16 America/Boise] PHP Warning:  Undefined variable $username in /home4/tiagoal1/public_html/tracker_app/login.php on line 17
+[28-Nov-2022 14:34:12 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "result" in /home4/tiagoal1/public_html/tracker_app/get_data.php:11
+Stack trace:
+#0 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 11
+[28-Nov-2022 14:35:48 America/Boise] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /home4/tiagoal1/public_html/tracker_app/get_data.php:11
+Stack trace:
+#0 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 11
+[28-Nov-2022 14:36:43 America/Boise] PHP Warning:  Array to string conversion in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 11
+[28-Nov-2022 14:40:42 America/Boise] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in /home4/tiagoal1/public_html/tracker_app/get_data.php:13
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/get_data.php(13): printf('%s (%s)\n', 'Contas')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 13
+[28-Nov-2022 14:46:24 America/Boise] PHP Warning:  Undefined variable $categores in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:46:24 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:46:24 America/Boise] PHP Warning:  Undefined variable $categores in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:46:24 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:46:24 America/Boise] PHP Warning:  Undefined variable $categores in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:46:24 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:46:24 America/Boise] PHP Warning:  Undefined variable $categores in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:46:24 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:46:24 America/Boise] PHP Warning:  Undefined variable $categores in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:46:24 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:46:24 America/Boise] PHP Warning:  Undefined variable $categores in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:46:24 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:47:06 America/Boise] PHP Warning:  Undefined variable $categores in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:47:06 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:47:06 America/Boise] PHP Warning:  Undefined variable $categores in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:47:06 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:47:06 America/Boise] PHP Warning:  Undefined variable $categores in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:47:06 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:47:06 America/Boise] PHP Warning:  Undefined variable $categores in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:47:06 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:47:06 America/Boise] PHP Warning:  Undefined variable $categores in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:47:06 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:47:39 America/Boise] PHP Warning:  Undefined variable $categores in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:47:39 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:47:39 America/Boise] PHP Warning:  Undefined variable $categores in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:47:39 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:47:39 America/Boise] PHP Warning:  Undefined variable $categores in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:47:39 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:47:39 America/Boise] PHP Warning:  Undefined variable $categores in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:47:39 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:47:39 America/Boise] PHP Warning:  Undefined variable $categores in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:47:39 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:47:39 America/Boise] PHP Warning:  Undefined variable $categores in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:47:39 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:48:02 America/Boise] PHP Warning:  Undefined array key 5 in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:48:19 America/Boise] PHP Warning:  Undefined array key 5 in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:49:08 America/Boise] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /home4/tiagoal1/public_html/tracker_app/get_data.php:16
+Stack trace:
+#0 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 16
+[28-Nov-2022 14:49:37 America/Boise] PHP Warning:  Undefined array key 5 in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:49:55 America/Boise] PHP Warning:  Undefined array key 5 in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 14:50:06 America/Boise] PHP Warning:  Undefined array key 5 in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 21
+[28-Nov-2022 16:58:26 America/Boise] PHP Warning:  Undefined array key 3 in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 27
+[28-Nov-2022 17:00:18 America/Boise] PHP Warning:  Undefined array key 3 in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 27
+[28-Nov-2022 17:01:49 America/Boise] PHP Warning:  Undefined array key 3 in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 27
+[28-Nov-2022 17:02:21 America/Boise] PHP Warning:  Undefined array key 3 in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 27
+[28-Nov-2022 17:04:22 America/Boise] PHP Warning:  Undefined array key 3 in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 27
+[28-Nov-2022 17:06:31 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 3
+[28-Nov-2022 17:06:31 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_data.php on line 9
+[28-Nov-2022 17:06:35 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 3
+[28-Nov-2022 17:06:35 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[28-Nov-2022 17:06:38 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 3
+[28-Nov-2022 17:06:38 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[28-Nov-2022 17:07:16 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 3
+[28-Nov-2022 17:07:16 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 11:15:28 America/Boise] PHP Warning:  Undefined array key "category" in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 3
+[29-Nov-2022 11:15:28 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 11:15:36 America/Boise] PHP Warning:  Undefined array key "category" in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 3
+[29-Nov-2022 11:15:36 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 11:23:52 America/Boise] PHP Warning:  Undefined array key "category" in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 3
+[29-Nov-2022 11:23:52 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 11:24:02 America/Boise] PHP Warning:  Undefined array key "category" in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 3
+[29-Nov-2022 11:24:02 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 11:26:53 America/Boise] PHP Warning:  Undefined array key "values" in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 23
+[29-Nov-2022 11:26:53 America/Boise] PHP Warning:  Undefined array key "values" in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 23
+[29-Nov-2022 11:26:53 America/Boise] PHP Warning:  Undefined array key "values" in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 23
+[29-Nov-2022 11:26:53 America/Boise] PHP Warning:  Undefined array key "values" in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 23
+[29-Nov-2022 11:26:53 America/Boise] PHP Warning:  Undefined array key "values" in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 23
+[29-Nov-2022 11:27:45 America/Boise] PHP Warning:  Undefined array key "values" in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 23
+[29-Nov-2022 11:27:45 America/Boise] PHP Warning:  Undefined array key "values" in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 23
+[29-Nov-2022 11:27:45 America/Boise] PHP Warning:  Undefined array key "values" in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 23
+[29-Nov-2022 11:27:45 America/Boise] PHP Warning:  Undefined array key "values" in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 23
+[29-Nov-2022 11:27:45 America/Boise] PHP Warning:  Undefined array key "values" in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 23
+[29-Nov-2022 11:28:47 America/Boise] PHP Warning:  Undefined array key "category" in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 3
+[29-Nov-2022 11:28:47 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 11:29:39 America/Boise] PHP Warning:  Undefined array key "category" in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 3
+[29-Nov-2022 11:29:39 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 11:29:50 America/Boise] PHP Warning:  Undefined array key "category" in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 3
+[29-Nov-2022 11:29:50 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 12:14:38 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'Refeições' for key 'category_name' in /home4/tiagoal1/public_html/tracker_app/save.php:46
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(46): mysqli->query('insert into Cat...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(95): get_category_id(Object(mysqli), 'Refei\xC3\xA7\xC3\xB5es', 'Almo\xC3\xA7o ', 'Sopa De Ab\xC3\xB3bor...', '3')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 46
+[29-Nov-2022 12:15:09 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'Refeições' for key 'category_name' in /home4/tiagoal1/public_html/tracker_app/save.php:46
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(46): mysqli->query('insert into Cat...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(95): get_category_id(Object(mysqli), 'Refei\xC3\xA7\xC3\xB5es', 'Almo\xC3\xA7o ', 'Massa Com Frang...', '3')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 46
+[29-Nov-2022 12:17:22 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 12:17:29 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 12:17:31 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 12:17:37 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 12:17:41 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 12:18:17 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 10
+[29-Nov-2022 12:19:45 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 12:22:07 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 12:22:10 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 12:31:25 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'Refeições' for key 'category_name' in /home4/tiagoal1/public_html/tracker_app/save.php:46
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(46): mysqli->query('insert into Cat...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(95): get_category_id(Object(mysqli), 'Refei\xC3\xA7\xC3\xB5es', 'Almo\xC3\xA7o ', 'Lemon Cake', '3')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 46
+[29-Nov-2022 12:32:02 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'Refeições' for key 'category_name' in /home4/tiagoal1/public_html/tracker_app/save.php:46
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(46): mysqli->query('insert into Cat...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(95): get_category_id(Object(mysqli), 'Refei\xC3\xA7\xC3\xB5es', 'Almo\xC3\xA7o ', 'Almond Cookie', '3')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 46
+[29-Nov-2022 12:32:36 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'Refeições' for key 'category_name' in /home4/tiagoal1/public_html/tracker_app/save.php:46
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(46): mysqli->query('insert into Cat...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(95): get_category_id(Object(mysqli), 'Refei\xC3\xA7\xC3\xB5es', 'Almo\xC3\xA7o ', 'Quindim', '3')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 46
+[29-Nov-2022 12:50:03 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 12:54:55 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Illegal mix of collations (latin1_general_ci,IMPLICIT) and (utf8_unicode_ci,COERCIBLE) for operation 'like' in /home4/tiagoal1/public_html/tracker_app/save.php:65
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(65): mysqli_query(Object(mysqli), 'select * from T...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(96): get_type_id(Object(mysqli), '\xE7a\xE3\xF4', NULL)
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 65
+[29-Nov-2022 13:00:02 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'category_name' in /home4/tiagoal1/public_html/tracker_app/save.php:46
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(46): mysqli->query('insert into Cat...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(95): get_category_id(Object(mysqli), '\xE7a\xE3', '', '\xE7a\xE3', '1')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 46
+[29-Nov-2022 19:05:17 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 19:05:23 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 19:05:28 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 19:05:30 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 10
+[29-Nov-2022 19:06:33 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 19:07:19 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 19:09:39 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 11
+[29-Nov-2022 19:14:04 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 11
+[29-Nov-2022 19:16:32 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 11
+[29-Nov-2022 19:18:38 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 11
+[29-Nov-2022 19:21:00 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 11
+[29-Nov-2022 19:21:55 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 11
+[29-Nov-2022 19:24:38 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 11
+[29-Nov-2022 19:42:55 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 19:43:05 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 19:44:23 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 20:21:29 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 20:21:38 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 20:23:34 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 20:23:47 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 20:28:07 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 20:28:15 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 20:37:07 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 20:37:14 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 20:41:58 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 20:43:08 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 20:43:17 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 20:43:40 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 20:43:46 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 20:44:52 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 20:44:57 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 20:45:04 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 20:45:56 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 20:46:20 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 20:47:32 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 20:47:39 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 20:50:08 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 20:50:12 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 20:51:58 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 20:52:08 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 20:56:48 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 20:56:56 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 21:00:07 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 21:02:37 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 21:07:47 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 21:11:44 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 21:12:07 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 21:13:33 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 21:13:36 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 21:14:33 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[29-Nov-2022 21:20:00 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 21:20:50 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 21:21:34 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 21:25:31 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 21:28:34 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 21:29:30 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 21:32:51 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[29-Nov-2022 22:23:34 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[30-Nov-2022 07:39:08 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[30-Nov-2022 07:39:27 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[30-Nov-2022 07:39:50 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[30-Nov-2022 09:35:54 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 10
+[30-Nov-2022 09:40:34 America/Boise] PHP Warning:  Undefined array key "user_name" in /home4/tiagoal1/public_html/tracker_app/get_categories_for_display.php on line 3
+[30-Nov-2022 09:40:34 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories_for_display.php on line 9
+[30-Nov-2022 09:44:46 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 10
+[30-Nov-2022 09:50:39 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types_for_display.php on line 9
+[30-Nov-2022 11:42:11 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[30-Nov-2022 11:42:39 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[30-Nov-2022 11:44:17 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types_for_display.php on line 11
+[30-Nov-2022 12:12:59 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[30-Nov-2022 12:15:41 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[30-Nov-2022 12:23:06 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[30-Nov-2022 14:53:02 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[30-Nov-2022 14:54:47 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[30-Nov-2022 15:02:55 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tiagoal1_tracker_app`.`Type`, CONSTRAINT `fk_category_id_type_id` FOREIGN KEY (`category_id`) REFERENCES `Category` (`category_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home4/tiagoal1/public_html/tracker_app/save.php:78
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(78): mysqli->query('insert into Typ...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(98): get_type_id(Object(mysqli), 'Shield', NULL)
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 78
+[30-Nov-2022 15:08:28 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[30-Nov-2022 15:09:18 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[30-Nov-2022 15:11:50 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types.php on line 9
+[30-Nov-2022 15:14:38 America/Boise] PHP Warning:  Undefined variable $date in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 22
+[30-Nov-2022 15:14:38 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /home4/tiagoal1/public_html/tracker_app/get_values.php:22
+Stack trace:
+#0 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 22
+[30-Nov-2022 15:15:20 America/Boise] PHP Warning:  Undefined variable $date in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 22
+[30-Nov-2022 15:15:20 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /home4/tiagoal1/public_html/tracker_app/get_values.php:22
+Stack trace:
+#0 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 22
+[30-Nov-2022 15:16:31 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function format() on string in /home4/tiagoal1/public_html/tracker_app/get_values.php:22
+Stack trace:
+#0 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 22
+[30-Nov-2022 15:17:15 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function format() on string in /home4/tiagoal1/public_html/tracker_app/get_values.php:22
+Stack trace:
+#0 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 22
+[30-Nov-2022 15:19:37 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function format() on string in /home4/tiagoal1/public_html/tracker_app/get_values.php:22
+Stack trace:
+#0 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 22
+[30-Nov-2022 15:20:28 America/Boise] PHP Warning:  Undefined array key "type" in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 4
+[30-Nov-2022 15:20:28 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 10
+[30-Nov-2022 15:21:40 America/Boise] PHP Warning:  Undefined array key "type" in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 4
+[30-Nov-2022 15:21:40 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 10
+[30-Nov-2022 15:22:05 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function format() on string in /home4/tiagoal1/public_html/tracker_app/get_values.php:23
+Stack trace:
+#0 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 23
+[30-Nov-2022 15:22:07 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function format() on string in /home4/tiagoal1/public_html/tracker_app/get_values.php:23
+Stack trace:
+#0 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 23
+[30-Nov-2022 15:23:15 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function format() in /home4/tiagoal1/public_html/tracker_app/get_values.php:23
+Stack trace:
+#0 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 23
+[30-Nov-2022 15:35:54 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "row" in /home4/tiagoal1/public_html/tracker_app/get_values.php:24
+Stack trace:
+#0 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:38:09 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "row" in /home4/tiagoal1/public_html/tracker_app/get_values.php:24
+Stack trace:
+#0 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:38:43 America/Boise] PHP Fatal error:  Uncaught TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given in /home4/tiagoal1/public_html/tracker_app/get_values.php:24
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/get_values.php(24): date('d/m/Y/h/i/s', '2022-11-27 20:3...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:39:46 America/Boise] PHP Fatal error:  Uncaught TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given in /home4/tiagoal1/public_html/tracker_app/get_values.php:24
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/get_values.php(24): date('Y/m/d/h/i/s', '2022-11-27 20:3...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 0 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 1 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 2 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 3 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 4 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 5 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 0 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 1 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 2 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 3 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 4 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 5 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 0 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 1 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 2 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 3 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 4 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 5 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 0 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 1 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 2 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 3 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 4 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 5 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 0 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 1 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 2 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 3 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 4 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:42:44 America/Boise] PHP Warning:  Undefined array key 5 in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 24
+[30-Nov-2022 15:50:09 America/Boise] PHP Fatal error:  Uncaught ArgumentCountError: usort() expects exactly 2 arguments, 1 given in /home4/tiagoal1/public_html/tracker_app/get_values.php:23
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/get_values.php(23): usort(Array)
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 23
+[01-Dec-2022 15:00:13 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[01-Dec-2022 15:14:38 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 11
+[01-Dec-2022 15:16:04 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tiagoal1_tracker_app`.`Type`, CONSTRAINT `fk_category_id_type_id` FOREIGN KEY (`category_id`) REFERENCES `Category` (`category_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home4/tiagoal1/public_html/tracker_app/save.php:78
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(78): mysqli->query('insert into Typ...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(98): get_type_id(Object(mysqli), 'Test 2', NULL)
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 78
+[01-Dec-2022 15:16:47 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[01-Dec-2022 15:16:59 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/save.php on line 21
+[01-Dec-2022 15:16:59 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tiagoal1_tracker_app`.`Category`, CONSTRAINT `fk_user_id_category_id` FOREIGN KEY (`user_id`) REFERENCES `User` (`user_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home4/tiagoal1/public_html/tracker_app/save.php:48
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(48): mysqli->query('insert into Cat...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(97): get_category_id(Object(mysqli), 'a', 'b', 'c', NULL)
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 48
+[01-Dec-2022 15:17:00 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[01-Dec-2022 15:19:00 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tiagoal1_tracker_app`.`Type`, CONSTRAINT `fk_category_id_type_id` FOREIGN KEY (`category_id`) REFERENCES `Category` (`category_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home4/tiagoal1/public_html/tracker_app/save.php:78
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(78): mysqli->query('insert into Typ...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(98): get_type_id(Object(mysqli), 'b', NULL)
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 78
+[01-Dec-2022 15:19:31 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[01-Dec-2022 15:29:59 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[01-Dec-2022 15:37:26 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[01-Dec-2022 15:40:31 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[01-Dec-2022 15:41:12 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[03-Dec-2022 21:46:18 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tiagoal1_tracker_app`.`Type`, CONSTRAINT `fk_category_id_type_id` FOREIGN KEY (`category_id`) REFERENCES `Category` (`category_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home4/tiagoal1/public_html/tracker_app/save.php:78
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(78): mysqli->query('insert into Typ...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(98): get_type_id(Object(mysqli), '', NULL)
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 78
+[03-Dec-2022 21:51:24 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tiagoal1_tracker_app`.`Type`, CONSTRAINT `fk_category_id_type_id` FOREIGN KEY (`category_id`) REFERENCES `Category` (`category_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home4/tiagoal1/public_html/tracker_app/save.php:78
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(78): mysqli->query('insert into Typ...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(98): get_type_id(Object(mysqli), 'Select Type', NULL)
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 78
+[04-Dec-2022 10:18:15 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[04-Dec-2022 14:07:12 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's' and category_id like '9'' at line 1 in /home4/tiagoal1/public_html/tracker_app/save.php:67
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(67): mysqli_query(Object(mysqli), 'select * from T...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(98): get_type_id(Object(mysqli), 'McDonald's', '9')
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 67
+[07-Dec-2022 09:21:53 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 18
+[07-Dec-2022 09:24:07 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 11
+[07-Dec-2022 09:24:07 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 18
+[07-Dec-2022 09:24:59 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 11
+[07-Dec-2022 09:24:59 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 18
+[07-Dec-2022 09:26:14 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 11
+[07-Dec-2022 09:26:14 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 18
+[07-Dec-2022 16:37:15 Europe/Lisbon] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't Go Yet', '2022-12-07 16:37' , '17', '1')' at line 1 in /home4/tiagoal1/public_html/tracker_app/save.php:110
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(110): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 110
+[07-Dec-2022 09:48:29 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tiagoal1_tracker_app`.`Type`, CONSTRAINT `fk_category_id_type_id` FOREIGN KEY (`category_id`) REFERENCES `Category` (`category_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home4/tiagoal1/public_html/tracker_app/save.php:78
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(78): mysqli->query('insert into Typ...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(98): get_type_id(Object(mysqli), '', NULL)
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 78
+[07-Dec-2022 09:49:14 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tiagoal1_tracker_app`.`Type`, CONSTRAINT `fk_category_id_type_id` FOREIGN KEY (`category_id`) REFERENCES `Category` (`category_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home4/tiagoal1/public_html/tracker_app/save.php:78
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(78): mysqli->query('insert into Typ...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(98): get_type_id(Object(mysqli), '', NULL)
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 78
+[07-Dec-2022 09:51:29 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tiagoal1_tracker_app`.`Type`, CONSTRAINT `fk_category_id_type_id` FOREIGN KEY (`category_id`) REFERENCES `Category` (`category_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home4/tiagoal1/public_html/tracker_app/save.php:78
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(78): mysqli->query('insert into Typ...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(98): get_type_id(Object(mysqli), '', NULL)
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 78
+[07-Dec-2022 09:55:39 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 18
+[07-Dec-2022 09:55:41 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 18
+[07-Dec-2022 09:58:33 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tiagoal1_tracker_app`.`Type`, CONSTRAINT `fk_category_id_type_id` FOREIGN KEY (`category_id`) REFERENCES `Category` (`category_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home4/tiagoal1/public_html/tracker_app/save.php:78
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(78): mysqli->query('insert into Typ...')
+#1 /home4/tiagoal1/public_html/tracker_app/save.php(98): get_type_id(Object(mysqli), 'A', NULL)
+#2 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 78
+[07-Dec-2022 17:24:12 Europe/Lisbon] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't Go Yet', '2022-12-07 17:24' , '17', '1')' at line 1 in /home4/tiagoal1/public_html/tracker_app/save.php:110
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(110): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 110
+[07-Dec-2022 17:27:58 Europe/Lisbon] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't Go Yet', '2022-12-07 17:27' , '17', '1')' at line 1 in /home4/tiagoal1/public_html/tracker_app/save.php:110
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(110): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 110
+[07-Dec-2022 17:34:55 Europe/Lisbon] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't Go Yet', '2022-12-07 17:34' , '17', '1')' at line 1 in /home4/tiagoal1/public_html/tracker_app/save.php:110
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(110): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 110
+[07-Dec-2022 17:39:32 Europe/Lisbon] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't Go Yet', '2022-12-07 17:39' , '17', '1')' at line 1 in /home4/tiagoal1/public_html/tracker_app/save.php:110
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(110): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 110
+[07-Dec-2022 17:40:59 Europe/Lisbon] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't Go Yet', '2022-12-07 17:40' , '17', '1')' at line 1 in /home4/tiagoal1/public_html/tracker_app/save.php:110
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(110): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 110
+[07-Dec-2022 19:45:20 Europe/Lisbon] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't Go Yet', '2022-12-07 19:45' , '17', '1')' at line 1 in /home4/tiagoal1/public_html/tracker_app/save.php:110
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(110): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 110
+[07-Dec-2022 19:47:14 Europe/Lisbon] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't Go Yet', '2022-12-07 19:47' , '17', '1')' at line 1 in /home4/tiagoal1/public_html/tracker_app/save.php:110
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(110): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 110
+[07-Dec-2022 19:48:14 Europe/Lisbon] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't Go Yet', '2022-12-07 19:48' , '17', '1')' at line 1 in /home4/tiagoal1/public_html/tracker_app/save.php:110
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(110): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 110
+[07-Dec-2022 19:49:34 Europe/Lisbon] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't Go Yet', '2022-12-07 19:49' , '17', '1')' at line 1 in /home4/tiagoal1/public_html/tracker_app/save.php:110
+Stack trace:
+#0 /home4/tiagoal1/public_html/tracker_app/save.php(110): mysqli->query('insert into Use...')
+#1 {main}
+  thrown in /home4/tiagoal1/public_html/tracker_app/save.php on line 110
+[07-Dec-2022 14:58:56 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[07-Dec-2022 14:59:55 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[07-Dec-2022 15:00:08 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[07-Dec-2022 15:02:13 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[07-Dec-2022 15:02:57 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[07-Dec-2022 15:03:08 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[07-Dec-2022 15:03:43 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[07-Dec-2022 17:41:30 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[13-Dec-2022 09:34:00 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[13-Dec-2022 09:48:10 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types_for_display.php on line 11
+[13-Dec-2022 09:48:49 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types_for_display.php on line 11
+[13-Dec-2022 09:48:49 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types_for_display.php on line 11
+[13-Dec-2022 09:50:01 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_types_for_display.php on line 11
+[14-Dec-2022 08:41:37 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_categories.php on line 9
+[15-Dec-2022 04:50:19 America/Boise] PHP Warning:  Undefined array key "category" in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 4
+[15-Dec-2022 04:50:19 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 11
+[15-Dec-2022 04:50:19 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 18
+[15-Dec-2022 04:50:29 America/Boise] PHP Warning:  Undefined array key "category" in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 4
+[15-Dec-2022 04:50:29 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 11
+[15-Dec-2022 04:50:29 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 18
+[15-Dec-2022 04:50:33 America/Boise] PHP Warning:  Undefined array key "category" in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 4
+[15-Dec-2022 04:50:33 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 11
+[15-Dec-2022 04:50:33 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 18
+[15-Dec-2022 04:50:38 America/Boise] PHP Warning:  Undefined array key "category" in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 4
+[15-Dec-2022 04:50:38 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 11
+[15-Dec-2022 04:50:38 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/tiagoal1/public_html/tracker_app/get_values.php on line 18

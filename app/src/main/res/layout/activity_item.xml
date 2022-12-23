@@ -27,22 +27,22 @@
         android:layout_marginBottom="5dp" />
 
     <TextView
+        android:id="@+id/textItemDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textItemDate"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/item_div"
-        android:textSize="20sp"
+        android:layout_below="@id/textItemType"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="75dp"
         android:text="date"
-        android:textStyle="bold"
-        android:layout_marginTop="25dp"/>
+        android:textSize="20sp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textItemType"
-        android:layout_centerHorizontal="true"
-        android:textSize="20sp"
-        android:layout_below="@+id/textItemDate"
+        android:layout_below="@id/textItemCategory"
+        android:layout_marginStart="75dp"
+        android:textSize="25sp"
         android:text="type"
         android:textStyle="bold"
         android:layout_marginTop="50dp"/>
@@ -51,50 +51,22 @@
         android:id="@+id/textItemCategory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textItemType"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="50dp"
+        android:layout_below="@id/item_div"
+        android:layout_marginStart="75dp"
         android:text="category"
-        android:textStyle="bold"
-        android:textSize="20sp" />
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Date: "
-        android:textSize="20dp"
-        android:layout_toLeftOf="@id/textItemDate"
-        android:layout_alignBaseline="@id/textItemDate"/>
-
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Type: "
-        android:textSize="20dp"
-        android:layout_toLeftOf="@id/textItemType"
-        android:layout_alignBaseline="@id/textItemType"/>
-
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Category: "
-        android:textSize="20dp"
-        android:layout_toLeftOf="@id/textItemCategory"
-        android:layout_alignBaseline="@id/textItemCategory"/>
-
-<Button
-    android:layout_width="125dp"
-    android:layout_height="50dp"
+    <Button
+    android:layout_width="150dp"
+    android:layout_height="75dp"
     android:id="@+id/itemDelete"
     style="@style/Button.RED"
     android:text="Delete"
     android:textSize="20sp"
     android:layout_centerHorizontal="true"
     android:layout_alignParentBottom="true"
-    android:layout_marginBottom="75dp"
+    android:layout_marginBottom="125dp"
     android:clickable="true"
     android:onClick="OnDelete"/>
 

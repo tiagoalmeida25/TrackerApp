@@ -10,7 +10,7 @@ $result = mysqli_query($conn, $mysql_qry);
 $row = mysqli_fetch_assoc($result);
 $category_id =  $row["category_id"];
 
-$mysql_qry = "SELECT DISTINCT type_name FROM Type where category_id like '$category_id';";
+$mysql_qry = "SELECT DISTINCT type_name FROM Type where category_id like '$category_id' ORDER BY type_name;";
 $result = mysqli_query($conn, $mysql_qry);
 
 if (mysqli_num_rows($result) > 0) {

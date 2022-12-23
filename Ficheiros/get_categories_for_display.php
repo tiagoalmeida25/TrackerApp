@@ -8,7 +8,7 @@ $result = mysqli_query($conn, $mysql_qry);
 $row = mysqli_fetch_assoc($result);
 $user_id =  $row["user_id"];
 
-$mysql_qry = "SELECT DISTINCT category_name FROM Category where user_id like '$user_id';";
+$mysql_qry = "SELECT DISTINCT category_name FROM Category where user_id like '$user_id' ORDER BY category_name;";
 $result = mysqli_query($conn, $mysql_qry);
 
 if (mysqli_num_rows($result) > 0) {
