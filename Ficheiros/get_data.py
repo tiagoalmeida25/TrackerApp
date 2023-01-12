@@ -1,4 +1,6 @@
 import mysql.connector
+import pandas as pd
+
 def connect_to_database():
     cnx = mysql.connector.connect(
         host = "162.241.226.49",
@@ -20,7 +22,7 @@ def append_name_id(results):
     names_ids = []
     for result in results:
         names.append(result[0])
-        names_ids.append(result[1])
+        names_ids.append(str(result[1]))
 
     return names, names_ids
 
@@ -29,67 +31,70 @@ def match_name2id(name, names, names_id):
         if n == name:
             return str(idx)
 
+def get_user_id(cursor, user):
+    query = "select user_id from User where user_name like " + user + ";"
 
-cursor, cnx = connect_to_database()
+    results = query_result(cursor, query)
 
-user = '"Tiago"'
-category_query = 'Gastos'
-type_query = 'Refeições'
+    for result in results:
+        idx = str(result[0])
 
-####################        GET USER_ID         ################################
+    return idx
 
-query = "select user_id from User where user_name like " + user + ";"
+def get_types(cursor, category_idx):
+    query = "SELECT DISTINCT type_name, type_id FROM Type where category_id like " + category_idx + " ORDER BY type_name;"
+    results = query_result(cursor, query)
+    types, types_ids = append_name_id(results)
 
-results = query_result(cursor, query)
+    return types, types_ids
 
-for result in results:
-    idx = str(result[0])
+def get_values(cursor, type_idx):
+    query = "SELECT value, date FROM UserCategory where type_id like " + type_idx + ";"
+    results = query_result(cursor, query)
+    values, dates = append_name_id(results)
 
-####################        GET CATEGORIES         ################################
+    return values, dates
 
-query = "SELECT DISTINCT category_name, category_id FROM Category where user_id like " + idx + " ORDER BY category_name;"
+def create_dataframe(user):
+    cursor, cnx = connect_to_database()
 
-results = query_result(cursor, query)
+    idx = get_user_id(cursor, user)
 
-categories, categories_ids = append_name_id(results)
+    query = "SELECT DISTINCT category_name, category_id FROM Category where user_id like " + idx + " ORDER BY category_name;"
+    results = query_result(cursor, query)
+    categories, categories_ids = append_name_id(results)
 
-print('\nCategories of', user + ':')
-for category, ids in zip(categories, categories_ids):
-    print(str(ids) + ' - ' + category)
+    categories_df = []
+    types_df = []
+    values_df = []
+    dates_df = []
+    for category, category_idx in zip(categories, categories_ids):
+        types, types_ids = get_types(cursor, category_idx)
 
-# category_idx = input('Choose one id: ')
-category_idx = match_name2id(category_query, categories, categories_ids)
+        for type_, type_idx in zip(types, types_ids):
+            # print('Category:', category)
+            # print('Type:', type_)
+            values, dates = get_values(cursor, type_idx)
 
-####################        GET TYPES         ################################
+            for value, date in zip(values, dates):
+                categories_df.append(category)
+                types_df.append(type_)
+                values_df.append(value)
+                dates_df.append(date)
 
-query = "SELECT DISTINCT type_name, type_id FROM Type where category_id like " + category_idx + " ORDER BY type_name;"
+    user = {
+            "Category": categories_df,
+            "Type": types_df,
+            "Item": values_df,
+            "Date": dates_df
+        }
 
-# query = "select * from UserCategory where user_id like " + idx + ";"
+    df = pd.DataFrame(user)
+    df.columns = ['Category','Type','Value','Date']
+    df = df.drop_duplicates(subset=['Date'], keep='first')
+    df['Date'] = pd.to_datetime(df['Date'])
 
-results = query_result(cursor, query)
+    cursor.close()
+    cnx.close()
 
-types, types_ids = append_name_id(results)
-
-print('\nTypes of', category_query + ':')
-for type_, ids in zip(types, types_ids):
-    print(str(ids) + ' - ' + type_)
-
-# type_idx = input('Choose one id: ')
-type_idx = match_name2id(type_query, types, types_ids)
-
-####################        GET VALUES         ################################
-
-query = "SELECT value, date FROM UserCategory where type_id like " + type_idx + ";"
-
-results = query_result(cursor, query)
-
-values, dates = append_name_id(results)
-
-print('\nValues of', type_query + ':')
-for value, date in zip(values, dates):
-    print(value, '-', date)
-
-cursor.close()
-cnx.close()
-
-# https://hevodata.com/learn/mysql-export-to-csv/
+    return df

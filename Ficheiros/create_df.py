@@ -29,10 +29,10 @@ def create_df(username):
         df_user = df_type.loc[df_type['category_id'] == each_id]
 
         types = []
-        for type,id in zip(df_user['type_name'],df_user['type_id']):
+        for type_,id in zip(df_user['type_name'],df_user['type_id']):
             types.append({
                 "Category":categories[i],
-                "Type":type,
+                "type":type_,
                 "id":id})
         i+=1
 
@@ -52,14 +52,14 @@ def create_df(username):
             category = categories_with_type[category_idx][type_idx].get('Category')
 
             type_id = categories_with_type[category_idx][type_idx].get('id')
-            type_name = categories_with_type[category_idx][type_idx].get('Type')
+            type_name = categories_with_type[category_idx][type_idx].get('type_')
 
             df_user = df_usercategory.loc[df_usercategory['type_id'] == type_id]
 
             for item, date in zip(df_user['value'],df_user['date']):
                 item_final = {
                     "Category":category,
-                    "Type":type_name,
+                    "type":type_name,
                     "Item":item,
                     "Date":date
                     }
@@ -78,18 +78,18 @@ def create_df(username):
     for category_idx in range(len(categories_with_type_with_items)):
         for type_idx in range(len(categories_with_type_with_items[category_idx])):
             category = categories_with_type_with_items[category_idx][type_idx].get("Category")
-            type = categories_with_type_with_items[category_idx][type_idx].get("Type")
+            type_ = categories_with_type_with_items[category_idx][type_idx].get("type")
             item = categories_with_type_with_items[category_idx][type_idx].get("Item")
             date = categories_with_type_with_items[category_idx][type_idx].get("Date")
 
             categories.append(category)
-            types.append(type)
+            types.append(type_)
             items.append(item)
             dates.append(date)
 
     user = {
         "Category": categories,
-        "Type": types,
+        "type": types,
         "Item": items,
         "Date": dates
     }
