@@ -85,13 +85,13 @@ def create_dataframe(user):
     user = {
             "Category": categories_df,
             "Type": types_df,
-            "Item": values_df,
+            "Value": values_df,
             "Date": dates_df
         }
 
     df = pd.DataFrame(user)
     df.columns = ['Category','Type','Value','Date']
-    df = df.drop_duplicates(subset=['Date'], keep='first')
+    # df = df.drop_duplicates(subset=['Date'], keep='first')
     df['Date'] = pd.to_datetime(df['Date'])
 
     cursor.close()
