@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Edit">
+
+
+    <Spinner
+        android:id="@+id/spCategoryEdit"
+        style="@style/Spinner.1"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="75dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spTypeEdit"
+        style="@style/Spinner.1"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAddCategoryEdit" />
+
+
+    <EditText
+        android:id="@+id/etValueEdit"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAddTypeEdit" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/spCategoryEdit"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="25dp"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:layout_marginBottom="5dp"
+        android:textSize="27sp"
+        android:layout_marginStart="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/spTypeEdit"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Value"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/etValueEdit"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="27sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="5dp"
+        android:text="Date"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btSetTimeEdit"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/etAddTypeEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spTypeEdit" />
+
+    <EditText
+        android:id="@+id/etAddCategoryEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spCategoryEdit" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add new Category"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/etAddCategoryEdit"
+        app:layout_constraintEnd_toEndOf="@+id/etAddCategoryEdit"
+        app:layout_constraintStart_toStartOf="@+id/etAddCategoryEdit" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add new Type"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/etAddTypeEdit"
+        app:layout_constraintEnd_toEndOf="@+id/etAddTypeEdit"
+        app:layout_constraintStart_toStartOf="@+id/etAddTypeEdit" />
+
+    <TextView
+        android:id="@+id/dateEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/btSetTimeEdit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btSetTimeEdit"
+        style="@style/Button.1"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="Set Time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etValueEdit" />
+
+
+    <Button
+        android:id="@+id/btSaveEdit"
+        android:layout_width="125dp"
+        android:layout_height="75dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        style="@style/Button.2"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btSetTimeEdit"
+        android:onClick="OnSaveEdit"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

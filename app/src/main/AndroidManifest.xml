@@ -46,6 +46,9 @@
         <activity
             android:name=".Item"
             android:label="@string/title_activity_item"/>
+        <activity
+            android:name=".Edit"
+            android:label="@string/title_activity_edit"/>
     </application>
 
 </manifest>

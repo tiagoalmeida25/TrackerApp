@@ -41,6 +41,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
         String get_values_url = "https://tiagoalmeida5.com/tracker_app/get_values.php";
         String save_with_time_url = "https://tiagoalmeida5.com/tracker_app/save_with_time.php";
         String delete_value_url = "https://tiagoalmeida5.com/tracker_app/delete_value.php";
+        String edit_url = "https://tiagoalmeida5.com/tracker_app/edit.php";
 
         if(type.equals("login")){
             try {
@@ -191,6 +192,8 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
                 String date = params[4];
                 username = params[5];
 
+                Log.d("Save with time", date);
+
                 URL url = new URL(save_with_time_url);
 
                 HttpURLConnection httpURLConnection = (HttpURLConnection)url.openConnection();
@@ -224,7 +227,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
                     result += line;
                 }
 
-                Log.d("Result", result);
+                Log.d("Save with time result", result);
 
                 bufferedReader.close();
                 inputStream.close();
@@ -461,6 +464,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
                 String date = params[2];
                 String s_type = params[3];
                 String category = params[4];
+                String username = params[5];
 
                 URL url = new URL(delete_value_url);
 
@@ -476,7 +480,8 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
                 String post_data = URLEncoder.encode("value","UTF-8")+"="+URLEncoder.encode(value,"UTF-8")+
                         "&"+ URLEncoder.encode("date","UTF-8")+"="+URLEncoder.encode(date,"UTF-8")+
                         "&"+ URLEncoder.encode("type","UTF-8")+"="+URLEncoder.encode(s_type,"UTF-8")+
-                        "&"+ URLEncoder.encode("category","UTF-8")+"="+URLEncoder.encode(category,"UTF-8");
+                        "&"+ URLEncoder.encode("category","UTF-8")+"="+URLEncoder.encode(category,"UTF-8")+
+                        "&"+ URLEncoder.encode("user_name","UTF-8")+"="+URLEncoder.encode(username,"UTF-8");
 
 
                 bufferedWriter.write(post_data);
@@ -498,7 +503,64 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
                 inputStream.close();
                 httpURLConnection.disconnect();
 
+                Log.d("result:", result);
+
                 return result;
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        else if(type.equals("edit")){
+            try {
+                String category = params[1];
+                String stype = params[2];
+                String value = params[3];
+                String date = params[4];
+                username = params[5];
+
+                URL url = new URL(edit_url);
+
+                HttpURLConnection httpURLConnection = (HttpURLConnection)url.openConnection();
+                httpURLConnection.setRequestMethod("POST");
+                httpURLConnection.setDoOutput(true);
+                httpURLConnection.setDoInput(true);
+
+                OutputStream outputStream = httpURLConnection.getOutputStream();
+
+                BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
+
+                String post_data = URLEncoder.encode("user_name","UTF-8")+"="+URLEncoder.encode(username,"UTF-8")+
+                        "&"+ URLEncoder.encode("category","UTF-8")+"="+URLEncoder.encode(category,"UTF-8")+
+                        "&"+ URLEncoder.encode("type","UTF-8")+"="+URLEncoder.encode(stype,"UTF-8")+
+                        "&"+ URLEncoder.encode("value","UTF-8")+"="+URLEncoder.encode(value,"UTF-8")+
+                        "&"+ URLEncoder.encode("date","UTF-8")+"="+URLEncoder.encode(date,"UTF-8");
+
+                bufferedWriter.write(post_data);
+                bufferedWriter.flush();
+                bufferedWriter.close();
+                outputStream.close();
+
+                InputStream inputStream = httpURLConnection.getInputStream();
+
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));
+
+                String result = "";
+                String line = "";
+
+                while((line = bufferedReader.readLine()) != null){
+                    result += line;
+                }
+
+                Log.d("Result", result);
+
+                bufferedReader.close();
+                inputStream.close();
+                httpURLConnection.disconnect();
+
+                return result;
+
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             } catch (IOException e) {
@@ -518,6 +580,9 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
 
     @Override
     protected void onPostExecute(String result) {
+        alertDialog = new AlertDialog.Builder(context).create();
+        alertDialog.setTitle("Login Status");
+
         if (result == null){
             Log.d("Result Null","");
             alertDialog.setTitle("Error");
@@ -596,7 +661,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
             Log.d("Display Values",result);
             context.sendBroadcast(intent);
         }
-        else if(result.contains("Deleted value")){
+        else if(result.contains("Deleted")){
             Intent intent = new Intent("com.tiago.broadcast.DELETE_VALUES");
             Log.d("Deleted value",result);
             context.sendBroadcast(intent);

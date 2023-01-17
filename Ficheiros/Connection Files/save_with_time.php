@@ -5,10 +5,7 @@ $user = $_POST["user_name"];
 $category = $_POST["category"];
 $type = $_POST["type"];
 $value = $_POST["value"];
-$date = $_POST["date"];
-
-$date = strtotime($date);
-
+$date = rtrim(ltrim($_POST["date"]));
 
 $user = rtrim($user);
 $category = rtrim($category);
@@ -106,14 +103,19 @@ if(is_null($category_id) or is_null($type_id)){
 }
 
 if(!$error){
-    // date_default_timezone_set("Europe/Lisbon");
+    date_default_timezone_set("Europe/Lisbon");
 
-    $now = date("Y-m-d H:i",$date);
+    $new_date = DateTime::createFromFormat("d/m/Y H:i", $date)->format("Y-m-d H:i");
+    $date_2 = strtotime($new_date);
+    $now = date("Y-m-d H:i:00", $date_2);
+
+    // $date = strtotime($date);
+    // $now = date("Y-m-d H:i", $date);
     
     $mysql_query = "insert into UserCategory(value, date, type_id, user_id) values ('$value', '$now' , '$type_id', '$user_id')";
 
     if($conn->query($mysql_query) === TRUE){
-        echo "Saved!";
+        echo "Date " .$date ." Now " .$now ." " ."Saved!";
     }
     else{
         echo "Error in saving: " . $mysql_query . "<br>" . $conn->error;

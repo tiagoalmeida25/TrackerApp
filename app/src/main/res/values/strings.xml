@@ -22,4 +22,5 @@
     <string name="title_activity_preference_utils">PreferenceUtils</string>
     <string name="title_activity_constants">Constants</string>
     <string name="title_activity_item">Item</string>
+    <string name="title_activity_edit">Edit</string>
 </resources>

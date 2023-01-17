@@ -94,7 +94,7 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
             BackgroundWorker backgroundWorkerCategories = new BackgroundWorker(getApplicationContext());
             backgroundWorkerCategories.execute("get categories", username);
 
-            Toast.makeText(this, "Welcome back," + username + "!", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Welcome back, " + username + "!", Toast.LENGTH_LONG).show();
         }
 
         dateView = findViewById(R.id.dateView);
@@ -356,7 +356,7 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
         String str_add_category = addCategory.getText().toString();
         String str_add_type = addType.getText().toString();
         String mode = "display values";
-        Boolean show = true;
+        boolean show = true;
 
         if (str_category.equals("Select Category") | str_category.isEmpty()) {
             android.app.AlertDialog alertDialog = new android.app.AlertDialog.Builder(this).create();
@@ -384,13 +384,6 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
                         show = false;
                     }
                 }
-//                else {
-//                    android.app.AlertDialog alertDialog = new android.app.AlertDialog.Builder(this).create();
-//                    alertDialog.setTitle("Database");
-//                    alertDialog.setMessage("New Category");
-//                    alertDialog.show();
-//                    show = false;
-//                }
 
                 if (show) {
                     BackgroundWorker backgroundWorker = new BackgroundWorker(this);
@@ -421,7 +414,7 @@ public class Dropdown extends AppCompatActivity implements DatePickerDialog.OnDa
     public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
         myHour = hourOfDay;
         myMinute = minute;
-        String time = myYear + "/" + myMonth + "/" + myDay + " " + myHour + ":" + myMinute;
+        String time = myDay + "/" + myMonth + "/" + myYear + " " + myHour + ":" + myMinute;
         dateView.setText(time);
     }
 

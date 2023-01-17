@@ -28,6 +28,7 @@ public class DisplayData extends AppCompatActivity {
 
     String category = "";
     String type = "";
+
     BroadcastReceiverDisplayService broadcastReceiver = new BroadcastReceiverDisplayService();
     ListView listview = null;
 
@@ -135,18 +136,11 @@ public class DisplayData extends AppCompatActivity {
                         ArrayAdapter<String> adapter_values = new ArrayAdapter<String>(DisplayData.this, android.R.layout.simple_list_item_1, values_string);
                         listview.setAdapter(adapter_values);
 
-
-//                        ArrayList<Item> itemArrayList = new ArrayList<>();
-//                        for(int i = 0; i< values_string.length;i++){
-//                            Item item = new Item(name.get(i), date.get(i), type, category);
-//                            itemArrayList.add(item);
-//                        }
-
                         listview.setOnItemClickListener(new AdapterView.OnItemClickListener(){
                             @Override
                             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                                 Intent i = new Intent(DisplayData.this, Item.class);
-                                i.putExtra("user", username);
+                                i.putExtra("username", username);
                                 i.putExtra("name", name.get(position));
                                 i.putExtra("date", date.get(position));
                                 i.putExtra("type", type);
@@ -161,7 +155,6 @@ public class DisplayData extends AppCompatActivity {
                         backgroundWorker.execute("display categories", username);
 
                         break;
-
                 }
             }
         }
