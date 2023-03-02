@@ -93,7 +93,7 @@ def create_dataframe(user):
     df.columns = ['Category','Type','Value','Date']
     # df = df.drop_duplicates(subset=['Date'], keep='first')
     df['Date'] = pd.to_datetime(df['Date'])
-
+            
     cursor.close()
     cnx.close()
 

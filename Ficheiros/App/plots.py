@@ -35,33 +35,18 @@ def get_type_df(df_category, type_):
 
 def time_series(category, each_type):
     df_category = get_categories(category)
-    # df_category = get_category_df(df_categories, category)
     df = df_category.loc[df_category['Type'] == each_type]
 
     values = df['Value']
     type_of = df['Type'].iloc[0]
     dates = df['Date']
 
-    # dtFmt = mdates.DateFormatter('%b %d %Y %H:%M')
-    # plt.gca().xaxis.set_major_formatter(dtFmt)
-    # plt.gca().xaxis.set_major_locator(mdates.DayLocator(range(1,31,2)))
-    # plt.gca().yaxis.set_major_locator(plt.MaxNLocator(10))
-    # plt.gca().xaxis.set_major_locator(mdates.HourLocator(byhour=(range(0,24,24))))
+    data = [go.Bar(x = dates, 
+                   y = values)]
 
-    # for date, value in zip(dates, values):
-        # plt.bar(date,value, width=0.1)
-    fig = go.Figure([go.Bar(x = dates, y = values, base = dict(color = 'firebrick', width = 4))])
-    fig.update_layout(title = category + ' - ' + type_of,
-                        xaxis_title = 'Date',
-                        yaxis_title = 'Values',
-                        )
+    layout = go.Layout(title = category + ' - ' + type_of, xaxis_title = 'Date', yaxis_title = 'Values')
 
-    # plt.xticks(rotation=25, fontweight='light')
-    # plt.title(category + ' - ' + type_of)
-    # plt.xlabel('Date')
-    # plt.ylabel('Values')
-
-    return fig  
+    return {'data':data, 'layout':layout}
 
 def pie_chart(df):
     types = df['Type'].unique()

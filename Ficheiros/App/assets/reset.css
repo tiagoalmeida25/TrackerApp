@@ -1,0 +1,14 @@
+body{
+    background-color: #323F4B;
+    margin: 0;
+}
+
+.card_container{
+    height: 250;
+    border-radius: 5px;
+    background-color: #9AA5B1;
+    margin: 20px;
+    padding: 15px;
+    position: relative;
+    box-shadow: 2px 2px 2px #9AA5B1;
+}
