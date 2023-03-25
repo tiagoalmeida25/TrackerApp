@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5cf12427-eb3e-4146-a981-207db7057632" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/V2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/App/analysis.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/App/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/App/assets/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/App/create_df.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/App/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/App/get_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/App/plots.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/App/view.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/Connection Files/conn (1).php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/Connection Files/conn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/Connection Files/delete_value.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/Connection Files/error_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/Connection Files/get_categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/Connection Files/get_categories_for_display.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/Connection Files/get_types.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/Connection Files/get_types_for_display.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/Connection Files/get_values.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/Connection Files/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/Connection Files/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/Connection Files/save.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/Connection Files/save_with_time.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/tiagoal1_tracker_app.csv/tiagoal1_tracker_app_table_Category.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/tiagoal1_tracker_app.csv/tiagoal1_tracker_app_table_Type.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/tiagoal1_tracker_app.csv/tiagoal1_tracker_app_table_User.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/tiagoal1_tracker_app.csv/tiagoal1_tracker_app_table_UserCategory.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/visualization.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/Ficheiros/visualization2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/androidTest/java/com/tiago/trackerapp/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/debug/ic_launcher-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/debug/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/debug/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/debug/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/debug/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/debug/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/debug/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/debug/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/debug/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/debug/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/debug/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/debug/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/debug/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/debug/res/values/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/ic_launcher-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/java/com/tiago/trackerapp/BackgroundWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/java/com/tiago/trackerapp/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/java/com/tiago/trackerapp/DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/java/com/tiago/trackerapp/DisplayData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/java/com/tiago/trackerapp/Dropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/java/com/tiago/trackerapp/Edit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/java/com/tiago/trackerapp/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/java/com/tiago/trackerapp/ItemActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/java/com/tiago/trackerapp/ListAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/java/com/tiago/trackerapp/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/java/com/tiago/trackerapp/PreferenceUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/java/com/tiago/trackerapp/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/java/com/tiago/trackerapp/Settings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/java/com/tiago/trackerapp/ShowData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/java/com/tiago/trackerapp/v3/CounterActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/java/com/tiago/trackerapp/v3/DataActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/java/com/tiago/trackerapp/v3/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/java/com/tiago/trackerapp/v3/NumericalActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/java/com/tiago/trackerapp/v3/SliderActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/java/com/tiago/trackerapp/v3/TextActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/drawable/circle_button_orange.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/drawable/circle_button_yellow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/drawable/digital_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/drawable/ic_baseline_checklist_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/drawable/ic_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/drawable/round_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/drawable/round_button_yellow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/layout/activity_counter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/layout/activity_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/layout/activity_data_base.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/layout/activity_display_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/layout/activity_dropdown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/layout/activity_edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/layout/activity_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/layout/activity_mainmenu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/layout/activity_numerical.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/layout/activity_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/layout/activity_show_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/layout/activity_slider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/layout/activity_text.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/layout/list_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/values-round/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/app/src/test/java/com/tiago/trackerapp/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V2/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/androidTest/java/com/tiago/trackerappv3/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/java/com/tiago/trackerappv3/BackgroundWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/java/com/tiago/trackerappv3/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/java/com/tiago/trackerappv3/CounterActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/java/com/tiago/trackerappv3/DataActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/java/com/tiago/trackerappv3/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/java/com/tiago/trackerappv3/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/java/com/tiago/trackerappv3/NumericalActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/java/com/tiago/trackerappv3/PreferenceUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/java/com/tiago/trackerappv3/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/java/com/tiago/trackerappv3/SliderActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/java/com/tiago/trackerappv3/TextActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/drawable/circle_green.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/drawable/circle_orange.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/drawable/date_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/drawable/digital_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/drawable/ic_text.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/drawable/mainmenu_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/drawable/round_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/drawable/round_button_yellow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/layout/activity_counter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/layout/activity_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/layout/activity_mainmenu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/layout/activity_numerical.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/layout/activity_slider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/layout/activity_text.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/app/src/test/java/com/tiago/trackerappv3/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V3/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/App/analysis.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/App/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/App/assets/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/App/create_df.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/App/data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/App/get_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/App/plots.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/App/view.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/Connection Files/conn (1).php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/Connection Files/conn.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/Connection Files/delete_value.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/Connection Files/error_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/Connection Files/get_categories.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/Connection Files/get_categories_for_display.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/Connection Files/get_types.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/Connection Files/get_types_for_display.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/Connection Files/get_values.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/Connection Files/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/Connection Files/register.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/Connection Files/save.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/Connection Files/save_with_time.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/tiagoal1_tracker_app.csv/tiagoal1_tracker_app_table_Category.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/tiagoal1_tracker_app.csv/tiagoal1_tracker_app_table_Type.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/tiagoal1_tracker_app.csv/tiagoal1_tracker_app_table_User.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/tiagoal1_tracker_app.csv/tiagoal1_tracker_app_table_UserCategory.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/visualization.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/visualization2.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/tiago/trackerapp/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/ic_launcher-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/res/values/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tiago/trackerapp/BackgroundWorker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tiago/trackerapp/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tiago/trackerapp/DataBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tiago/trackerapp/DisplayData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tiago/trackerapp/Dropdown.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tiago/trackerapp/Edit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tiago/trackerapp/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tiago/trackerapp/ItemActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tiago/trackerapp/ListAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tiago/trackerapp/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tiago/trackerapp/PreferenceUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tiago/trackerapp/Register.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tiago/trackerapp/Settings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tiago/trackerapp/ShowData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tiago/trackerapp/v3/CounterActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tiago/trackerapp/v3/DataActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tiago/trackerapp/v3/MainMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tiago/trackerapp/v3/NumericalActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tiago/trackerapp/v3/SliderActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tiago/trackerapp/v3/TextActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/circle_button_orange.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/circle_button_yellow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/digital_button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_checklist_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/round_button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/round_button_yellow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_counter.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_data.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_data_base.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_display_data.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_dropdown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_edit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_mainmenu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_numerical.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_show_data.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_slider.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_text.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-round/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/tiago/trackerapp/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\tiago\.android\avd\Pixel_6_API_30.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TrackerApp" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Class" />
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-33/data/res/layout/simple_list_item_1.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HKaNtAb6ZGCfUBROdNF5UZE6Pq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ResourceManagerPrefKey.ResourceType" value="DRAWABLE" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/V3" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-1155999229">
+      <recent name="com.tiago.trackerapp" />
+    </key>
+    <key name="android.template.-651619029">
+      <recent name="com.tiago.trackerapp.v3" />
+    </key>
+    <key name="android.template.-1855504320">
+      <recent name="com.tiago.trackerapp" />
+    </key>
+    <key name="android.template.940638559">
+      <recent name="com.tiago.trackerapp" />
+    </key>
+    <key name="android.template.392353204">
+      <recent name="com.tiago.trackerapp" />
+    </key>
+    <key name="android.template.-2009355645">
+      <recent name="com.tiago.trackerapp" />
+    </key>
+    <key name="android.template.1168731049">
+      <recent name="com.tiago.trackerapp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="TrackerApp.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+        <option name="PROFILING_MODE" value="NOT_SET" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5cf12427-eb3e-4146-a981-207db7057632" name="Default Changelist" comment="" />
+      <created>1668036192171</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668036192171</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

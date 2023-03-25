@@ -13,6 +13,7 @@
         android:layout_marginBottom="236dp"
         android:onClick="OnReg"
         android:text="Register"
+        android:background="@drawable/round_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,30 +27,11 @@
         android:layout_marginTop="168dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:hint="Username"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Name"
-        app:layout_constraintBottom_toTopOf="@+id/etRegisterName"
-        app:layout_constraintStart_toStartOf="@+id/etRegisterName"
-        android:textSize="17dp"
-        android:textStyle="bold"/>
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Password"
-        app:layout_constraintBottom_toTopOf="@+id/etRegisterPassword"
-        app:layout_constraintStart_toStartOf="@+id/etRegisterPassword"
-        android:textSize="17dp"
-        android:textStyle="bold"/>
 
     <EditText
         android:id="@+id/etRegisterPassword"
@@ -58,6 +40,7 @@
         android:layout_marginTop="32dp"
         android:ems="10"
         android:inputType="textPassword"
+        android:hint="Password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"

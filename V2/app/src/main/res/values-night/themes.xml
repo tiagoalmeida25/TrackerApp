@@ -59,6 +59,7 @@
 
 
 
+
     <style name="Button.1" parent="Theme.AppCompat">
         <item name="android:backgroundTint">@color/blue_2</item>
         <item name="android:textColor">@color/white</item>
