@@ -12,9 +12,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:theme="@style/Theme.TrackerApp">
-
         <activity
-            android:name=".Dropdown"
+            android:name=".v3.MainMenu"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,32 +22,29 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ShowData"
-            android:label="@string/title_activity_show_data" />
+            android:name=".v3.SliderActivity">
+        </activity>
         <activity
-            android:name=".Register"
-            android:label="@string/title_activity_register" />
+            android:name=".v3.CounterActivity">
+        </activity>
         <activity
-            android:name=".Login"
-            android:label="@string/title_activity_login" />
+            android:name=".v3.NumericalActivity">
+        </activity>
         <activity
-            android:name=".DataBase"
-            android:label="@string/title_activity_data_base" />
-        <activity
-            android:name=".DisplayData"
-            android:label="@string/title_activity_display_data"/>
+            android:name=".v3.TextActivity">
+        </activity>
         <activity
             android:name=".PreferenceUtils"
-            android:label="@string/title_activity_preference_utils"/>
+            android:label="@string/title_activity_preference_utils" />
         <activity
             android:name=".Constants"
             android:label="@string/title_activity_constants" />
         <activity
             android:name=".Item"
-            android:label="@string/title_activity_item"/>
+            android:label="@string/title_activity_item" />
         <activity
             android:name=".Edit"
-            android:label="@string/title_activity_edit"/>
+            android:label="@string/title_activity_edit" />
     </application>
 
 </manifest>

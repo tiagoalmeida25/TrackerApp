@@ -1,6 +1,8 @@
 package com.tiago.trackerapp;
 
-public class Constants {
+import android.app.Activity;
+
+public class Constants extends Activity {
     public static String USERNAME = "username";
     public static String PASSWORD = "password";
 }

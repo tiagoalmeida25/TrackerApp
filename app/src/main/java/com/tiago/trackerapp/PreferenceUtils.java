@@ -1,10 +1,11 @@
 package com.tiago.trackerapp;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-public class PreferenceUtils {
+public class PreferenceUtils extends Activity {
     public PreferenceUtils(){
 
     }
