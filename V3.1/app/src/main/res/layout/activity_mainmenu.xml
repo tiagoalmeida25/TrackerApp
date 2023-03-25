@@ -36,7 +36,6 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:text="Text"
-            android:drawableStart="@drawable/ic_text"
             style="@style/ButtonMainMenu"
             android:layout_margin="25dp"/>
 

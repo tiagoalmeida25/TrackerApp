@@ -1,5 +1,6 @@
 package com.tiago.trackerappv3;
 
+
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
