@@ -31,12 +31,12 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
     @Override
     protected String doInBackground(String... params) {
         String type = params[0];
-        String login_url = "https://tiagoalmeida5.com/tracker_app/v3/login.php";
-        String register_url = "https://tiagoalmeida5.com/tracker_app/v3/register.php";
-        String save_url = "https://tiagoalmeida5.com/tracker_app/v3/save.php";
-        String get_categories_url = "https://tiagoalmeida5.com/tracker_app/v3/get_categories.php";
-        String get_types_url = "https://tiagoalmeida5.com/tracker_app/v3/get_types.php";
-        String save_with_time_url = "https://tiagoalmeida5.com/tracker_app/v3/save_with_time.php";
+        String login_url = "https://tiagoalmeida5.com/tracker_app/login.php";
+        String register_url = "https://tiagoalmeida5.com/tracker_app/register.php";
+        String save_url = "https://tiagoalmeida5.com/tracker_app/save.php";
+        String get_categories_url = "https://tiagoalmeida5.com/tracker_app/get_categories.php";
+        String get_types_url = "https://tiagoalmeida5.com/tracker_app/get_types.php";
+        String save_with_time_url = "https://tiagoalmeida5.com/tracker_app/save_with_time.php";
 
         if(type.equals("login")){
             try {
@@ -131,8 +131,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
                 String category = params[1];
                 String stype = params[2];
                 String value = params[3];
-                String cat_class = params[4];
-                username = params[5];
+                username = params[4];
 
                 URL url = new URL(save_url);
 
@@ -148,8 +147,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
                 String post_data = URLEncoder.encode("user_name","UTF-8")+"="+URLEncoder.encode(username,"UTF-8")+
                         "&"+ URLEncoder.encode("category","UTF-8")+"="+URLEncoder.encode(category,"UTF-8")+
                         "&"+ URLEncoder.encode("type","UTF-8")+"="+URLEncoder.encode(stype,"UTF-8")+
-                        "&"+ URLEncoder.encode("value","UTF-8")+"="+URLEncoder.encode(stype,"UTF-8")+
-                        "&"+ URLEncoder.encode("class","UTF-8")+"="+URLEncoder.encode(cat_class,"UTF-8");
+                        "&"+ URLEncoder.encode("value","UTF-8")+"="+URLEncoder.encode(value,"UTF-8");
 
                 bufferedWriter.write(post_data);
                 bufferedWriter.flush();
@@ -186,9 +184,8 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
                 String category = params[1];
                 String stype = params[2];
                 String value = params[3];
-                String cat_class = params[4];
-                String date = params[5];
-                username = params[6];
+                String date = params[4];
+                username = params[5];
 
                 Log.d("Save with time", date);
 
@@ -207,7 +204,6 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
                         "&"+ URLEncoder.encode("category","UTF-8")+"="+URLEncoder.encode(category,"UTF-8")+
                         "&"+ URLEncoder.encode("type","UTF-8")+"="+URLEncoder.encode(stype,"UTF-8")+
                         "&"+ URLEncoder.encode("value","UTF-8")+"="+URLEncoder.encode(value,"UTF-8")+
-                        "&"+ URLEncoder.encode("class","UTF-8")+"="+URLEncoder.encode(cat_class,"UTF-8")+
                         "&"+ URLEncoder.encode("date","UTF-8")+"="+URLEncoder.encode(date,"UTF-8");
 
                 bufferedWriter.write(post_data);
@@ -243,7 +239,6 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
         else if(type.equals("get categories")){
             try {
                 username = params[1];
-                String cat_class = params[2];
 
                 URL url = new URL(get_categories_url);
 
@@ -256,8 +251,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
 
                 BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
 
-                String post_data = URLEncoder.encode("user_name","UTF-8")+"="+URLEncoder.encode(username,"UTF-8")+
-                                   "&" + URLEncoder.encode("class","UTF-8")+"="+URLEncoder.encode(cat_class,"UTF-8");
+                String post_data = URLEncoder.encode("user_name","UTF-8")+"="+URLEncoder.encode(username,"UTF-8");
 
                 bufferedWriter.write(post_data);
                 bufferedWriter.flush();
@@ -288,7 +282,6 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
         else if(type.equals("get types")){
             try {
                 String category = params[1];
-                String cat_class = params[2];
 
                 URL url = new URL(get_types_url);
 
@@ -301,8 +294,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
 
                 BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
 
-                String post_data = URLEncoder.encode("category","UTF-8")+"="+URLEncoder.encode(category,"UTF-8") +
-                        "&" + URLEncoder.encode("class","UTF-8")+"="+URLEncoder.encode(cat_class,"UTF-8");
+                String post_data = URLEncoder.encode("category","UTF-8")+"="+URLEncoder.encode(category,"UTF-8");
 
                 bufferedWriter.write(post_data);
                 bufferedWriter.flush();

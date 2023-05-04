@@ -108,6 +108,10 @@
         "source": "com.tiago.trackerappv3.app-main-31:/xml/backup_rules.xml"
     },
     {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/layout/activity_main.xml"
+    },
+    {
         "merged": "com.tiago.trackerappv3.app-merged_res-29:/drawable_circle_orange.xml.flat",
         "source": "com.tiago.trackerappv3.app-main-31:/drawable/circle_orange.xml"
     },

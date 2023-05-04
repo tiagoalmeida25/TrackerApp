@@ -74,6 +74,7 @@ id type_text_text_btn
 layout activity_counter
 layout activity_data
 layout activity_login
+layout activity_main
 layout activity_mainmenu
 layout activity_numerical
 layout activity_register
