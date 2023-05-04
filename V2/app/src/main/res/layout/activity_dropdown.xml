@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dropdown"
+    android:layout_margin="20dp">
+
+    <Spinner
+        android:id="@+id/spCategory"
+        style="@style/Spinner.1"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spType"
+        style="@style/Spinner.1"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAddCategory" />
+
+    <Button
+        android:id="@+id/btSaveV2"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:onClick="OnSaveDropDown"
+        android:text="Save"
+        style="@style/Button.2"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btSeeDatabaseDrop" />
+
+    <EditText
+        android:id="@+id/etValueV2"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAddType" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/spCategory"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="25dp"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:layout_marginBottom="5dp"
+        android:textSize="27sp"
+        android:layout_marginStart="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/spType"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Value"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/etValueV2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="27sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etAddType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="7"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spType" />
+
+    <EditText
+        android:id="@+id/etAddCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spCategory" />
+
+    <Button
+        android:id="@+id/btSeeDatabaseDrop"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:onClick="OnSeeData"
+        android:text="See DataBase"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        style="@style/Button.1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@id/btSaveV2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btSetTime" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add new Category"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/etAddCategory"
+        app:layout_constraintEnd_toEndOf="@+id/etAddCategory"
+        app:layout_constraintStart_toStartOf="@+id/etAddCategory" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add new Type"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/etAddType"
+        app:layout_constraintEnd_toEndOf="@+id/etAddType"
+        app:layout_constraintStart_toStartOf="@+id/etAddType" />
+
+    <Button
+        android:id="@+id/btSetTime"
+        style="@style/Button.1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Set Time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etValueV2" />
+
+    <TextView
+        android:id="@+id/dateView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/btSetTime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:clickable="true"
+        android:onClick="OnLogout"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
