@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:titleTextStyle">@style/AppTheme.ActionBar.TitleText</item>
+        <item name="titleTextStyle">@style/AppTheme.ActionBar.TitleText</item>
+        <item name="background">@color/blue_2</item>
+        <item name="android:height">150dp</item>
+        <item name="height">60dp</item>
+    </style>
+    <style name="AppTheme.ActionBar.TitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Button.1" parent="Theme.AppCompat">
+        <item name="android:backgroundTint">@color/blue_2</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Button.2" parent="Theme.AppCompat">
+        <item name="android:backgroundTint">@color/yellow</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Button.CircleOrange" parent="Theme.AppCompat">
+        <item name="android:background">@drawable/circle_button_orange</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Button.CircleYellow" parent="Theme.AppCompat">
+        <item name="android:background">@drawable/circle_button_yellow</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Button.Digital" parent="Theme.AppCompat">
+        <item name="android:background">@drawable/digital_button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Button.GREEN" parent="Theme.AppCompat">
+    <item name="android:backgroundTint">@color/green</item>
+    <item name="android:textColor">@color/light_1</item>
+    <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Button.RED" parent="Theme.AppCompat">
+        <item name="android:backgroundTint">@color/red</item>
+        <item name="android:textColor">@color/light_1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Button.Round" parent="Theme.AppCompat">
+        <item name="android:background">@drawable/round_button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Button.RoundYellow" parent="Theme.AppCompat">
+        <item name="android:background">@drawable/round_button_yellow</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="EditText.1" parent="Theme.AppCompat">
+        <item name="android:backgroundTint">@color/dark_1</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Spinner.1" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:dropDownSpinnerStyle">@color/dark_2</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight" parent="Theme.AppCompat"/>
+    <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="Theme.AppCompat"/>
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="Theme.AppCompat.Dialog"/>
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="Theme.AppCompat.Dialog.Alert"/>
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="Theme.AppCompat.Dialog.MinWidth"/>
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="Theme.AppCompat.DialogWhenLarge"/>
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="Theme.AppCompat.NoActionBar"/>
+    <style name="Theme.Material3.DayNight" parent="Theme.Material3.Dark"/>
+    <style name="Theme.Material3.DayNight.BottomSheetDialog" parent="Theme.Material3.Dark.BottomSheetDialog"/>
+    <style name="Theme.Material3.DayNight.Dialog" parent="Theme.Material3.Dark.Dialog"/>
+    <style name="Theme.Material3.DayNight.Dialog.Alert" parent="Theme.Material3.Dark.Dialog.Alert"/>
+    <style name="Theme.Material3.DayNight.Dialog.MinWidth" parent="Theme.Material3.Dark.Dialog.MinWidth"/>
+    <style name="Theme.Material3.DayNight.DialogWhenLarge" parent="Theme.Material3.Dark.DialogWhenLarge"/>
+    <style name="Theme.Material3.DayNight.NoActionBar" parent="Theme.Material3.Dark.NoActionBar"/>
+    <style name="Theme.Material3.DynamicColors.DayNight" parent="Theme.Material3.DynamicColors.Dark"/>
+    <style name="Theme.MaterialComponents.DayNight" parent="Theme.MaterialComponents"/>
+    <style name="Theme.MaterialComponents.DayNight.BottomSheetDialog" parent="Theme.MaterialComponents.BottomSheetDialog"/>
+    <style name="Theme.MaterialComponents.DayNight.Bridge" parent="Theme.MaterialComponents.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar" parent="Theme.MaterialComponents"/>
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge" parent="Theme.MaterialComponents.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog" parent="Theme.MaterialComponents.Dialog"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert" parent="Theme.MaterialComponents.Dialog.Alert"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge" parent="Theme.MaterialComponents.Dialog.Alert.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Bridge" parent="Theme.MaterialComponents.Dialog.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize" parent="Theme.MaterialComponents.Dialog.FixedSize"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize.Bridge" parent="Theme.MaterialComponents.Dialog.FixedSize.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth" parent="Theme.MaterialComponents.Dialog.MinWidth"/>
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth.Bridge" parent="Theme.MaterialComponents.Dialog.MinWidth.Bridge"/>
+    <style name="Theme.MaterialComponents.DayNight.DialogWhenLarge" parent="Theme.MaterialComponents.DialogWhenLarge"/>
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar" parent="Theme.MaterialComponents.NoActionBar"/>
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" parent="Theme.MaterialComponents.NoActionBar.Bridge"/>
+    <style name="Theme.TrackerApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/blue_2</item>
+        <item name="colorPrimaryVariant">@color/dark_1</item>
+        <item name="colorOnPrimary">@color/dark_2</item>
+        <item name="android:background">@color/dark_1</item>
+        <item name="textFillColor">@color/dark_1</item>
+        
+        <item name="android:statusBarColor">@color/dark_2</item>
+        <item name="android:theme">@android:style/Theme.NoTitleBar</item>
+        <item name="actionBarStyle">@style/AppTheme.ActionBar</item>
+    </style>
+    <style name="ThemeOverlay.AppCompat.DayNight" parent="ThemeOverlay.AppCompat.Dark"/>
+    <style name="ThemeOverlay.Material3.DynamicColors.DayNight" parent="ThemeOverlay.Material3.DynamicColors.Dark"/>
+    <style name="Toggle.Theme1" parent="android:Widget">
+        <item name="android:backgroundTint">@color/red_1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textOff">""</item>
+        <item name="android:textOn">""</item>
+    </style>
+    <style name="Toggle.Theme2" parent="android:Widget">
+        <item name="android:backgroundTint">@color/orange_1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textOff">""</item>
+        <item name="android:textOn">""</item>
+    </style>
+    <style name="Toggle.Theme3" parent="android:Widget">
+        <item name="android:backgroundTint">@color/blue_1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textOff">""</item>
+        <item name="android:textOn">""</item>
+    </style>
+    <style name="Toggle.Theme4" parent="android:Widget">
+        <item name="android:backgroundTint">@color/green_1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textOff">""</item>
+        <item name="android:textOn">""</item>
+    </style>
+    <style name="Widget.MaterialComponents.ActionBar.PrimarySurface" parent="Widget.MaterialComponents.ActionBar.Surface"/>
+    <style name="Widget.MaterialComponents.AppBarLayout.PrimarySurface" parent="Widget.MaterialComponents.AppBarLayout.Surface"/>
+    <style name="Widget.MaterialComponents.BottomAppBar.PrimarySurface" parent="Widget.MaterialComponents.BottomAppBar"/>
+    <style name="Widget.MaterialComponents.BottomNavigationView.PrimarySurface" parent="Widget.MaterialComponents.BottomNavigationView"/>
+    <style name="Widget.MaterialComponents.NavigationRailView.PrimarySurface" parent="Widget.MaterialComponents.NavigationRailView"/>
+    <style name="Widget.MaterialComponents.TabLayout.PrimarySurface" parent="Widget.MaterialComponents.TabLayout"/>
+    <style name="Widget.MaterialComponents.Toolbar.PrimarySurface" parent="Widget.MaterialComponents.Toolbar.Surface"/>
+</resources>

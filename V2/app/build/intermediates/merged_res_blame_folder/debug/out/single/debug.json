@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/layout_activity_login.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/layout_activity_show_data.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/layout/activity_show_data.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.tiago.trackerapp-debug-41:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/drawable_ic_baseline_checklist_24.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/drawable/ic_baseline_checklist_24.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/layout_activity_numerical.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/layout/activity_numerical.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/drawable_ic_list.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/drawable/ic_list.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/layout_activity_settings.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.tiago.trackerapp-debug-41:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/drawable_circle_button_orange.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/drawable/circle_button_orange.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/layout_activity_data.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/layout/activity_data.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.tiago.trackerapp-debug-41:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.tiago.trackerapp-debug-41:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/drawable_round_button_yellow.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/drawable/round_button_yellow.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/layout_activity_slider.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/layout/activity_slider.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.tiago.trackerapp-debug-41:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.tiago.trackerapp-debug-41:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.tiago.trackerapp-debug-41:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/drawable_circle_button_yellow.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/drawable/circle_button_yellow.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/navigation_nav_graph.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/layout_activity_text.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/layout/activity_text.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.tiago.trackerapp-debug-41:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/layout_activity_mainmenu.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/layout/activity_mainmenu.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/layout_activity_item.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/layout/activity_item.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.tiago.trackerapp-debug-41:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/layout_activity_display_data.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/layout/activity_display_data.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/drawable_round_button.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/drawable/round_button.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.tiago.trackerapp-debug-41:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/layout_activity_data_base.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/layout/activity_data_base.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/layout_list_item.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/layout/list_item.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.tiago.trackerapp-debug-41:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.tiago.trackerapp-debug-41:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/layout_activity_counter.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/layout/activity_counter.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/layout_activity_edit.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/layout/activity_edit.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/drawable_digital_button.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/drawable/digital_button.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/layout_activity_dropdown.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/layout/activity_dropdown.xml"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.tiago.trackerapp-debug-41:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.tiago.trackerapp-merged_res-40:/layout_activity_register.xml.flat",
+        "source": "com.tiago.trackerapp-main-42:/layout/activity_register.xml"
+    }
+]

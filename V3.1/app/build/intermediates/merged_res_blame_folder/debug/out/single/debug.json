@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/drawable_round_button.xml.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/drawable/round_button.xml"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/layout_activity_data.xml.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/layout/activity_data.xml"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/layout_activity_counter.xml.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/layout/activity_counter.xml"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/drawable_date_button.xml.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/drawable/date_button.xml"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/layout_activity_register.xml.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/layout_activity_login.xml.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/drawable_circle_green.xml.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/drawable/circle_green.xml"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/layout_activity_mainmenu.xml.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/layout/activity_mainmenu.xml"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/layout_activity_text.xml.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/layout/activity_text.xml"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/drawable_round_button_yellow.xml.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/drawable/round_button_yellow.xml"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/drawable_mainmenu_selector.xml.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/drawable/mainmenu_selector.xml"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/drawable_digital_button.xml.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/drawable/digital_button.xml"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/xml_backup_rules.xml.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/drawable_circle_orange.xml.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/drawable/circle_orange.xml"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/layout_activity_numerical.xml.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/layout/activity_numerical.xml"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/layout_activity_slider.xml.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/layout/activity_slider.xml"
+    },
+    {
+        "merged": "com.tiago.trackerappv3.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.tiago.trackerappv3.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
+    }
+]
